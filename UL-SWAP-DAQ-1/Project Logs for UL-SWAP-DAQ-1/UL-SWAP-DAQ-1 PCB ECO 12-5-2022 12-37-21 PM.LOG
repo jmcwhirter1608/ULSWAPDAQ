@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+3.3V Pin=J2-2
+Removed Member From Class: ClassName=TPS6513x Member=U1
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U1 NewDesignator=U4
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change Net Name : Old Net Name=NetU1_16 New Net Name=NetU1_55
+Change Net Name : Old Net Name=NetU1_18 New Net Name=NetU1_54
+Change Net Name : Old Net Name=NetU1_19 New Net Name=NetU1_53
+Change Net Name : Old Net Name=NetU1_24 New Net Name=NetU1_46
+Change Net Name : Old Net Name=NetU2_1 New Net Name=NetU1_1
+Change Net Name : Old Net Name=NetU2_2 New Net Name=NetU1_2
+Change Net Name : Old Net Name=NetU2_3 New Net Name=NetU1_3
+Change Net Name : Old Net Name=NetU2_4 New Net Name=NetU1_4
+Change Net Name : Old Net Name=NetU2_5 New Net Name=NetU1_5
+Change Net Name : Old Net Name=NetU2_6 New Net Name=NetU1_6
+Change Net Name : Old Net Name=NetU2_22 New Net Name=NetU1_22
+Change Net Name : Old Net Name=NetU2_33 New Net Name=NetU1_33
+Change Net Name : Old Net Name=NetU2_34 New Net Name=NetU1_34
+Change Net Name : Old Net Name=NetU2_36 New Net Name=NetU1_36
+Change Net Name : Old Net Name=NetU2_37 New Net Name=NetU1_37
+Change Net Name : Old Net Name=NetU2_42 New Net Name=NetU1_42
+Change Net Name : Old Net Name=NetU2_43 New Net Name=NetU1_43
+Change Net Name : Old Net Name=NetU2_44 New Net Name=NetU1_44
+Change Net Name : Old Net Name=NetU2_45 New Net Name=NetU1_45
+Change Net Name : Old Net Name=NetU2_59 New Net Name=NetU1_59
+Change Net Name : Old Net Name=NetU2_60 New Net Name=NetU1_60
+Change Net Name : Old Net Name=NetU2_61 New Net Name=NetU1_61
+Change Net Name : Old Net Name=NetU2_62 New Net Name=NetU1_62
+Change Net Name : Old Net Name=NetU2_63 New Net Name=NetU1_63
+Change Net Name : Old Net Name=NetU2_64 New Net Name=NetU1_64
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C9 0.1uF
+Added Member To Class: ClassName=TPS6513x Member=Component C9 CGA1A2C0G1E6R8D030BA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C10 0.1uF
+Added Member To Class: ClassName=TPS6513x Member=Component C10 C0805C759D5GACTU
+Added Member To Class: ClassName=LMR51420 5V Member=Component C11 UMK212BBJ225MD-T
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C11 0.1uF
+Added Member To Class: ClassName=LMR51420 5V Member=Component C12 C0603C104K4PAC7867
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C12 0.1uF
+Added Member To Class: ClassName=TPS6513x Member=Component U4 TPS6513x

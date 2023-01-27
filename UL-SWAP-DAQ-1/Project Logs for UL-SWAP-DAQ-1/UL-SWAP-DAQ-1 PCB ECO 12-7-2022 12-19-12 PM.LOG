@@ -1,0 +1,67 @@
+Removed Pin From Net: NetName=SW Pin=B1-2
+Removed Pin From Net: NetName=Vin Pin=B1-3
+Removed Pin From Net: NetName=Vin Pin=B1-5
+Change Component Designator: OldDesignator=C1A NewDesignator=C43
+Change Component Designator: OldDesignator=C43 NewDesignator=C44
+Change Component Designator: OldDesignator=C44 NewDesignator=C45
+Change Component Designator: OldDesignator=C45 NewDesignator=C46
+Add Component: Footprint Not Found PCBComponent_1
+Add Component: Footprint Not Found PCBComponent_1
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_P Pin=B1-2
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Sensor_B_P Pin=B1-3
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Add Pin To Net: Unknown Pin: Pin B2-1
+Add Pin To Net: Unknown Pin: Pin B2-2
+Add Pin To Net: Unknown Pin: Pin B2-3
+Add Pin To Net: Unknown Pin: Pin B2-4
+Add Pin To Net: Unknown Pin: Pin B2-5
+Add Pin To Net: Unknown Pin: Pin B2-6
+Add Pin To Net: Unknown Pin: Pin C42-1
+Add Pin To Net: Unknown Pin: Pin C42-2
+Add Pin To Net: Unknown Pin: Pin C44-1
+Add Pin To Net: Unknown Pin: Pin C44-2
+Add Pin To Net: Unknown Pin: Pin C47-1
+Add Pin To Net: Unknown Pin: Pin C47-2
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C51-1
+Add Pin To Net: Unknown Pin: Pin C51-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C57-1
+Add Pin To Net: Unknown Pin: Pin C57-2
+Add Pin To Net: Unknown Pin: Pin C60-1
+Add Pin To Net: Unknown Pin: Pin C60-2
+Add Pin To Net: Unknown Pin: Pin C61-1
+Add Pin To Net: Unknown Pin: Pin C61-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R28-1
+Add Pin To Net: Unknown Pin: Pin R28-2
+Add Pin To Net: Unknown Pin: Pin R29-1
+Add Pin To Net: Unknown Pin: Pin R29-2
+Add Pin To Net: Unknown Pin: Pin R30-1
+Add Pin To Net: Unknown Pin: Pin R30-2
+Add Pin To Net: Unknown Pin: Pin R31-1
+Add Pin To Net: Unknown Pin: Pin R31-2
+Add Pin To Net: Unknown Pin: Pin R32-1
+Add Pin To Net: Unknown Pin: Pin R32-2
+Add Pin To Net: Unknown Pin: Pin R34-1
+Add Pin To Net: Unknown Pin: Pin R34-2
+Change Net Name : Old Net Name=NetC1A_1 New Net Name=NetC43_1
+Add Class Member: Failed to add class member : Component B2
+Added Member To Class: ClassName=U6 Member=Component C39 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=U6 Member=Component C40 CC0603KRX7R9BB392
+Added Member To Class: ClassName=U6 Member=Component C41 CC0603KRX7R9BB392
+Added Member To Class: ClassName=TPS6513x Member=Component C42 Comment
+Added Member To Class: ClassName=U6 Member=Component C42 CC0603KRX7R9BB392
+Added Member To Class: ClassName=TPS6513x Member=Component C43 C0402C104K8PAC
+Added Member To Class: ClassName=TPS6513x Member=Component C44 Comment
+Added Member To Class: ClassName=U6 Member=Component C44 CC0603KRX7R9BB392
+Added Member To Class: ClassName=U6 Member=Component C46 CC0603KRX7R9BB392

@@ -1,0 +1,69 @@
+Removed Member From Class: ClassName=PGA1 Member=C2
+Removed Member From Class: ClassName=PGA2 Member=C4
+Removed Member From Class: ClassName=PGA2 Member=R28
+Removed Member From Class: ClassName=PIC32_Subsystem Member=R28
+Removed Member From Class: ClassName=PGA1 Member=R31
+Removed Member From Class: ClassName=PIC32_Subsystem Member=R31
+Removed Member From Class: ClassName=PGA1 Member=R32
+Removed Member From Class: ClassName=PIC32_Subsystem Member=R32
+Removed Member From Class: ClassName=Diff_Amp_2 Member=R34
+Removed Member From Class: ClassName=Diff_Amp_2 Member=R35
+Change Component Designator: OldDesignator=C1 NewDesignator=C36
+Change Component Designator: OldDesignator=C2 NewDesignator=C35
+Change Component Designator: OldDesignator=C2A NewDesignator=C34
+Change Component Designator: OldDesignator=C2B NewDesignator=C29
+Change Component Designator: OldDesignator=C3 NewDesignator=C23
+Change Component Designator: OldDesignator=C3A NewDesignator=C33
+Change Component Designator: OldDesignator=C3B NewDesignator=C30
+Change Component Designator: OldDesignator=C4 NewDesignator=C22
+Change Component Designator: OldDesignator=C4A NewDesignator=C32
+Change Component Designator: OldDesignator=C4B NewDesignator=C31
+Change Component Designator: OldDesignator=C44 NewDesignator=C42
+Change Component Designator: OldDesignator=C45 NewDesignator=C43
+Change Component Designator: OldDesignator=C46 NewDesignator=C44
+Change Component Designator: OldDesignator=C47 NewDesignator=C45
+Change Component Designator: OldDesignator=C48 NewDesignator=C46
+Change Component Designator: OldDesignator=C49 NewDesignator=C47
+Change Component Designator: OldDesignator=C51 NewDesignator=C48
+Change Component Designator: OldDesignator=C52 NewDesignator=C49
+Change Component Designator: OldDesignator=C53 NewDesignator=C51
+Change Component Designator: OldDesignator=Cp1+ NewDesignator=C39
+Change Component Designator: OldDesignator=Cp1- NewDesignator=C37
+Change Component Designator: OldDesignator=Cp2+ NewDesignator=C40
+Change Component Designator: OldDesignator=Cp2- NewDesignator=C38
+Change Component Designator: OldDesignator=Cp3+ NewDesignator=C26
+Change Component Designator: OldDesignator=Cp3- NewDesignator=C24
+Change Component Designator: OldDesignator=Cp3 NewDesignator=C41
+Change Component Designator: OldDesignator=Cp4+ NewDesignator=C27
+Change Component Designator: OldDesignator=Cp4- NewDesignator=C25
+Change Component Designator: OldDesignator=Cp5 NewDesignator=C28
+Change Net Name : Old Net Name=NetC47_1 New Net Name=NetC45_1
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=NetC22_1 Pin=R4-1
+Added Net: Name=NetC22_1
+Added Pin To Net: NetName=NetC23_1 Pin=C23-1
+Added Pin To Net: NetName=NetC23_1 Pin=R3-1
+Added Net: Name=NetC23_1
+Added Pin To Net: NetName=NetC35_1 Pin=C35-1
+Added Pin To Net: NetName=NetC35_1 Pin=R2-1
+Added Net: Name=NetC35_1
+Added Pin To Net: NetName=NetC36_1 Pin=C36-1
+Added Pin To Net: NetName=NetC36_1 Pin=R1-1
+Added Net: Name=NetC36_1
+Added Pin To Net: NetName=NetC44_1 Pin=L1-1
+Added Net: Name=NetC44_1
+Added Pin To Net: NetName=NetC47_2 Pin=U4-17
+Added Net: Name=NetC47_2
+Added Pin To Net: NetName=NetC48_2 Pin=C48-2
+Added Pin To Net: NetName=NetC48_2 Pin=U4-22
+Added Net: Name=NetC48_2
+Added Member To Class: ClassName=PGA2 Member=Component C22 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA1 Member=Component C35 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA1 Member=Component R1 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R1 0R
+Added Member To Class: ClassName=PGA1 Member=Component R2 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R2 1M
+Added Member To Class: ClassName=PGA2 Member=Component R3 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R3 10k
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R7 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R9 RC0805FR-071KL

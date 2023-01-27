@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=GND Pin=B1-1
+Removed Pin From Net: NetName=SW Pin=B1-2
+Removed Pin From Net: NetName=Vin Pin=B1-3
+Removed Pin From Net: NetName=FB Pin=B1-4
+Removed Pin From Net: NetName=Vin Pin=B1-5
+Removed Pin From Net: NetName=CB Pin=B1-6
+Removed Pin From Net: NetName=+3.3V Pin=C11-2
+Removed Pin From Net: NetName=+3.3V Pin=C43-1
+Removed Pin From Net: NetName=+3.3V Pin=L3-2
+Removed Pin From Net: NetName=A_GP2 Pin=PGA2-26
+Removed Pin From Net: NetName=+3.3V Pin=R5-1
+Removed Pin From Net: NetName=+3.3V Pin=R36-1
+Removed Pin From Net: NetName=GND Pin=U1-66
+Removed Pin From Net: NetName=GND Pin=U1-67
+Removed Pin From Net: NetName=GND Pin=U1-68
+Removed Pin From Net: NetName=GND Pin=U1-69
+Removed Pin From Net: NetName=GND Pin=U1-70
+Removed Pin From Net: NetName=GND Pin=U1-71
+Removed Pin From Net: NetName=GND Pin=U1-72
+Removed Pin From Net: NetName=GND Pin=U1-73
+Removed Pin From Net: NetName=GND Pin=U1-74
+Removed Pin From Net: NetName=GND Pin=U1-75
+Removed Pin From Net: NetName=GND Pin=U1-76
+Removed Pin From Net: NetName=GND Pin=U1-77
+Removed Pin From Net: NetName=+3.3V Pin=U2-25
+Removed Pin From Net: NetName=+3.3V Pin=U3-1
+Removed Pin From Net: NetName=+3.3V Pin=U4-5
+Removed Pin From Net: NetName=+3.3V Pin=U4-6
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_N Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_P Pin=B1-2
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Sensor_B_P Pin=B1-3
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Sensor_B_N Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Added Pin To Net: NetName=Sensor_C_N Pin=B1-6
+Added Pin To Net: NetName=+3.3V Pin=C11-2
+Added Pin To Net: NetName=+3.3V Pin=C43-1
+Added Pin To Net: NetName=+3.3V Pin=L3-2
+Added Pin To Net: NetName=+3.3V Pin=R5-1
+Added Pin To Net: NetName=+3.3V Pin=R36-1
+Added Pin To Net: NetName=+3.3V Pin=U2-25
+Added Pin To Net: NetName=+3.3V Pin=U3-1
+Added Pin To Net: NetName=+3.3V Pin=U4-5
+Added Pin To Net: NetName=+3.3V Pin=U4-6
+Added Differential Pair: Name=Sensor_A
+Added Differential Pair: Name=Sensor_B
+Added Differential Pair: Name=Sensor_C
+Added Differential Pair: Name=Sensor_D

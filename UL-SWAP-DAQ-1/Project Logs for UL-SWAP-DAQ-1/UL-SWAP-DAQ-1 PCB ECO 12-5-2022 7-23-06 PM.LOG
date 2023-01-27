@@ -1,0 +1,410 @@
+Change component parameters: Designator = "C22" ("C22"); Footprint = "FP-GRM319-0_15-IPC_A"; UniqueID = "\ZMODOQIX\JDUYTCEY\TGKOPTQA" ("\ZMODOQIX\JDUYTCEY\TGKOPTQA")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "16nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.85mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.037inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23" ("C23"); Footprint = "FP-GRM319-0_15-IPC_A"; UniqueID = "\ZMODOQIX\JDUYTCEY\JVRAXWHY" ("\ZMODOQIX\JDUYTCEY\JVRAXWHY")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "16nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.85mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.037inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C29" ("C29"); Footprint = "FP-CC0603-DA-MFG"; UniqueID = "\ZMODOQIX\JDUYTCEY\YPMALDVF" ("\ZMODOQIX\JDUYTCEY\YPMALDVF")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "6.8uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "5032"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.079inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.028inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C30" ("C30"); Footprint = "FP-CC0603-DA-MFG"; UniqueID = "\ZMODOQIX\JDUYTCEY\JBDBOHHC" ("\ZMODOQIX\JDUYTCEY\JBDBOHHC")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "6.8uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "5032"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "0.079inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.028inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "10V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C37" ("C37"); Footprint = "FP-GRM319-0_15-IPC_A"; UniqueID = "\ZMODOQIX\RJQXHESP\EDXRQSWR" ("\ZMODOQIX\RJQXHESP\EDXRQSWR")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "16nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.85mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.037inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.063inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R1" ("R1"); Footprint = "RESC2013X50X30LL20T20"; UniqueID = "\ZMODOQIX\RJQXHESP\RNPRVARS" ("\ZMODOQIX\RJQXHESP\RNPRVARS")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW08050000Z0EA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "RESC2013X50X30LL20T20"; UniqueID = "\ZMODOQIX\RJQXHESP\PBRLSNTL" ("\ZMODOQIX\RJQXHESP\PBRLSNTL")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW08050000Z0EA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC2013X50X30LL20T20"; UniqueID = "\ZMODOQIX\JDUYTCEY\JEWQJDTL" ("\ZMODOQIX\JDUYTCEY\JEWQJDTL")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW08050000Z0EA"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC2013X50X30LL20T20"; UniqueID = "\ZMODOQIX\JDUYTCEY\UPOOIOWI" ("\ZMODOQIX\JDUYTCEY\UPOOIOWI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "CRCW08050000Z0EA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetAmpA_1 Pin=AmpA-1
+Added Pin To Net: NetName=NetAmpA_2 Pin=AmpA-2
+Added Pin To Net: NetName=+5V Pin=AmpA-3
+Added Pin To Net: NetName=NetAmpA_4 Pin=AmpA-4
+Added Pin To Net: NetName=NetAmpA_5 Pin=AmpA-5
+Added Pin To Net: NetName=GND Pin=AmpA-6
+Added Pin To Net: NetName=SHDN-A Pin=AmpA-7
+Added Pin To Net: NetName=NetAmpA_8 Pin=AmpA-8
+Added Pin To Net: NetName=NetAmpB_1 Pin=AmpB-1
+Added Pin To Net: NetName=NetAmpB_2 Pin=AmpB-2
+Added Pin To Net: NetName=+5V Pin=AmpB-3
+Added Pin To Net: NetName=NetAmpB_4 Pin=AmpB-4
+Added Pin To Net: NetName=NetAmpB_5 Pin=AmpB-5
+Added Pin To Net: NetName=GND Pin=AmpB-6
+Added Pin To Net: NetName=SHDN-B Pin=AmpB-7
+Added Pin To Net: NetName=NetAmpB_8 Pin=AmpB-8
+Added Pin To Net: NetName=NetAmpC_1 Pin=AmpC-1
+Added Pin To Net: NetName=NetAmpC_2 Pin=AmpC-2
+Added Pin To Net: NetName=+5V Pin=AmpC-3
+Added Pin To Net: NetName=NetAmpC_4 Pin=AmpC-4
+Added Pin To Net: NetName=NetAmpC_5 Pin=AmpC-5
+Added Pin To Net: NetName=GND Pin=AmpC-6
+Added Pin To Net: NetName=SHDN-C Pin=AmpC-7
+Added Pin To Net: NetName=NetAmpC_8 Pin=AmpC-8
+Added Pin To Net: NetName=NetAmpD_1 Pin=AmpD-1
+Added Pin To Net: NetName=NetAmpD_2 Pin=AmpD-2
+Added Pin To Net: NetName=+5V Pin=AmpD-3
+Added Pin To Net: NetName=NetAmpD_4 Pin=AmpD-4
+Added Pin To Net: NetName=NetAmpD_5 Pin=AmpD-5
+Added Pin To Net: NetName=GND Pin=AmpD-6
+Added Pin To Net: NetName=SHDN-D Pin=AmpD-7
+Added Pin To Net: NetName=NetAmpD_8 Pin=AmpD-8
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_N Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_P Pin=B1-2
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Sensor_B_P Pin=B1-3
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Sensor_B_N Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Added Pin To Net: NetName=Sensor_C_N Pin=B1-6
+Added Pin To Net: NetName=Sensor_C_P Pin=B1-7
+Added Pin To Net: NetName=Sensor_D_P Pin=B1-8
+Added Pin To Net: NetName=Sensor_D_N Pin=B1-9
+Added Pin To Net: NetName=NetAmpA_2 Pin=C1A-1
+Added Pin To Net: NetName=GND Pin=C1A-2
+Added Pin To Net: NetName=NetAmpB_2 Pin=C1B-1
+Added Pin To Net: NetName=GND Pin=C1B-2
+Added Pin To Net: NetName=NetAmpD_2 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=NetAmpC_2 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=ADC_CH_D+ Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=ADC_CH_D+ Pin=C17-1
+Added Pin To Net: NetName=ADC_CH_D- Pin=C17-2
+Added Pin To Net: NetName=ADC_CH_D- Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=ADC_CH_C- Pin=C19-1
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=ADC_CH_C- Pin=C20-1
+Added Pin To Net: NetName=ADC_CH_C+ Pin=C20-2
+Added Pin To Net: NetName=ADC_CH_C+ Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=NetC22_1 Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=NetC23_1 Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=VCC- Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C24-2
+Added Pin To Net: NetName=VCC- Pin=C25-1
+Added Pin To Net: NetName=GND Pin=C25-2
+Added Pin To Net: NetName=VCC+ Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=VCC+ Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=+5V Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=VCC- Pin=C29-1
+Added Pin To Net: NetName=GND Pin=C29-2
+Added Pin To Net: NetName=VCC+ Pin=C30-1
+Added Pin To Net: NetName=GND Pin=C30-2
+Added Pin To Net: NetName=ADC_CH_B+ Pin=C31-1
+Added Pin To Net: NetName=GND Pin=C31-2
+Added Pin To Net: NetName=ADC_CH_B+ Pin=C32-1
+Added Pin To Net: NetName=ADC_CH_B- Pin=C32-2
+Added Pin To Net: NetName=ADC_CH_B- Pin=C33-1
+Added Pin To Net: NetName=GND Pin=C33-2
+Added Pin To Net: NetName=ADC_CH_A- Pin=C34-1
+Added Pin To Net: NetName=GND Pin=C34-2
+Added Pin To Net: NetName=ADC_CH_A- Pin=C35-1
+Added Pin To Net: NetName=ADC_CH_A+ Pin=C35-2
+Added Pin To Net: NetName=ADC_CH_A+ Pin=C36-1
+Added Pin To Net: NetName=GND Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-2
+Added Pin To Net: NetName=VCC- Pin=C39-1
+Added Pin To Net: NetName=GND Pin=C39-2
+Added Pin To Net: NetName=VCC- Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=VCC+ Pin=C41-1
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=VCC+ Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=+5V Pin=C43-1
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=VCC- Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=VCC+ Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C45-2
+Added Pin To Net: NetName=GND Pin=PGA1-1
+Added Pin To Net: NetName=GND Pin=PGA1-2
+Added Pin To Net: NetName=NetPGA1_4 Pin=PGA1-4
+Added Pin To Net: NetName=Sensor A (-) Pin=PGA1-5
+Added Pin To Net: NetName=Sensor A (+) Pin=PGA1-6
+Added Pin To Net: NetName=VCC- Pin=PGA1-7
+Added Pin To Net: NetName=VCC+ Pin=PGA1-8
+Added Pin To Net: NetName=Sensor B (+) Pin=PGA1-9
+Added Pin To Net: NetName=Sensor B (-) Pin=PGA1-10
+Added Pin To Net: NetName=NetPGA1_11 Pin=PGA1-11
+Added Pin To Net: NetName=GND Pin=PGA1-13
+Added Pin To Net: NetName=GND Pin=PGA1-14
+Added Pin To Net: NetName=B GP0 Pin=PGA1-15
+Added Pin To Net: NetName=B GP1 Pin=PGA1-16
+Added Pin To Net: NetName=B GP2 Pin=PGA1-17
+Added Pin To Net: NetName=SHDN-B Pin=PGA1-18
+Added Pin To Net: NetName=PGA_B_Out Pin=PGA1-19
+Added Pin To Net: NetName=+5V Pin=PGA1-20
+Added Pin To Net: NetName=VCC+ Pin=PGA1-21
+Added Pin To Net: NetName=VCC- Pin=PGA1-22
+Added Pin To Net: NetName=GND Pin=PGA1-23
+Added Pin To Net: NetName=PGA_A_Out Pin=PGA1-24
+Added Pin To Net: NetName=SHDN-A Pin=PGA1-25
+Added Pin To Net: NetName=A GP2 Pin=PGA1-26
+Added Pin To Net: NetName=A GP1 Pin=PGA1-27
+Added Pin To Net: NetName=A GP0 Pin=PGA1-28
+Added Pin To Net: NetName=GND Pin=PGA2-1
+Added Pin To Net: NetName=GND Pin=PGA2-2
+Added Pin To Net: NetName=NetC23_1 Pin=PGA2-3
+Added Pin To Net: NetName=NetPGA2_4 Pin=PGA2-4
+Added Pin To Net: NetName=Sensor C (-) Pin=PGA2-5
+Added Pin To Net: NetName=Sensor C (+) Pin=PGA2-6
+Added Pin To Net: NetName=VCC- Pin=PGA2-7
+Added Pin To Net: NetName=VCC+ Pin=PGA2-8
+Added Pin To Net: NetName=Sensor D (+) Pin=PGA2-9
+Added Pin To Net: NetName=Sensor D (-) Pin=PGA2-10
+Added Pin To Net: NetName=NetPGA2_11 Pin=PGA2-11
+Added Pin To Net: NetName=NetC22_1 Pin=PGA2-12
+Added Pin To Net: NetName=GND Pin=PGA2-13
+Added Pin To Net: NetName=GND Pin=PGA2-14
+Added Pin To Net: NetName=D_GP0 Pin=PGA2-15
+Added Pin To Net: NetName=D_GP1 Pin=PGA2-16
+Added Pin To Net: NetName=D_GP2 Pin=PGA2-17
+Added Pin To Net: NetName=SHDN-D Pin=PGA2-18
+Added Pin To Net: NetName=PGA_D_Out Pin=PGA2-19
+Added Pin To Net: NetName=+5V Pin=PGA2-20
+Added Pin To Net: NetName=VCC+ Pin=PGA2-21
+Added Pin To Net: NetName=VCC- Pin=PGA2-22
+Added Pin To Net: NetName=GND Pin=PGA2-23
+Added Pin To Net: NetName=PGA_C_Out Pin=PGA2-24
+Added Pin To Net: NetName=SHDN-C Pin=PGA2-25
+Added Pin To Net: NetName=A_GP2 Pin=PGA2-26
+Added Pin To Net: NetName=A_GP1 Pin=PGA2-27
+Added Pin To Net: NetName=C_GP0 Pin=PGA2-28
+Added Pin To Net: NetName=NetPGA1_4 Pin=R1-2
+Added Pin To Net: NetName=NetPGA1_11 Pin=R2-2
+Added Pin To Net: NetName=NetC23_1 Pin=R3-1
+Added Pin To Net: NetName=NetPGA2_4 Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Pin To Net: NetName=NetC22_1 Pin=R4-1
+Added Pin To Net: NetName=NetAmpD_8 Pin=R4-2
+Added Pin To Net: NetName=NetPGA2_11 Pin=R4-2
+Added Pin To Net: NetName=PGA_D_Out Pin=R5-1
+Added Pin To Net: NetName=NetAmpD_1 Pin=R5-2
+Added Pin To Net: NetName=PGA_C_Out Pin=R6-1
+Added Pin To Net: NetName=NetAmpC_1 Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetAmpC_8 Pin=R7-2
+Added Pin To Net: NetName=NetAmpD_8 Pin=R8-1
+Added Pin To Net: NetName=NetAmpD_5 Pin=R8-2
+Added Pin To Net: NetName=NetAmpD_1 Pin=R9-1
+Added Pin To Net: NetName=NetAmpD_4 Pin=R9-2
+Added Pin To Net: NetName=NetAmpC_1 Pin=R10-1
+Added Pin To Net: NetName=NetAmpC_4 Pin=R10-2
+Added Pin To Net: NetName=NetAmpC_8 Pin=R11-1
+Added Pin To Net: NetName=NetAmpC_5 Pin=R11-2
+Added Pin To Net: NetName=NetAmpD_5 Pin=R12-1
+Added Pin To Net: NetName=ADC_CH_D+ Pin=R12-2
+Added Pin To Net: NetName=NetAmpD_4 Pin=R13-1
+Added Pin To Net: NetName=ADC_CH_D- Pin=R13-2
+Added Pin To Net: NetName=NetAmpC_4 Pin=R14-1
+Added Pin To Net: NetName=ADC_CH_C- Pin=R14-2
+Added Pin To Net: NetName=NetAmpC_5 Pin=R15-1
+Added Pin To Net: NetName=ADC_CH_C+ Pin=R15-2
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=NetAmpB_8 Pin=R16-2
+Added Pin To Net: NetName=PGA_B_Out Pin=R17-1
+Added Pin To Net: NetName=NetAmpB_1 Pin=R17-2
+Added Pin To Net: NetName=PGA_A_Out Pin=R18-1
+Added Pin To Net: NetName=NetAmpA_1 Pin=R18-2
+Added Pin To Net: NetName=GND Pin=R19-1
+Added Pin To Net: NetName=NetAmpA_8 Pin=R19-2
+Added Pin To Net: NetName=NetAmpA_8 Pin=R20-1
+Added Pin To Net: NetName=NetAmpA_5 Pin=R20-2
+Added Pin To Net: NetName=NetAmpA_1 Pin=R21-1
+Added Pin To Net: NetName=NetAmpA_4 Pin=R21-2
+Added Pin To Net: NetName=NetAmpB_1 Pin=R22-1
+Added Pin To Net: NetName=NetAmpB_4 Pin=R22-2
+Added Pin To Net: NetName=NetAmpB_8 Pin=R23-1
+Added Pin To Net: NetName=NetAmpB_5 Pin=R23-2
+Added Pin To Net: NetName=NetAmpB_5 Pin=R24-1
+Added Pin To Net: NetName=ADC_CH_B+ Pin=R24-2
+Added Pin To Net: NetName=NetAmpB_4 Pin=R25-1
+Added Pin To Net: NetName=ADC_CH_B- Pin=R25-2
+Added Pin To Net: NetName=NetAmpA_4 Pin=R26-1
+Added Pin To Net: NetName=ADC_CH_A- Pin=R26-2
+Added Pin To Net: NetName=NetAmpA_5 Pin=R27-1
+Added Pin To Net: NetName=ADC_CH_A+ Pin=R27-2
+Added Pin To Net: NetName=NetC37_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=PGA1-12
+Added Pin To Net: NetName=NetC37_1 Pin=R2-1
+Added Net: Name=NetC37_1
+Added Pin To Net: NetName=NetC38_1 Pin=C38-1
+Added Pin To Net: NetName=NetC38_1 Pin=PGA1-3
+Added Pin To Net: NetName=NetC38_1 Pin=R1-1
+Added Net: Name=NetC38_1
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C1A GQM1875C2ER10BB12D
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C1B GQM1875C2ER10BB12D
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C14 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C15 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C16 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C17 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C18 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C19 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C20 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C21 CC0603KRX7R9BB392
+Added Member To Class: ClassName=PGA2 Member=Component C22 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA2 Member=Component C23 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA2 Member=Component C24 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA2 Member=Component C25 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA2 Member=Component C26 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA2 Member=Component C27 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA2 Member=Component C28 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA2 Member=Component C29 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA2 Member=Component C30 C2012JB1A685K060AC
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C31 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C32 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C33 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C34 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C35 CC0603KRX7R9BB392
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component C36 CC0603KRX7R9BB392
+Added Member To Class: ClassName=PGA1 Member=Component C37 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA1 Member=Component C38 GRM3195C1H163JA01D
+Added Member To Class: ClassName=PGA1 Member=Component C39 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA1 Member=Component C40 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA1 Member=Component C41 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA1 Member=Component C42 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA1 Member=Component C43 C2012JB1A685K060AC
+Added Member To Class: ClassName=PGA1 Member=Component C44 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA1 Member=Component C45 CC0603KRX7R7BB104
+Added Member To Class: ClassName=PGA1 Member=Component R1 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R1 0R
+Added Member To Class: ClassName=PGA1 Member=Component R2 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R2 1M
+Added Member To Class: ClassName=PGA2 Member=Component R3 CRCW08050000Z0EA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component R3 10k
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R4 ERJ-6ENF1241V
+Added Member To Class: ClassName=PGA2 Member=Component R4 CRCW08050000Z0EA
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R5 ERJ-6ENF1241V
+Added Member To Class: ClassName=TPS6513x Member=Component R5 AC0603FR-10100RL
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R6 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R7 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R8 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R9 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R10 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R11 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R12 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R13 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R14 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component R15 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R16 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R17 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R18 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R19 ERJ-6ENF1241V
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R20 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R21 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R22 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R23 RC0805FR-071KL
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R24 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R25 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R26 CRCW060335K7FKEA
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component R27 CRCW060335K7FKEA
+Added Room: Name=Diff_Amp_2

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SW Pin=B1-2
+Removed Pin From Net: NetName=Vin Pin=B1-3
+Removed Pin From Net: NetName=Vin Pin=B1-5
+Removed Pin From Net: NetName=C_GP0 Pin=U1-2
+Removed Pin From Net: NetName=C_GP2 Pin=U1-64
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_P Pin=B1-2
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Sensor_B_P Pin=B1-3
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Added Pin To Net: NetName=C_GP2 Pin=U1-2
+Added Pin To Net: NetName=C_GP0 Pin=U1-64

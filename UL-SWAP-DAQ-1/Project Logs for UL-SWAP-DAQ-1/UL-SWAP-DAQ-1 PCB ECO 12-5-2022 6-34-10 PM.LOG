@@ -1,0 +1,110 @@
+Added Pin To Net: NetName=NetAmpA_1 Pin=AmpA-1
+Added Pin To Net: NetName=NetAmpA_2 Pin=AmpA-2
+Added Pin To Net: NetName=+5V Pin=AmpA-3
+Added Pin To Net: NetName=NetAmpA_4 Pin=AmpA-4
+Added Pin To Net: NetName=NetAmpA_5 Pin=AmpA-5
+Added Pin To Net: NetName=GND Pin=AmpA-6
+Added Pin To Net: NetName=SHDN-A Pin=AmpA-7
+Added Pin To Net: NetName=NetAmpA_8 Pin=AmpA-8
+Added Pin To Net: NetName=NetAmpB_1 Pin=AmpB-1
+Added Pin To Net: NetName=NetAmpB_2 Pin=AmpB-2
+Added Pin To Net: NetName=+5V Pin=AmpB-3
+Added Pin To Net: NetName=NetAmpB_4 Pin=AmpB-4
+Added Pin To Net: NetName=NetAmpB_5 Pin=AmpB-5
+Added Pin To Net: NetName=GND Pin=AmpB-6
+Added Pin To Net: NetName=SHDN-B Pin=AmpB-7
+Added Pin To Net: NetName=NetAmpB_8 Pin=AmpB-8
+Added Pin To Net: NetName=NetAmpC_1 Pin=AmpC-1
+Added Pin To Net: NetName=NetAmpC_2 Pin=AmpC-2
+Added Pin To Net: NetName=+5V Pin=AmpC-3
+Added Pin To Net: NetName=NetAmpC_4 Pin=AmpC-4
+Added Pin To Net: NetName=NetAmpC_5 Pin=AmpC-5
+Added Pin To Net: NetName=GND Pin=AmpC-6
+Added Pin To Net: NetName=SHDN-C Pin=AmpC-7
+Added Pin To Net: NetName=NetAmpC_8 Pin=AmpC-8
+Added Pin To Net: NetName=NetAmpD_1 Pin=AmpD-1
+Added Pin To Net: NetName=NetAmpD_2 Pin=AmpD-2
+Added Pin To Net: NetName=+5V Pin=AmpD-3
+Added Pin To Net: NetName=NetAmpD_4 Pin=AmpD-4
+Added Pin To Net: NetName=NetAmpD_5 Pin=AmpD-5
+Added Pin To Net: NetName=GND Pin=AmpD-6
+Added Pin To Net: NetName=SHDN-D Pin=AmpD-7
+Added Pin To Net: NetName=NetAmpD_8 Pin=AmpD-8
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_N Pin=B1-1
+Added Pin To Net: NetName=Sensor_A_P Pin=B1-2
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Sensor_B_P Pin=B1-3
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Sensor_B_N Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Added Pin To Net: NetName=Sensor_C_N Pin=B1-6
+Added Pin To Net: NetName=Sensor_C_P Pin=B1-7
+Added Pin To Net: NetName=Sensor_D_P Pin=B1-8
+Added Pin To Net: NetName=Sensor_D_N Pin=B1-9
+Added Pin To Net: NetName=GND Pin=PGA1-1
+Added Pin To Net: NetName=GND Pin=PGA1-2
+Added Pin To Net: NetName=NetC36_1 Pin=PGA1-3
+Added Pin To Net: NetName=NetPGA1_4 Pin=PGA1-4
+Added Pin To Net: NetName=Sensor A (-) Pin=PGA1-5
+Added Pin To Net: NetName=Sensor A (+) Pin=PGA1-6
+Added Pin To Net: NetName=VCC- Pin=PGA1-7
+Added Pin To Net: NetName=VCC+ Pin=PGA1-8
+Added Pin To Net: NetName=Sensor B (+) Pin=PGA1-9
+Added Pin To Net: NetName=Sensor B (-) Pin=PGA1-10
+Added Pin To Net: NetName=NetPGA1_11 Pin=PGA1-11
+Added Pin To Net: NetName=NetC35_1 Pin=PGA1-12
+Added Pin To Net: NetName=GND Pin=PGA1-13
+Added Pin To Net: NetName=GND Pin=PGA1-14
+Added Pin To Net: NetName=B GP0 Pin=PGA1-15
+Added Pin To Net: NetName=B GP1 Pin=PGA1-16
+Added Pin To Net: NetName=B GP2 Pin=PGA1-17
+Added Pin To Net: NetName=SHDN-B Pin=PGA1-18
+Added Pin To Net: NetName=PGA_B_Out Pin=PGA1-19
+Added Pin To Net: NetName=+5V Pin=PGA1-20
+Added Pin To Net: NetName=VCC+ Pin=PGA1-21
+Added Pin To Net: NetName=VCC- Pin=PGA1-22
+Added Pin To Net: NetName=GND Pin=PGA1-23
+Added Pin To Net: NetName=PGA_A_Out Pin=PGA1-24
+Added Pin To Net: NetName=SHDN-A Pin=PGA1-25
+Added Pin To Net: NetName=A GP2 Pin=PGA1-26
+Added Pin To Net: NetName=A GP1 Pin=PGA1-27
+Added Pin To Net: NetName=A GP0 Pin=PGA1-28
+Added Pin To Net: NetName=GND Pin=PGA2-1
+Added Pin To Net: NetName=GND Pin=PGA2-2
+Added Pin To Net: NetName=NetC23_1 Pin=PGA2-3
+Added Pin To Net: NetName=NetPGA2_4 Pin=PGA2-4
+Added Pin To Net: NetName=Sensor C (-) Pin=PGA2-5
+Added Pin To Net: NetName=Sensor C (+) Pin=PGA2-6
+Added Pin To Net: NetName=VCC- Pin=PGA2-7
+Added Pin To Net: NetName=VCC+ Pin=PGA2-8
+Added Pin To Net: NetName=Sensor D (+) Pin=PGA2-9
+Added Pin To Net: NetName=Sensor D (-) Pin=PGA2-10
+Added Pin To Net: NetName=NetPGA2_11 Pin=PGA2-11
+Added Pin To Net: NetName=NetC22_1 Pin=PGA2-12
+Added Pin To Net: NetName=GND Pin=PGA2-13
+Added Pin To Net: NetName=GND Pin=PGA2-14
+Added Pin To Net: NetName=D_GP0 Pin=PGA2-15
+Added Pin To Net: NetName=D_GP1 Pin=PGA2-16
+Added Pin To Net: NetName=D_GP2 Pin=PGA2-17
+Added Pin To Net: NetName=SHDN-D Pin=PGA2-18
+Added Pin To Net: NetName=PGA_D_Out Pin=PGA2-19
+Added Pin To Net: NetName=+5V Pin=PGA2-20
+Added Pin To Net: NetName=VCC+ Pin=PGA2-21
+Added Pin To Net: NetName=VCC- Pin=PGA2-22
+Added Pin To Net: NetName=GND Pin=PGA2-23
+Added Pin To Net: NetName=PGA_C_Out Pin=PGA2-24
+Added Pin To Net: NetName=SHDN-C Pin=PGA2-25
+Added Pin To Net: NetName=A_GP2 Pin=PGA2-26
+Added Pin To Net: NetName=A_GP1 Pin=PGA2-27
+Added Pin To Net: NetName=C_GP0 Pin=PGA2-28
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component AmpA LTC6362HMS8#PBF
+Added Member To Class: ClassName=Diff_Amp_1 Member=Component AmpB LTC6362HMS8#PBF
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component AmpC LTC6362HMS8#PBF
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component AmpD LTC6362HMS8#PBF
+Added Member To Class: ClassName=LMR51420 5V Member=Component B1
+Added Member To Class: ClassName=Signal_Conditioning Member=Component B1 1945164
+Added Member To Class: ClassName=PGA1 Member=Component PGA1 THS7002CPWP
+Added Member To Class: ClassName=PGA2 Member=Component PGA2 THS7002CPWP

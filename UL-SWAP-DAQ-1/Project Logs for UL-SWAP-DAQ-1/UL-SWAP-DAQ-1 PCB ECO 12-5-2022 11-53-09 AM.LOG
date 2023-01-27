@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=+3.3V Pin=C3-2
+Removed Pin From Net: NetName=+3.3V Pin=J2-2
+Removed Pin From Net: NetName=+3.3V Pin=U1-25
+Removed Pin From Net: NetName=+3.3V Pin=U3-1
+Change Net Name : Old Net Name=A_GP1 New Net Name=NetU2_5
+Change Net Name : Old Net Name=A_GP2 New Net Name=NetU2_4
+Change Net Name : Old Net Name=A GP0 New Net Name=NetU2_43
+Change Net Name : Old Net Name=A GP1 New Net Name=NetU2_44
+Change Net Name : Old Net Name=A GP2 New Net Name=NetU2_45
+Change Net Name : Old Net Name=B GP0 New Net Name=NetU2_62
+Change Net Name : Old Net Name=B GP1 New Net Name=NetU2_61
+Change Net Name : Old Net Name=B GP2 New Net Name=NetU2_60
+Change Net Name : Old Net Name=C_GP0 New Net Name=NetU2_6
+Change Net Name : Old Net Name=D_GP0 New Net Name=NetU2_2
+Change Net Name : Old Net Name=D_GP1 New Net Name=NetU2_1
+Change Net Name : Old Net Name=D_GP2 New Net Name=NetU2_64
+Change Net Name : Old Net Name=SHDN-A New Net Name=NetU2_42
+Change Net Name : Old Net Name=SHDN-B New Net Name=NetU2_59
+Change Net Name : Old Net Name=SHDN-C New Net Name=NetU2_3
+Change Net Name : Old Net Name=SHDN-D New Net Name=NetU2_63
+Added Net: Name=A_GP1
+Added Net: Name=A_GP2
+Added Net: Name=A GP0
+Added Net: Name=A GP1
+Added Net: Name=A GP2
+Added Net: Name=B GP0
+Added Net: Name=B GP1
+Added Net: Name=B GP2
+Added Net: Name=C_GP0
+Added Net: Name=D_GP0
+Added Net: Name=D_GP1
+Added Net: Name=D_GP2
+Added Net: Name=SHDN-A
+Added Net: Name=SHDN-B
+Added Net: Name=SHDN-C
+Added Net: Name=SHDN-D

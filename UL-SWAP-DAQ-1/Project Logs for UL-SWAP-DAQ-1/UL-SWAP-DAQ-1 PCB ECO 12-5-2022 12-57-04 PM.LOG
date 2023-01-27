@@ -1,0 +1,32 @@
+Removed Member From Class: ClassName=ADC_Subsystem Member=C23
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C47
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C48
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C49
+Removed Member From Class: ClassName=ADC_Subsystem Member=C50
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C50
+Removed Member From Class: ClassName=ADC_Subsystem Member=C51
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C51
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C53
+Removed Member From Class: ClassName=ADC_Subsystem Member=C54
+Removed Member From Class: ClassName=PGA2 Member=C54
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C54
+Removed Member From Class: ClassName=ADC_Subsystem Member=C55
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C55
+Removed Member From Class: ClassName=Diff_Amp_2 Member=C58
+Removed Member From Class: ClassName=Diff_Amp_2 Member=C61
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C1 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C2 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C3 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C4 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C5 10uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C6 18pF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C7 18pF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C8 0.1uF
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C9 47uF
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C10 0.1uF
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C11 0.1uF
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C12 2.2uF
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C13 10uF
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C15 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=Diff_Amp_2 Member=Component C18 CC0603KRX7R9BB392
+Added Member To Class: ClassName=PGA2 Member=Component C22 GRM3195C1H163JA01D

@@ -1,0 +1,9 @@
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C22
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C23
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C35
+Removed Member From Class: ClassName=PIC32_Subsystem Member=C36
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C1 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C2 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C3 0.1uF
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component C4 0.1uF
+Added Member To Class: ClassName=TPS6513x Member=Component C49 Comment

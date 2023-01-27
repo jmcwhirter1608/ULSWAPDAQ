@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=+3.3V Pin=C11-2
+Removed Pin From Net: NetName=+3.3V Pin=C43-1
+Removed Pin From Net: NetName=+3.3V Pin=L3-2
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=+3.3V Pin=R5-1
+Removed Pin From Net: NetName=+3.3V Pin=R36-1
+Removed Pin From Net: NetName=+3.3V Pin=U2-25
+Removed Pin From Net: NetName=+3.3V Pin=U4-5
+Removed Pin From Net: NetName=+3.3V Pin=U4-6
+Change Component Footprint: Designator=C29 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-C2012-060-0_2-IPC_A
+Change Component Footprint: Designator=C30 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-C2012-060-0_2-IPC_A
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Component Comment : Designator=C29 Old Comment=CC0603KRX7R7BB104 New Comment=C2012JB1A685K060AC
+Change Component Comment : Designator=C30 Old Comment=CC0603KRX7R7BB104 New Comment=C2012JB1A685K060AC
+Add Component: Footprint Not Found PCBComponent_1
+Add Component: Footprint Not Found PCBComponent_1
+Added Pin To Net: NetName=GND Pin=B1-1
+Added Pin To Net: NetName=SW Pin=B1-2
+Added Pin To Net: NetName=Vin Pin=B1-3
+Added Pin To Net: NetName=FB Pin=B1-4
+Added Pin To Net: NetName=Vin Pin=B1-5
+Added Pin To Net: NetName=CB Pin=B1-6
+Add Pin To Net: Unknown Pin: Pin B2-1
+Add Pin To Net: Unknown Pin: Pin B2-2
+Add Pin To Net: Unknown Pin: Pin B2-3
+Add Pin To Net: Unknown Pin: Pin B2-4
+Add Pin To Net: Unknown Pin: Pin B2-5
+Add Pin To Net: Unknown Pin: Pin B2-6
+Added Pin To Net: NetName=+3.3V Pin=C11-2
+Add Pin To Net: Unknown Pin: Pin C42-1
+Add Pin To Net: Unknown Pin: Pin C42-2
+Added Pin To Net: NetName=+3.3V Pin=C43-1
+Add Pin To Net: Unknown Pin: Pin C44-1
+Add Pin To Net: Unknown Pin: Pin C44-2
+Add Pin To Net: Unknown Pin: Pin C47-1
+Add Pin To Net: Unknown Pin: Pin C47-2
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C51-1
+Add Pin To Net: Unknown Pin: Pin C51-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C57-1
+Add Pin To Net: Unknown Pin: Pin C57-2
+Add Pin To Net: Unknown Pin: Pin C60-1
+Add Pin To Net: Unknown Pin: Pin C60-2
+Add Pin To Net: Unknown Pin: Pin C61-1
+Add Pin To Net: Unknown Pin: Pin C61-2
+Added Pin To Net: NetName=+3.3V Pin=J2-2
+Added Pin To Net: NetName=+3.3V Pin=L3-2
+Added Pin To Net: NetName=A_GP2 Pin=PGA1-26
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Added Pin To Net: NetName=+3.3V Pin=R5-1
+Add Pin To Net: Unknown Pin: Pin R28-1
+Add Pin To Net: Unknown Pin: Pin R28-2
+Add Pin To Net: Unknown Pin: Pin R29-1
+Add Pin To Net: Unknown Pin: Pin R29-2
+Add Pin To Net: Unknown Pin: Pin R30-1
+Add Pin To Net: Unknown Pin: Pin R30-2
+Add Pin To Net: Unknown Pin: Pin R31-1
+Add Pin To Net: Unknown Pin: Pin R31-2
+Add Pin To Net: Unknown Pin: Pin R32-1
+Add Pin To Net: Unknown Pin: Pin R32-2
+Add Pin To Net: Unknown Pin: Pin R34-1
+Add Pin To Net: Unknown Pin: Pin R34-2
+Added Pin To Net: NetName=+3.3V Pin=R36-1
+Added Pin To Net: NetName=D_GP1 Pin=U1-1
+Added Pin To Net: NetName=D_GP0 Pin=U1-2
+Added Pin To Net: NetName=SHDN-C Pin=U1-3
+Added Pin To Net: NetName=C_GP0 Pin=U1-6
+Added Pin To Net: NetName=SHDN-A Pin=U1-42
+Added Pin To Net: NetName=A_GP0 Pin=U1-43
+Added Pin To Net: NetName=A_GP1 Pin=U1-44
+Added Pin To Net: NetName=A_GP2 Pin=U1-45
+Added Pin To Net: NetName=SHDN-B Pin=U1-59
+Added Pin To Net: NetName=B_GP2 Pin=U1-60
+Added Pin To Net: NetName=B_GP1 Pin=U1-61
+Added Pin To Net: NetName=B_GP0 Pin=U1-62
+Added Pin To Net: NetName=SHDN-D Pin=U1-63
+Added Pin To Net: NetName=D_GP2 Pin=U1-64
+Added Pin To Net: NetName=+3.3V Pin=U2-25
+Added Pin To Net: NetName=+3.3V Pin=U3-1
+Added Pin To Net: NetName=+3.3V Pin=U4-5
+Added Pin To Net: NetName=+3.3V Pin=U4-6
+Add Net: Net with name "A_GP1" already exists
+Add Net: Net with name "A_GP2" already exists
+Add Class Member: Failed to add class member : Component B2
+Added Room: Name=PGA2
