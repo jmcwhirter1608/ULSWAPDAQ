@@ -321,91 +321,6 @@ GenerateClassCluster=0
 DocumentUniqueId=JHEBLRFO
 
 [Document17]
-DocumentPath=..\ADC_PIC32_LVDS_DRIVER_Subsystem\SubsystemOutput.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document18]
-DocumentPath=..\ADC_PIC32_LVDS_DRIVER_Subsystem\JLCPCBoutput.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document19]
-DocumentPath=..\ADC_PIC32_LVDS_DRIVER_Subsystem\Capstone_ADC_BREAKOUT.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
-DocumentPath=..\Capstone_Signal_Conditioners\Capstone_Signal_Conditioners.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document21]
-DocumentPath=..\Capstone_Signal_Conditioners\JLPPCB_Output_Job.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document22]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KAPZFQPE
 
-[Document23]
+[Document18]
 DocumentPath=THS7002CPWP_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAUBEAJM
 
-[Document24]
+[Document19]
 DocumentPath=LMR514205V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMAESQAM
 
-[Document25]
+[Document20]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RTMKDDKL
 
-[Document26]
+[Document21]
 DocumentPath=ADC_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -490,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TPPKLCXF
 
-[Document27]
+[Document22]
 DocumentPath=PIC32_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -507,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZLNZZDT
 
-[Document28]
+[Document23]
 DocumentPath=LTC6362_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,7 +439,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJXGSNIP
 
-[Document29]
+[Document24]
 DocumentPath=LVDS_Driver_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +456,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDXKZQGE
 
-[Document30]
+[Document25]
 DocumentPath=403mainschematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +473,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRRARVWJ
 
-[Document31]
+[Document26]
 DocumentPath=TPS6513x.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +490,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QPUPGXYO
 
-[Document32]
+[Document27]
 DocumentPath=SubsystemOutput.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +507,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document28]
 DocumentPath=Capstone_Signal_Conditioners_Subsystem_Test_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,7 +524,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAQEXQIC
 
-[Document34]
+[Document29]
 DocumentPath=LTC6362_Schematic_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,7 +541,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AGYKAQTB
 
-[Document35]
+[Document30]
 DocumentPath=THS7002CPWP_Schematic_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,7 +558,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XEROECTR
 
-[Document36]
+[Document31]
 DocumentPath=LMR514203.3V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -660,7 +575,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVUWOQZJ
 
-[Document37]
+[Document32]
 DocumentPath=ICD4_Interface_Module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -677,7 +592,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LZCUNIZG
 
-[Document38]
+[Document33]
 DocumentPath=pcb403.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -694,7 +609,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DUEFMPHK
 
-[Document39]
+[Document34]
 DocumentPath=Capstone_Signal_Conditioning_Subsystem_Test_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -711,7 +626,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JODJSYFD
 
-[Document40]
+[Document35]
 DocumentPath=UL-SWAP-DaQ-Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -728,7 +643,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWQSZOFJ
 
-[Document41]
+[Document36]
 DocumentPath=UL-SWAP-DAQ-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -860,21 +775,11 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=Mixed Sim Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -886,16 +791,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1123,6 +1018,11 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=GOSTBOM
+OutputName9=GOST BOM
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1341,6 +1241,11 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=AnsysEDB
+OutputName13=Ansys EDB
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1473,6 +1378,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
