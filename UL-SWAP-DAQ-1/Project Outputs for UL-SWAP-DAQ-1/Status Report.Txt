@@ -1,24 +1,22 @@
 Output: Gerber Files
 Type  : Gerber
 From  : Variant [[No Variations]] of Project [UL-SWAP-DAQ-1.PrjPcb]
-   Generated File[UL-SWAP-DAQ-1.GTO]
-   Generated File[UL-SWAP-DAQ-1.GTP]
-   Generated File[UL-SWAP-DAQ-1.GTS]
-   Generated File[UL-SWAP-DAQ-1.GTL]
-   Generated File[UL-SWAP-DAQ-1.GP1]
-   Generated File[UL-SWAP-DAQ-1.GP2]
-   Generated File[UL-SWAP-DAQ-1.GBL]
-   Generated File[UL-SWAP-DAQ-1.GBS]
-   Generated File[UL-SWAP-DAQ-1.GBP]
-   Generated File[UL-SWAP-DAQ-1.GBO]
-   Generated File[UL-SWAP-DAQ-1.GD1]
-   Generated File[UL-SWAP-DAQ-1.GG1]
-   Generated File[UL-SWAP-DAQ-1.RUL]
-   Generated File[UL-SWAP-DAQ-1.EXTREP]
-   Generated File[UL-SWAP-DAQ-1.REP]
+   Generated File[Power_PCB.GTO]
+   Generated File[Power_PCB.GTP]
+   Generated File[Power_PCB.GTS]
+   Generated File[Power_PCB.GTL]
+   Generated File[Power_PCB.GBL]
+   Generated File[Power_PCB.GBS]
+   Generated File[Power_PCB.GBP]
+   Generated File[Power_PCB.GBO]
+   Generated File[Power_PCB.GD1]
+   Generated File[Power_PCB.GG1]
+   Generated File[Power_PCB.RUL]
+   Generated File[Power_PCB.EXTREP]
+   Generated File[Power_PCB.REP]
 
 
-Files Generated   : 15
+Files Generated   : 13
 Documents Printed : 0
 
-Finished Output Generation At 8:50:59 AM On 2/13/2023
+Finished Output Generation At 9:34:22 AM On 2/13/2023
