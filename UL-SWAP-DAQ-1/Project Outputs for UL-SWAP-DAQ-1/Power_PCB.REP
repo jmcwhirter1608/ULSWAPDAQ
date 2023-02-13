@@ -2,45 +2,133 @@
 FileName = Power_PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Top Paste
-      File : Power_PCB.GTP
+Generating : Dielectric 1
+      File : Power_PCB.1
 
-    Adding Layer      : Top Paste
+    Adding Layer      : Dielectric 1
 
-    Adding Layer      : Top Layer 1
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : Power_PCB.GML
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
+    D73
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : Power_PCB.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : Power_PCB.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : Power_PCB.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : Power_PCB.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : Power_PCB.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Power_PCB.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D13
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : Power_PCB.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D10
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : Power_PCB.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Power_PCB.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Power_PCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -52,6 +140,16 @@ Generating : Bottom Paste
     Adding Layer      : Bottom Layer 1
 
     Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Power_PCB.GBO
+
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -73,6 +171,7 @@ Used DCodes :
     D65
     D66
     D67
+    D68
 *************************************************************
 
 *************************************************************
@@ -119,16 +218,7 @@ Used DCodes :
     D65
     D66
     D67
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Power_PCB.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
+    D68
 *************************************************************
 
 *************************************************************
@@ -147,6 +237,48 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Top Paste
+      File : Power_PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+*************************************************************
+
+*************************************************************
 Generating : Bottom Layer 1
       File : Power_PCB.GBL
 
@@ -157,11 +289,12 @@ Generating : Bottom Layer 1
 
 Used DCodes :
     D12
-    D68
-    D72
+    D69
     D73
     D74
     D75
+    D76
+    D77
 *************************************************************
 
 *************************************************************
@@ -203,7 +336,6 @@ Used DCodes :
     D40
     D41
     D42
-    D68
     D69
     D70
     D71
@@ -211,6 +343,8 @@ Used DCodes :
     D73
     D74
     D75
+    D76
+    D77
 *************************************************************
 
 *************************************************************
@@ -223,8 +357,8 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D76
-    D77
+    D79
+    D80
 *************************************************************
 
 *************************************************************
@@ -237,6 +371,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D76
+    D79
 *************************************************************
 

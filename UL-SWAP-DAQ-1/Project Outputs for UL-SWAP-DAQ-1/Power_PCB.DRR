@@ -1,5 +1,9 @@
 ----------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream
 NCDrill File Report For: Power_PCB.PcbDoc   2/13/2023  10:35:16 AM
+=======
+NCDrill File Report For: Power_PCB.PcbDoc   2/11/2023  3:38:43 PM
+>>>>>>> Stashed changes
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer 1 to Bottom Layer 1
@@ -7,10 +11,18 @@ ASCII Plated RoundHoles File : Power_PCB-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream
 T1      12mil (0.305mm)                                           Round             55        PTH        12.05inch (305.99mm)
 T2      15mil (0.381mm)                                           Round             5         PTH        0.28inch (7.03mm)
 T3      51mil (1.3mm)                                             Round             8         PTH        6.51inch (165.30mm)
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              68
+=======
+T1      12mil (0.305mm)                                           Round             54        PTH        11.99inch (304.63mm)
+T2      15mil (0.381mm)                                           Round             5         PTH        0.28inch (7.00mm)
+T3      51mil (1.3mm)                                             Round             8         PTH        6.51inch (165.30mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              67
+>>>>>>> Stashed changes
 
 Total Processing Time (hh:mm:ss) : 00:00:00
