@@ -796,6 +796,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document45]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\2.13.2023\CAMtastic2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document46]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\2.13.2023\CAM_UL-SWAP-DAQ-1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Design Rule Check - UL-SWAP-DAQ-1.html
 DItemRevisionGUID=
@@ -929,91 +963,163 @@ DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Power_PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.1
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.2
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.3
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GD1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GG1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GP1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GP2
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.RUL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.RUL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument55]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM20
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM21
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM23
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GM24
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GML
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Gerber\UL-SWAP-DAQ-1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument72]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1136,6 +1242,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1147,6 +1263,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1264,6 +1390,10 @@ OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
@@ -1332,7 +1462,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="All Layers","Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\Power_PCB.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1382,11 +1512,6 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1600,16 +1725,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Web ReviewOutputName
-OutputName13=Web Review Data
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1742,7 +1862,6 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
-Type120=1
 
 [Difference Levels]
 Type1=1

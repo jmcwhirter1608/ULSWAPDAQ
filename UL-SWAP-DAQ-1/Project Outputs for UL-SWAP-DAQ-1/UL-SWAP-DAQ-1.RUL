@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
+DRC Rules Export File for PCB: C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
