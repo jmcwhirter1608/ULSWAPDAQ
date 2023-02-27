@@ -831,178 +831,174 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Design Rule Check - UL-SWAP-DAQ-2.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument5]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GG1
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-NonPlated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument22]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument23]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument24]
 DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument25]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument26]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument27]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument28]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument29]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument30]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GD1
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument31]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GG1
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument32]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument33]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument35]
+[GeneratedDocument34]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument35]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument37]
+[GeneratedDocument36]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument37]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument38]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument39]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument40]
 DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument41]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.REP
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument42]
 DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument44]
+[GeneratedDocument43]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.RUL
 DItemRevisionGUID=
 
@@ -1126,6 +1122,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1137,6 +1143,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1376,11 +1392,6 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1599,11 +1610,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=AnsysEDB
-OutputName13=Ansys EDB
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1736,7 +1742,6 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
-Type120=1
 
 [Difference Levels]
 Type1=1
