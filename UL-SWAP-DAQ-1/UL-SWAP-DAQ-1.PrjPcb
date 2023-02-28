@@ -610,7 +610,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LWQSZOFJ
 
 [Document34]
-DocumentPath=HDR.SchLib
+DocumentPath=Connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
