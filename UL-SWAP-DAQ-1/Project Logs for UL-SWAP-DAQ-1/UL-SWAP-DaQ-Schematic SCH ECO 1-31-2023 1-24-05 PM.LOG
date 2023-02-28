@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=L3 Old Footprint=0402-A New Footprint=MSS1246H-103MED 10uH
+Change Component Footprint: Designator=L4 Old Footprint=0402-A New Footprint=MSS1246H-103MED 10uH
+Change Component Footprint: Designator=U4 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Change Component Footprint: Designator=U5 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Change Component Comment: Designator=R36 Old Comment=ESR01MZPF1004 New Comment=Comment
+Change Component Comment: Designator=L4 Old Comment=Inductor New Comment=Comment
+Change Component Comment: Designator=L3 Old Comment=MSS1260H-822MED New Comment=Comment
+Change Component Comment: Designator=R35 Old Comment=RMCF0805FT13K7CT-ND New Comment=Comment
+Change Component Comment: Designator=R37 Old Comment=SFR03EZPF1303 New Comment=Comment
+Change Pin Designator/Name:  Old Designator=C48-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=C48-2 Old Name=2 New Designator =1 New Name=1

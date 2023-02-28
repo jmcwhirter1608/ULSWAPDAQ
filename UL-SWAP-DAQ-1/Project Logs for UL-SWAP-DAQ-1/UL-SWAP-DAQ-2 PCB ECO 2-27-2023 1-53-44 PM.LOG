@@ -1,0 +1,171 @@
+Removed Pin From Net: NetName=GND Pin=U4-29
+Removed Pin From Net: NetName=GND Pin=U4-30
+Removed Pin From Net: NetName=GND Pin=U4-31
+Removed Pin From Net: NetName=GND Pin=U4-32
+Removed Pin From Net: NetName=GND Pin=U4-33
+Removed Pin From Net: NetName=GND Pin=U4-34
+Removed Pin From Net: NetName=GND Pin=U4-35
+Removed Pin From Net: NetName=GND Pin=U4-36
+Removed Pin From Net: NetName=GND Pin=U4-37
+Removed Pin From Net: NetName=GND Pin=U4-38
+Removed Pin From Net: NetName=GND Pin=U4-39
+Removed Pin From Net: NetName=GND Pin=U4-40
+Removed Pin From Net: NetName=GND Pin=U4-41
+Removed Pin From Net: NetName=GND Pin=U4-42
+Removed Pin From Net: NetName=GND Pin=U4-43
+Removed Pin From Net: NetName=GND Pin=U4-44
+Removed Pin From Net: NetName=GND Pin=U4-45
+Removed Pin From Net: NetName=GND Pin=U4-46
+Removed Pin From Net: NetName=GND Pin=U4-47
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=NetR26_2 Pin=U6-1
+Removed Pin From Net: NetName=NetC43_1 Pin=U6-2
+Removed Pin From Net: NetName=+5V Pin=U6-3
+Removed Pin From Net: NetName=NetR28_2 Pin=U6-4
+Removed Pin From Net: NetName=NetR29_2 Pin=U6-5
+Removed Pin From Net: NetName=GND Pin=U6-6
+Removed Pin From Net: NetName=SHDN-A Pin=U6-7
+Removed Pin From Net: NetName=NetR27_2 Pin=U6-8
+Removed Member From Class: ClassName=TPS6513x Member=U7
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Add Component: Footprint Not Found PCBComponent_1
+Add Component: Footprint Not Found PCBComponent_1
+Added Component: Designator=U1(TQFP)
+Add Pin To Net: Unknown Pin: Pin B2-1
+Add Pin To Net: Unknown Pin: Pin B2-2
+Add Pin To Net: Unknown Pin: Pin B2-3
+Add Pin To Net: Unknown Pin: Pin B2-4
+Add Pin To Net: Unknown Pin: Pin B2-5
+Add Pin To Net: Unknown Pin: Pin B2-6
+Add Pin To Net: Unknown Pin: Pin B3-1
+Add Pin To Net: Unknown Pin: Pin B3-2
+Add Pin To Net: Unknown Pin: Pin B3-3
+Add Pin To Net: Unknown Pin: Pin B3-4
+Add Pin To Net: Unknown Pin: Pin B3-5
+Add Pin To Net: Unknown Pin: Pin B3-6
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C50-1
+Add Pin To Net: Unknown Pin: Pin C50-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C58-1
+Add Pin To Net: Unknown Pin: Pin C58-2
+Add Pin To Net: Unknown Pin: Pin C59-1
+Add Pin To Net: Unknown Pin: Pin C59-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R35-1
+Add Pin To Net: Unknown Pin: Pin R35-2
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R39-1
+Add Pin To Net: Unknown Pin: Pin R39-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Added Pin To Net: NetName=C_GP1 Pin=U1-1
+Added Pin To Net: NetName=C_GP2 Pin=U1-2
+Added Pin To Net: NetName=D_GP2 Pin=U1-3
+Added Pin To Net: NetName=D_GP1 Pin=U1-4
+Added Pin To Net: NetName=D_GP0 Pin=U1-5
+Added Pin To Net: NetName=SHDN-D Pin=U1-6
+Added Pin To Net: NetName=MCLR Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=+3.3V Pin=U1-10
+Added Pin To Net: NetName=PGC Pin=U1-17
+Added Pin To Net: NetName=PGD Pin=U1-18
+Added Pin To Net: NetName=+3.3V Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-20
+Added Pin To Net: NetName=NetU1_22 Pin=U1-22
+Added Pin To Net: NetName=GND Pin=U1-25
+Added Pin To Net: NetName=+3.3V Pin=U1-26
+Added Pin To Net: NetName=U1TX Pin=U1-32
+Added Pin To Net: NetName=+3.3V Pin=U1-35
+Added Pin To Net: NetName=+3.3V Pin=U1-38
+Added Pin To Net: NetName=NetR1_1 Pin=U1-39
+Added Pin To Net: NetName=NetC6_1 Pin=U1-40
+Added Pin To Net: NetName=GND Pin=U1-41
+Added Pin To Net: NetName=A_GP0 Pin=U1-42
+Added Pin To Net: NetName=A_GP1 Pin=U1-43
+Added Pin To Net: NetName=A_GP2 Pin=U1-44
+Added Pin To Net: NetName=SHDN-A Pin=U1-45
+Added Pin To Net: NetName=NetU1_46 Pin=U1-46
+Added Pin To Net: NetName=ADCSDO_PIC32SDI Pin=U1-47
+Added Pin To Net: NetName=SCK Pin=U1-50
+Added Pin To Net: NetName=ADCSDI_PIC32SDO Pin=U1-52
+Added Pin To Net: NetName=NetU1_53 Pin=U1-53
+Added Pin To Net: NetName=NetU1_54 Pin=U1-54
+Added Pin To Net: NetName=NetU1_55 Pin=U1-55
+Added Pin To Net: NetName=NetC5_1 Pin=U1-56
+Added Pin To Net: NetName=+3.3V Pin=U1-57
+Added Pin To Net: NetName=SHDN-B Pin=U1-59
+Added Pin To Net: NetName=B_GP2 Pin=U1-60
+Added Pin To Net: NetName=B_GP1 Pin=U1-61
+Added Pin To Net: NetName=B_GP0 Pin=U1-62
+Added Pin To Net: NetName=SHDN-C Pin=U1-63
+Added Pin To Net: NetName=C_GP0 Pin=U1-64
+Add Pin To Net: Unknown Pin: Pin U1-65
+Added Pin To Net: NetName=INP Pin=U6-1
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-3
+Added Pin To Net: NetName=MULTI Pin=U6-4
+Added Pin To Net: NetName=+3.3V Pin=U6-5
+Added Pin To Net: NetName=+3.3V Pin=U6-6
+Added Pin To Net: NetName=BSW Pin=U6-7
+Added Pin To Net: NetName=MULTI Pin=U6-8
+Add Class Member: Failed to add class member : Component B2
+Add Class Member: Failed to add class member : Component B3
+Added Member To Class: ClassName=ADC_Subsystem Member=Component C9 47uF
+Added Member To Class: ClassName=U4 Member=Component C26 C2012JB1A685K060AC
+Added Member To Class: ClassName=U8 Member=Component C32 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=U6 Member=Component C39 GQM1875C2ER10BB12D
+Added Member To Class: ClassName=U6 Member=Component C40 CC0603KRX7R9BB392
+Added Member To Class: ClassName=U6 Member=Component C46 CC0603KRX7R9BB392
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Add Class Member: Failed to add class member : Component J? 1003-NDD-9PBRTT-A174-ND
+Added Member To Class: ClassName=U8 Member=Component R8 ERJ-6ENF1241V
+Added Member To Class: ClassName=U8 Member=Component R9 ERJ-6ENF1241V
+Added Member To Class: ClassName=U8 Member=Component R10 RC0805FR-071KL
+Added Member To Class: ClassName=U6 Member=Component R20 ERJ-6ENF1241V
+Added Member To Class: ClassName=U6 Member=Component R21 ERJ-6ENF1241V
+Added Member To Class: ClassName=U6 Member=Component R24 CRCW060335K7FKEA
+Added Member To Class: ClassName=U6 Member=Component R25 CRCW060335K7FKEA
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component U1 PIC32MX470-F512H-120MR
+Added Member To Class: ClassName=U4 Member=Component U4 THS7002CPWP
+Added Member To Class: ClassName=U5 Member=Component U5 THS7002CPWP
+Added Member To Class: ClassName=TPS6513x Member=Component U6 TPS6513x
+Added Member To Class: ClassName=U6 Member=Component U6 LTC6362HMS8#PBF
+Added Member To Class: ClassName=U8 Member=Component U8 LTC6362HMS8#PBF
+Added Member To Class: ClassName=U8 Member=Component U9 LTC6362HMS8#PBF

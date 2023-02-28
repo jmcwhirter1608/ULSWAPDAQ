@@ -1,0 +1,13 @@
+Output: ULSWAPDAQ1-NCDrillFiles
+Type  : NC Drill
+From  : PCB Document [UL-SWAP-DAQ-1.PcbDoc]
+   Generated File[UL-SWAP-DAQ-1-Plated.TXT]
+   Generated File[UL-SWAP-DAQ-1-NonPlated.TXT]
+   Generated File[UL-SWAP-DAQ-1.LDP]
+   Generated File[UL-SWAP-DAQ-1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:50:12 AM On 2/24/2023

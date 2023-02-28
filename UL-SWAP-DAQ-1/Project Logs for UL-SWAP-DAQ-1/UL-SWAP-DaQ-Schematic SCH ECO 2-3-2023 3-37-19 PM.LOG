@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=U4 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Change Component Footprint: Designator=U5 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Add Pin To Net: Pin=HDR1-1 Old Net=NetHDR1_1 New Net=ADCSDI_PIC32SDO
+Add Pin To Net: Pin=HDR1-3 Old Net=NetHDR1_3 New Net=SCK
+Add Pin To Net: Pin=HDR1-5 Old Net=NetHDR1_5 New Net=ADCSDO_PIC32SDI
+Add Pin To Net: Pin=HDR1-6 Old Net=NetHDR1_6 New Net=+5V
+Add Pin To Net: Pin=HDR1-7 Old Net=NetHDR1_7 New Net=U1TX
+Add Pin To Net: Pin=HDR1-8 Old Net=NetHDR1_8 New Net=+3.3V
+Add Pin To Net: Pin=HDR1-10 Old Net=NetHDR1_10 New Net=GND

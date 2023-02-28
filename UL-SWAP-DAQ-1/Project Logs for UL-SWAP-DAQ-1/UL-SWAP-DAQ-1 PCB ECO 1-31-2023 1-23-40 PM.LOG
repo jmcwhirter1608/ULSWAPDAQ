@@ -1,0 +1,30 @@
+Change Footprint: Cannot match pads with new footprint in component :L3 Footprint:0402-A
+Change Footprint: Cannot match pads with new footprint in component :L4 Footprint:0402-A
+Change Physical Footprint: Designator=C9 Old Footprint=FP-C0805C476M9PACTU-MFG New Footprint=FP-C0805C476M9PACTU-MFG
+Change Physical Footprint: Designator=C10 Old Footprint=FP-GRM15-MFG New Footprint=FP-GRM15-MFG
+Change Physical Footprint: Designator=C11 Old Footprint=FP-GRM15-MFG New Footprint=FP-GRM15-MFG
+Change Physical Footprint: Designator=C12 Old Footprint=FP-GRM188-0_1-e0_2_0_5-MFG New Footprint=FP-GRM188-0_1-e0_2_0_5-MFG
+Change Physical Footprint: Designator=C15 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C16 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C18 Old Footprint=FP-GRM319-0_15-IPC_A New Footprint=FP-GRM319-0_15-IPC_A
+Change Physical Footprint: Designator=C19 Old Footprint=FP-C2012-060-0_2-IPC_A New Footprint=FP-C2012-060-0_2-IPC_A
+Change Physical Footprint: Designator=C20 Old Footprint=FP-GRM319-0_15-IPC_A New Footprint=FP-GRM319-0_15-IPC_A
+Change Physical Footprint: Designator=C24 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C25 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C27 Old Footprint=FP-GRM319-0_15-IPC_A New Footprint=FP-GRM319-0_15-IPC_A
+Change Physical Footprint: Designator=C28 Old Footprint=FP-C2012-060-0_2-IPC_A New Footprint=FP-C2012-060-0_2-IPC_A
+Change Physical Footprint: Designator=C30 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C31 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C37 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Designator=C45 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-CC0603-DA-MFG
+Change Physical Footprint: Cannot match pads with new footprint in component :C62 Footprint:PCBComponent_1
+Change Physical Footprint: Designator=C63 Old Footprint=FP-CGA1A-0_1-0_03-IPC_B New Footprint=FP-CGA1A-0_1-0_03-IPC_B
+Change Physical Footprint: Designator=C64 Old Footprint=FP-C0805C-DN-MFG New Footprint=FP-C0805C-DN-MFG
+Change Physical Footprint: Designator=J2 Old Footprint=TECO-5520470-3_V New Footprint=TECO-5520470-3_V
+Change Physical Footprint: Designator=MCLR Old Footprint=434121043816 New Footprint=434121043816
+Change Physical Footprint: Designator=R12 Old Footprint=FP-CRCW0603-e3-IPC_C New Footprint=FP-CRCW0603-e3-IPC_C
+Change Physical Footprint: Designator=R13 Old Footprint=FP-CRCW0603-e3-IPC_C New Footprint=FP-CRCW0603-e3-IPC_C
+Change Physical Footprint: Designator=R31 Old Footprint=FP-CRCW0603-e3-IPC_C New Footprint=FP-CRCW0603-e3-IPC_C
+Change Physical Footprint: Designator=R35 Old Footprint=RMCF0805FT13K7_13.7k New Footprint=RMCF0805FT13K7_13.7k
+Change Physical Footprint: Designator=U1 Old Footprint=QFN50P900X900X100-65N New Footprint=QFN50P900X900X100-65N
+Change Physical Footprint: Designator=U3 Old Footprint=FP-R-8-IPC_A New Footprint=FP-R-8-IPC_A

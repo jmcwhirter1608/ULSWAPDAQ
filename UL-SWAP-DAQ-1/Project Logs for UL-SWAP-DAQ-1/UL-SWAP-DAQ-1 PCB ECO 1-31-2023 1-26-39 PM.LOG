@@ -1,0 +1,215 @@
+Removed Pin From Net: NetName=+3.3V Pin=C49-7
+Removed Pin From Net: NetName=GND Pin=C49-8
+Removed Pin From Net: NetName=+3.3V Pin=C50-7
+Removed Pin From Net: NetName=GND Pin=C50-8
+Removed Pin From Net: NetName=+5V Pin=C53-7
+Removed Pin From Net: NetName=GND Pin=C53-8
+Removed Pin From Net: NetName=+5V Pin=C54-7
+Removed Pin From Net: NetName=GND Pin=C54-8
+Removed Pin From Net: NetName=GND Pin=C55-13
+Removed Pin From Net: NetName=Qnet Pin=C55-14
+Removed Pin From Net: NetName=+3.3V Pin=C56-13
+Removed Pin From Net: NetName=GND Pin=C56-14
+Removed Pin From Net: NetName=MULTI Pin=C57-1
+Removed Pin From Net: NetName=GND Pin=C58-7
+Removed Pin From Net: NetName=GND Pin=C59-7
+Removed Pin From Net: NetName=+3.3V Pin=L3-7
+Removed Pin From Net: NetName=SW1 Pin=L3-8
+Removed Pin From Net: NetName=+5V Pin=L4-7
+Removed Pin From Net: NetName=SW2 Pin=L4-8
+Removed Pin From Net: NetName=GND Pin=L5-1
+Removed Pin From Net: NetName=OUTN Pin=L5-2
+Removed Pin From Net: NetName=Qnet Pin=L6-1
+Removed Pin From Net: NetName=INP Pin=L6-2
+Removed Pin From Net: NetName=+3.3V Pin=Q2-15
+Removed Pin From Net: NetName=BSW Pin=Q2-16
+Removed Pin From Net: NetName=Qnet Pin=Q2-17
+Removed Pin From Net: NetName=NetR4_2 Pin=R4-1
+Removed Pin From Net: NetName=NetC18_1 Pin=R4-2
+Removed Pin From Net: NetName=NetC20_1 Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R35-10
+Removed Pin From Net: NetName=FBP Pin=R36-7
+Removed Pin From Net: NetName=FBP Pin=R37-5
+Removed Pin From Net: NetName=GND Pin=R37-6
+Removed Pin From Net: NetName=FBN Pin=R38-7
+Removed Pin From Net: NetName=VREF Pin=R39-9
+Removed Pin From Net: NetName=FBN Pin=R40-8
+Removed Pin From Net: NetName=GND Pin=U4-29
+Removed Pin From Net: NetName=GND Pin=U4-30
+Removed Pin From Net: NetName=GND Pin=U4-31
+Removed Pin From Net: NetName=GND Pin=U4-32
+Removed Pin From Net: NetName=GND Pin=U4-33
+Removed Pin From Net: NetName=GND Pin=U4-34
+Removed Pin From Net: NetName=GND Pin=U4-35
+Removed Pin From Net: NetName=GND Pin=U4-36
+Removed Pin From Net: NetName=GND Pin=U4-37
+Removed Pin From Net: NetName=GND Pin=U4-38
+Removed Pin From Net: NetName=GND Pin=U4-39
+Removed Pin From Net: NetName=GND Pin=U4-40
+Removed Pin From Net: NetName=GND Pin=U4-41
+Removed Pin From Net: NetName=GND Pin=U4-42
+Removed Pin From Net: NetName=GND Pin=U4-43
+Removed Pin From Net: NetName=GND Pin=U4-44
+Removed Pin From Net: NetName=GND Pin=U4-45
+Removed Pin From Net: NetName=GND Pin=U4-46
+Removed Pin From Net: NetName=GND Pin=U4-47
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=BSW Pin=U6-BSW
+Removed Pin From Net: NetName=CN Pin=U6-CN
+Removed Pin From Net: NetName=CP Pin=U6-CP
+Removed Pin From Net: NetName=MULTI Pin=U6-ENN
+Removed Pin From Net: NetName=MULTI Pin=U6-ENP
+Removed Pin From Net: NetName=FBN Pin=U6-FBN
+Removed Pin From Net: NetName=FBP Pin=U6-FBP
+Removed Pin From Net: NetName=+3.3V Pin=U6-INN
+Removed Pin From Net: NetName=+3.3V Pin=U6-INN
+Removed Pin From Net: NetName=INP Pin=U6-INP
+Removed Pin From Net: NetName=INP Pin=U6-INP
+Removed Pin From Net: NetName=OUTN Pin=U6-OUTN
+Removed Pin From Net: NetName=OUTN Pin=U6-OUTN
+Removed Pin From Net: NetName=GND Pin=U6-PGND
+Removed Pin From Net: NetName=GND Pin=U6-PGND
+Removed Pin From Net: NetName=MULTI Pin=U6-PSN
+Removed Pin From Net: NetName=MULTI Pin=U6-PSP
+Removed Pin From Net: NetName=MULTI Pin=U6-Vin
+Removed Pin From Net: NetName=VREF Pin=U6-VREF
+Change Component Footprint: Designator=C21 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-C2012-060-0_2-IPC_A
+Change Component Footprint: Designator=C22 Old Footprint=FP-CC0603-DA-MFG New Footprint=FP-C2012-060-0_2-IPC_A
+Change Component Footprint: Designator=R4 Old Footprint=RESC2013X60X35ML10T20 New Footprint=RESC2013X50X30LL20T20
+Change Component Footprint: Designator=R5 Old Footprint=RESC2013X60X35ML10T20 New Footprint=RESC2013X50X30LL20T20
+Change Component Footprint: Designator=R6 Old Footprint=RESC2013X60X35ML10T20 New Footprint=RESC2013X50X30LL20T20
+Change Component Footprint: Designator=R7 Old Footprint=RESC2013X60X35ML10T20 New Footprint=RESC2013X50X30LL20T20
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Component Comment : Designator=C21 Old Comment=CC0603KRX7R7BB104 New Comment=C2012JB1A685K060AC
+Change Component Comment : Designator=C22 Old Comment=CC0603KRX7R7BB104 New Comment=C2012JB1A685K060AC
+Change Component Comment : Designator=R4 Old Comment=Comment New Comment=CRCW08050000Z0EA
+Change Component Comment : Designator=R5 Old Comment=Comment New Comment=CRCW08050000Z0EA
+Change Component Comment : Designator=R6 Old Comment=Comment New Comment=CRCW08050000Z0EA
+Change Component Comment : Designator=R7 Old Comment=Comment New Comment=CRCW08050000Z0EA
+Added Component: Designator=L1(WE-PD-S-PB)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.de/katalog/media/pdf/7447789004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "4.70 µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMD Inductor, 2-Leads, Body 7.3 x 7.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "WE-PD-S-PB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "7447789004"; VariantName = "[No Variations]"
+Added Component: Designator=L2(WE-PD-S-PB)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.de/katalog/media/pdf/7447789004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "4.70 µH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "SMD Inductor, 2-Leads, Body 7.3 x 7.3 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "WE-PD-S-PB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "7447789004"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(PCBComponent_1)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FB Pin=B3-4
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C50-1
+Add Pin To Net: Unknown Pin: Pin C50-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Added Pin To Net: NetName=+3.3V Pin=C57-1
+Add Pin To Net: Unknown Pin: Pin C58-1
+Add Pin To Net: Unknown Pin: Pin C58-2
+Add Pin To Net: Unknown Pin: Pin C59-1
+Add Pin To Net: Unknown Pin: Pin C59-2
+Added Pin To Net: NetName=+10V Pin=C63-1
+Added Pin To Net: NetName=-10.5V Pin=C64-2
+Added Pin To Net: NetName=+10V Pin=D1-1
+Added Pin To Net: NetName=-10.5V Pin=D2-2
+Added Pin To Net: NetName=Qnet Pin=L1-1
+Added Pin To Net: NetName=INP Pin=L1-2
+Added Pin To Net: NetName=GND Pin=L2-1
+Added Pin To Net: NetName=OUTN Pin=L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Added Pin To Net: NetName=NetC18_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetC20_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=FB Pin=R34-1
+Add Pin To Net: Unknown Pin: Pin R35-1
+Add Pin To Net: Unknown Pin: Pin R35-2
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R39-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Added Pin To Net: NetName=NetR5_2 Pin=U5-4
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-14
+Add Pin To Net: Unknown Pin: Pin U6-15
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U6-17
+Add Pin To Net: Unknown Pin: Pin U6-18
+Add Pin To Net: Unknown Pin: Pin U6-21
+Add Pin To Net: Unknown Pin: Pin U6-22
+Add Pin To Net: Unknown Pin: Pin U6-23
+Add Pin To Net: Unknown Pin: Pin U6-24
+Change Net Name : Old Net Name=+10V New Net Name=+10.5V
+Change Net Name : Old Net Name=-10.5V New Net Name=-10V
+Change Net Name : Old Net Name=FB1 New Net Name=NetB2_4
+Change Net Name : Old Net Name=UART_TX New Net Name=U1TX
+Added Net: Name=NetR39_1
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Added Member To Class: ClassName=TPS6513x Member=Component L1 7447789004
+Added Member To Class: ClassName=TPS6513x Member=Component L2 7447789004
+Added Member To Class: ClassName=TPS6513x Member=Component Q1 Comment
+Added Room: Name=ADC_Processor

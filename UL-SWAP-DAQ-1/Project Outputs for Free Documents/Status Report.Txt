@@ -1,0 +1,12 @@
+Output: Power-GerberFiles
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Power_PCB.PcbDoc]
+   Generated File[Power_PCB.RUL]
+   Generated File[Power_PCB.EXTREP]
+   Generated File[Power_PCB.REP]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:22:01 PM On 2/10/2023

@@ -1,0 +1,12 @@
+Output: Power-NCDrillFiles
+Type  : NC Drill
+From  : PCB Document [Power_PCB.PcbDoc]
+   Generated File[Power_PCB-Plated.TXT]
+   Generated File[Power_PCB.LDP]
+   Generated File[Power_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:37:59 AM On 2/22/2023
