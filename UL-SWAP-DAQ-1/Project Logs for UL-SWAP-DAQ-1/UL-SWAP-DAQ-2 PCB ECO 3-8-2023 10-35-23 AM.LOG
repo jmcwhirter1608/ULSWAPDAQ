@@ -1,0 +1,74 @@
+Removed Pin From Net: NetName=CB2 Pin=B2_5V-CB
+Removed Pin From Net: NetName=GND Pin=B2_5V-GND
+Removed Pin From Net: NetName=SW2 Pin=B2_5V-SW
+Removed Pin From Net: NetName=+10.5V Pin=C63-1
+Removed Pin From Net: NetName=-10V Pin=C64-2
+Removed Pin From Net: NetName=+5V Pin=C65-7
+Removed Pin From Net: NetName=GND Pin=C65-8
+Removed Pin From Net: NetName=+5V Pin=C66-7
+Removed Pin From Net: NetName=GND Pin=C66-8
+Removed Pin From Net: NetName=GND Pin=C67-2
+Removed Pin From Net: NetName=SW2 Pin=C68-1
+Removed Pin From Net: NetName=CB2 Pin=C68-2
+Removed Pin From Net: NetName=+10.5V Pin=D1-1
+Removed Pin From Net: NetName=-10V Pin=D2-2
+Removed Pin From Net: NetName=SW2 Pin=L5-3
+Removed Pin From Net: NetName=+5V Pin=L5-4
+Removed Pin From Net: NetName=GND Pin=R42-10
+Removed Pin From Net: NetName=+5V Pin=R43-2
+Removed Pin From Net: NetName=GND Pin=U4-29
+Removed Pin From Net: NetName=GND Pin=U4-30
+Removed Pin From Net: NetName=GND Pin=U4-31
+Removed Pin From Net: NetName=GND Pin=U4-32
+Removed Pin From Net: NetName=GND Pin=U4-33
+Removed Pin From Net: NetName=GND Pin=U4-34
+Removed Pin From Net: NetName=GND Pin=U4-35
+Removed Pin From Net: NetName=GND Pin=U4-36
+Removed Pin From Net: NetName=GND Pin=U4-37
+Removed Pin From Net: NetName=GND Pin=U4-38
+Removed Pin From Net: NetName=GND Pin=U4-39
+Removed Pin From Net: NetName=GND Pin=U4-40
+Removed Pin From Net: NetName=GND Pin=U4-41
+Removed Pin From Net: NetName=GND Pin=U4-42
+Removed Pin From Net: NetName=GND Pin=U4-43
+Removed Pin From Net: NetName=GND Pin=U4-44
+Removed Pin From Net: NetName=GND Pin=U4-45
+Removed Pin From Net: NetName=GND Pin=U4-46
+Removed Pin From Net: NetName=GND Pin=U4-47
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=-10V Pin=U6-15
+Removed Pin From Net: NetName=+10.5V Pin=U6-23
+Removed Member From Class: ClassName=U5 Member=C35_2
+Change Component Designator: OldDesignator=B2_5V NewDesignator=B3
+Added Pin To Net: NetName=NetJ3_5 Pin=C47-1
+Added Pin To Net: NetName=NetJ3_5 Pin=C51-1
+Change Net Name : Old Net Name=NetC15_1 New Net Name=NetC35_2_1
+Change Net Name : Old Net Name=NetJ3_5 New Net Name=Vin
+Added Pin To Net: NetName=NetC58_2 Pin=C63-1
+Added Pin To Net: NetName=NetC58_2 Pin=D1-1
+Added Pin To Net: NetName=NetC58_2 Pin=U6-23
+Added Net: Name=NetC58_2
+Added Pin To Net: NetName=NetC59_2 Pin=C64-2
+Added Pin To Net: NetName=NetC59_2 Pin=D2-2
+Added Pin To Net: NetName=NetC59_2 Pin=U6-15
+Added Net: Name=NetC59_2
+Added Member To Class: ClassName=LMR51420 5V Member=Component B3
+Added Member To Class: ClassName=U5 Member=Component C15 CC0603KRX7R7BB104

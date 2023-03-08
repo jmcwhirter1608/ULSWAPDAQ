@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=R39 Old Footprint=121k_RE0201BRE07121KL New Footprint=RMCF2512FT121k
+Added Pin To Net: NetName=NetR39_1 Pin=R39-1
+Added Pin To Net: NetName=VREF Pin=R39-2
