@@ -1,0 +1,38 @@
+Change Component DesignItemId : Designator=C48_1 Old DesignItemId=CMP-03020-002384-2 New DesignItemId=
+Change Component DesignItemId : Designator=C52 Old DesignItemId=CMP-03020-002384-2 New DesignItemId=
+Change Component Footprint: Designator=C48_1 Old Footprint=FP-C0603C-CF-MFG New Footprint=CAP CER 0.1UF 16V X7R 0603
+Change Component Footprint: Designator=C52 Old Footprint=FP-C0603C-CF-MFG New Footprint=CAP CER 0.1UF 16V X7R 0603
+Change Component Library : Designator=C48_1 Old Library=Altium Content Vault New Library=Miscellaneous Devices.IntLib
+Change Component Library : Designator=C52 Old Library=Altium Content Vault New Library=Miscellaneous Devices.IntLib
+Change Managed Component Library Link : Designator=C48_1 Old VaultGUID= New VaultGUID= Old ItemGUID=DED6734D-11A7-4CD0-9FD3-49908605B963 New ItemGUID= Old RevisionGUID=531E1DB2-FCBF-41E5-AED2-6DB9D7B86912 New RevisionGUID=
+Change Managed Component Library Link : Designator=C52 Old VaultGUID= New VaultGUID= Old ItemGUID=DED6734D-11A7-4CD0-9FD3-49908605B963 New ItemGUID= Old RevisionGUID=531E1DB2-FCBF-41E5-AED2-6DB9D7B86912 New RevisionGUID=
+Added Component: Designator=C47_1(FP-0805-L_2_0_0_2-W_1_25-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "2.2uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=C51(FP-0805-L_2_0_0_2-W_1_25-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "2.2uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Vin Pin=C47_1-1
+Added Pin To Net: NetName=GND Pin=C47_1-2
+Added Pin To Net: NetName=Vin Pin=C51-1
+Added Pin To Net: NetName=GND Pin=C51-2
+Added Member To Class: ClassName=LMR51420 3.3V Member=Component C47_1 UMK212BBJ225MD-T
+Added Member To Class: ClassName=LMR51420 5V Member=Component C51 UMK212BBJ225MD-T

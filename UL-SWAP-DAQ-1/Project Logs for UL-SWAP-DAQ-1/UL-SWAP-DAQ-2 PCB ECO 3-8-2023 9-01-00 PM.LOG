@@ -1,0 +1,8 @@
+Added Component: Designator=B2(LMR51420IC)
+Added Pin To Net: NetName=GND Pin=B2-1
+Added Pin To Net: NetName=SW1 Pin=B2-2
+Added Pin To Net: NetName=Vin Pin=B2-3
+Added Pin To Net: NetName=FB2 Pin=B2-4
+Added Pin To Net: NetName=Vin Pin=B2-5
+Added Pin To Net: NetName=CB1 Pin=B2-6
+Added Member To Class: ClassName=LMR51420 3.3V Member=Component B2

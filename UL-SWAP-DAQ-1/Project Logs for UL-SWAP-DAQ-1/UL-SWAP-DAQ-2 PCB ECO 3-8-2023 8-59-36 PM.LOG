@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=B3 Old Footprint=PCBCOMPONENT_1 New Footprint=LMR51420IC
+Added Pin To Net: NetName=GND Pin=B3-1
+Added Pin To Net: NetName=SW2 Pin=B3-2
+Added Pin To Net: NetName=Vin Pin=B3-3
+Added Pin To Net: NetName=Vin Pin=B3-5
+Added Pin To Net: NetName=CB2 Pin=B3-6
+Added Pin To Net: NetName=FB2 Pin=R32-2
+Added Pin To Net: NetName=FB2 Pin=R33-2
+Added Net: Name=FB2

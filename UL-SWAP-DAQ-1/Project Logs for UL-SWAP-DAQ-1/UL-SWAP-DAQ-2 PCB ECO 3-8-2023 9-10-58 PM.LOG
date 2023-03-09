@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=LVDS_Driver_Subsystem Member=C47_1
+Removed Member From Class: ClassName=LVDS_Driver_Subsystem Member=C48_1
+Added Member To Class: ClassName=LVDS_Driver_Subsystem Member=Component C47 10 uF
+Added Member To Class: ClassName=LVDS_Driver_Subsystem Member=Component C48 0.1 uF

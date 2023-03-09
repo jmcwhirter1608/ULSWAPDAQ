@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=U6 Old DesignItemId=CMP-0347-00005-4 New DesignItemId=
+Change Component Library : Designator=U6 Old Library=Altium Content Vault New Library=Miscellaneous Devices.IntLib
+Change Managed Component Library Link : Designator=U6 Old VaultGUID= New VaultGUID= Old ItemGUID=070CEC9E-7373-4F3A-BE2B-60D89F2DBF32 New ItemGUID= Old RevisionGUID=F57E6FE8-78AD-4EF7-BECA-5C0F5F2A37F9 New RevisionGUID=
