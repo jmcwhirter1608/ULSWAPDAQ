@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+3.3V Pin=L3-7
+Removed Pin From Net: NetName=SW1 Pin=L3-8
+Change Component Designator: OldDesignator=C47 NewDesignator=C66
+Change Component Designator: OldDesignator=C47_1 NewDesignator=C47
+Change Component Designator: OldDesignator=C48 NewDesignator=C65
+Change Component Designator: OldDesignator=C48_1 NewDesignator=C48
