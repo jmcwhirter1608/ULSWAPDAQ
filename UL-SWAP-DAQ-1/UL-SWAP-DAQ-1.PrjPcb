@@ -66,6 +66,23 @@ GenerateClassCluster=0
 DocumentUniqueId=EEJJGWKJ
 
 [Document2]
+DocumentPath=Capacitors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HBXNHHJN
+
+[Document3]
 DocumentPath=TPS6513_pcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GAWLWHBD
 
-[Document3]
+[Document4]
 DocumentPath=PIC32MX470-F512H-120MR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VUFPOEFK
 
-[Document4]
+[Document5]
 DocumentPath=PIC32MX470-F512H-120MR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJGJOJVA
 
-[Document5]
+[Document6]
 DocumentPath=LTC2373CUH-16#PBF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TABPPUET
 
-[Document6]
+[Document7]
 DocumentPath=LTC2373_Footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PSTJREIN
 
-[Document7]
+[Document8]
 DocumentPath=LMR51420.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GFYRYQJX
 
-[Document8]
+[Document9]
 DocumentPath=Buck_and_Inverter.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWNPJDVZ
 
-[Document9]
+[Document10]
 DocumentPath=8.2uH_MSS1260H-822MED.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JHEBLRFO
 
-[Document10]
+[Document11]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KAPZFQPE
 
-[Document11]
+[Document12]
 DocumentPath=THS7002CPWP_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +252,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAUBEAJM
 
-[Document12]
+[Document13]
 DocumentPath=LMR514205V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMAESQAM
 
-[Document13]
+[Document14]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RTMKDDKL
 
-[Document14]
+[Document15]
 DocumentPath=ADC_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TPPKLCXF
 
-[Document15]
+[Document16]
 DocumentPath=PIC32_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZLNZZDT
 
-[Document16]
+[Document17]
 DocumentPath=LTC6362_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJXGSNIP
 
-[Document17]
+[Document18]
 DocumentPath=LVDS_Driver_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JDXKZQGE
 
-[Document18]
+[Document19]
 DocumentPath=403mainschematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RRRARVWJ
 
-[Document19]
+[Document20]
 DocumentPath=TPS6513x.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QPUPGXYO
 
-[Document20]
+[Document21]
 DocumentPath=SubsystemOutput.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=Capstone_Signal_Conditioners_Subsystem_Test_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAQEXQIC
 
-[Document22]
+[Document23]
 DocumentPath=UL-SWAP-DAQ-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +439,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDMWMVLT
 
-[Document23]
+[Document24]
 DocumentPath=LTC6362_Schematic_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +456,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AGYKAQTB
 
-[Document24]
+[Document25]
 DocumentPath=THS7002CPWP_Schematic_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +473,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XEROECTR
 
-[Document25]
+[Document26]
 DocumentPath=LMR514203.3V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +490,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVUWOQZJ
 
-[Document26]
+[Document27]
 DocumentPath=ICD4_Interface_Module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -490,7 +507,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LZCUNIZG
 
-[Document27]
+[Document28]
 DocumentPath=UL-SWAP-DAQ-2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -507,7 +524,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QQSXPXGA
 
-[Document28]
+[Document29]
 DocumentPath=pcb403.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,7 +541,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DUEFMPHK
 
-[Document29]
+[Document30]
 DocumentPath=Capstone_Signal_Conditioning_Subsystem_Test_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +558,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JODJSYFD
 
-[Document30]
+[Document31]
 DocumentPath=UL-SWAP-DaQ-Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +575,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWQSZOFJ
 
-[Document31]
+[Document32]
 DocumentPath=Connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +592,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBPNTTMO
 
-[Document32]
+[Document33]
 DocumentPath=Power_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +609,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YBTSSWEG
 
-[Document33]
+[Document34]
 DocumentPath=CapacitorsforTPS6513x.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,7 +626,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YQYXVARD
 
-[Document34]
+[Document35]
 DocumentPath=BNC_Conn_PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -626,7 +643,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXCFJRAG
 
-[Document35]
+[Document36]
 DocumentPath=ResistorsTPS6513x.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,7 +660,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UALOQJOJ
 
-[Document36]
+[Document37]
 DocumentPath=Test1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -660,7 +677,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document38]
 DocumentPath=CAM_UL-SWAP-DAQ-1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -677,7 +694,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document39]
 DocumentPath=UL-SWAP-DAQ-1-2.22.2023-2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -694,7 +711,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document40]
 DocumentPath=UL-SWAP-DAQ-1-2.22.2023.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -711,7 +728,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document41]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT.cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -728,7 +745,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document42]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -745,7 +762,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document42]
+[Document43]
 DocumentPath=UL-SWAP-DAQ-3.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
