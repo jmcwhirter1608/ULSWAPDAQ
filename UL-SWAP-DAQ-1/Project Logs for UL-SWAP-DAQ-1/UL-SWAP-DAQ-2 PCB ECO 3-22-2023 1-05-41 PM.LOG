@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=ADC_CH0_CH1_N Pin=U2-31
+Change Footprint: Footprint Not Found FP-4-644456-0-MFG
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Added Pin To Net: NetName=ADC_CH0_CH1_P Pin=U2-31
+Add Pin To Net: Unknown Pin: Pin U10-2
+Add Pin To Net: Unknown Pin: Pin U10-3
+Add Pin To Net: Unknown Pin: Pin U10-4
+Add Pin To Net: Unknown Pin: Pin U10-5
+Add Pin To Net: Unknown Pin: Pin U10-6
+Add Pin To Net: Unknown Pin: Pin U10-7
+Add Pin To Net: Unknown Pin: Pin U10-8
+Add Pin To Net: Unknown Pin: Pin U10-9
+Add Pin To Net: Unknown Pin: Pin U10-10
+Add Pin To Net: Unknown Pin: Pin U10-11
+Add Pin To Net: Unknown Pin: Pin U10-13
+Add Pin To Net: Unknown Pin: Pin U10-14
+Add Pin To Net: Unknown Pin: Pin U10-15
+Add Pin To Net: Unknown Pin: Pin U10-16
+Add Pin To Net: Unknown Pin: Pin U10-17
+Add Pin To Net: Unknown Pin: Pin U10-18
+Add Pin To Net: Unknown Pin: Pin U10-19
+Add Pin To Net: Unknown Pin: Pin U10-21
+Add Pin To Net: Unknown Pin: Pin U10-22
+Add Pin To Net: Unknown Pin: Pin U10-23
+Add Pin To Net: Unknown Pin: Pin U10-24
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5

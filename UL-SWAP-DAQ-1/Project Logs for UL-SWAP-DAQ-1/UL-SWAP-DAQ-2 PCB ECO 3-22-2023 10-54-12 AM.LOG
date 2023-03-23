@@ -1,0 +1,71 @@
+Change Footprint: Footprint Not Found FP-4-644456-0-MFG
+Change Component Footprint: Designator=C27 Old Footprint=FP-GRM319-0_15-IPC_A New Footprint=FP-GRM216-0_1-IPC_A
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Component Comment : Designator=C27 Old Comment=GRM3195C1H163JA01D New Comment=GRM2165C1H302JA01D
+Change Managed Component Library Link : Designator=C27 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=ADE78F01-43E4-4502-89C4-D2B4F5FFC93F New ItemGUID=2620A5AC-93E1-4450-87FF-663C4E576E1B Old RevisionGUID=4AA424F5-A868-416D-A989-54C20E3DB910 New RevisionGUID=A59EED48-5F91-401A-86DF-BD15EA1FE2E6
+Change component parameters: Designator = "C27" ("C27"); Footprint = "FP-GRM319-0_15-IPC_A"; UniqueID = "\ZMODOQIX\RJQXHESP\WZDZQTMV" ("\ZMODOQIX\RJQXHESP\WZDZQTMV")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "3nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "C0G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Thickness"; Value = "0.028inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Add Pin To Net: Unknown Pin: Pin U10-2
+Add Pin To Net: Unknown Pin: Pin U10-3
+Add Pin To Net: Unknown Pin: Pin U10-4
+Add Pin To Net: Unknown Pin: Pin U10-5
+Add Pin To Net: Unknown Pin: Pin U10-6
+Add Pin To Net: Unknown Pin: Pin U10-7
+Add Pin To Net: Unknown Pin: Pin U10-8
+Add Pin To Net: Unknown Pin: Pin U10-9
+Add Pin To Net: Unknown Pin: Pin U10-10
+Add Pin To Net: Unknown Pin: Pin U10-11
+Add Pin To Net: Unknown Pin: Pin U10-13
+Add Pin To Net: Unknown Pin: Pin U10-14
+Add Pin To Net: Unknown Pin: Pin U10-15
+Add Pin To Net: Unknown Pin: Pin U10-16
+Add Pin To Net: Unknown Pin: Pin U10-17
+Add Pin To Net: Unknown Pin: Pin U10-18
+Add Pin To Net: Unknown Pin: Pin U10-19
+Add Pin To Net: Unknown Pin: Pin U10-21
+Add Pin To Net: Unknown Pin: Pin U10-22
+Add Pin To Net: Unknown Pin: Pin U10-23
+Add Pin To Net: Unknown Pin: Pin U10-24
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Added Member To Class: ClassName=U5 Member=Component U5 THS7002CPWP

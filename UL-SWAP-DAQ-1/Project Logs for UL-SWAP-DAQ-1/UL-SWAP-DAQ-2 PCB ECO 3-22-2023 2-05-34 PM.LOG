@@ -1,0 +1,88 @@
+Removed Pin From Net: NetName=ADC_CH4_CH5_N Pin=U2-7
+Removed Pin From Net: NetName=GND Pin=U4-29
+Removed Pin From Net: NetName=GND Pin=U4-30
+Removed Pin From Net: NetName=GND Pin=U4-31
+Removed Pin From Net: NetName=GND Pin=U4-32
+Removed Pin From Net: NetName=GND Pin=U4-33
+Removed Pin From Net: NetName=GND Pin=U4-34
+Removed Pin From Net: NetName=GND Pin=U4-35
+Removed Pin From Net: NetName=GND Pin=U4-36
+Removed Pin From Net: NetName=GND Pin=U4-37
+Removed Pin From Net: NetName=GND Pin=U4-38
+Removed Pin From Net: NetName=GND Pin=U4-39
+Removed Pin From Net: NetName=GND Pin=U4-40
+Removed Pin From Net: NetName=GND Pin=U4-41
+Removed Pin From Net: NetName=GND Pin=U4-42
+Removed Pin From Net: NetName=GND Pin=U4-43
+Removed Pin From Net: NetName=GND Pin=U4-44
+Removed Pin From Net: NetName=GND Pin=U4-45
+Removed Pin From Net: NetName=GND Pin=U4-46
+Removed Pin From Net: NetName=GND Pin=U4-47
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Removed Pin From Net: NetName=GND Pin=U5-29
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Component Comment : Designator=C19 Old Comment=C2012JB1A685K060AC New Comment=
+Change Component Comment : Designator=C28 Old Comment=C2012JB1A685K060AC New Comment=
+Change Component Library : Designator=C19 Old Library=Altium Content Vault New Library=Capacitors.SchLib
+Change Component Library : Designator=C28 Old Library=Altium Content Vault New Library=Capacitors.SchLib
+Change Managed Component Library Link : Designator=C19 Old VaultGUID= New VaultGUID= Old ItemGUID=9758915B-81C1-412E-9C3F-8B676BA2F088 New ItemGUID= Old RevisionGUID=1EC9A6A9-AA85-4EAA-9A2D-C5AFB35654A9 New RevisionGUID=
+Change Managed Component Library Link : Designator=C28 Old VaultGUID= New VaultGUID= Old ItemGUID=9758915B-81C1-412E-9C3F-8B676BA2F088 New ItemGUID= Old RevisionGUID=1EC9A6A9-AA85-4EAA-9A2D-C5AFB35654A9 New RevisionGUID=
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Added Pin To Net: NetName=ADC_CH4_CH5_N Pin=U2-8
+Add Pin To Net: Unknown Pin: Pin U10-2
+Add Pin To Net: Unknown Pin: Pin U10-3
+Add Pin To Net: Unknown Pin: Pin U10-4
+Add Pin To Net: Unknown Pin: Pin U10-5
+Add Pin To Net: Unknown Pin: Pin U10-6
+Add Pin To Net: Unknown Pin: Pin U10-7
+Add Pin To Net: Unknown Pin: Pin U10-8
+Add Pin To Net: Unknown Pin: Pin U10-9
+Add Pin To Net: Unknown Pin: Pin U10-10
+Add Pin To Net: Unknown Pin: Pin U10-11
+Add Pin To Net: Unknown Pin: Pin U10-13
+Add Pin To Net: Unknown Pin: Pin U10-14
+Add Pin To Net: Unknown Pin: Pin U10-15
+Add Pin To Net: Unknown Pin: Pin U10-16
+Add Pin To Net: Unknown Pin: Pin U10-17
+Add Pin To Net: Unknown Pin: Pin U10-18
+Add Pin To Net: Unknown Pin: Pin U10-19
+Add Pin To Net: Unknown Pin: Pin U10-21
+Add Pin To Net: Unknown Pin: Pin U10-22
+Add Pin To Net: Unknown Pin: Pin U10-23
+Add Pin To Net: Unknown Pin: Pin U10-24
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5

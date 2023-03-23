@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=J1 Old Footprint=FP-4-644456-0-MFG New Footprint=1945164
+Change Component Footprint: Designator=U4 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Change Component Footprint: Designator=U5 Old Footprint=PWP0028E_M New Footprint=THS7002CPWP
+Change Pin Designator/Name:  Old Designator=U2-1 Old Name=CH2 New Designator =CH3 New Name=2
+Change Pin Designator/Name:  Old Designator=U2-2 Old Name=CH3 New Designator =CH2 New Name=1
+Change Pin Designator/Name:  Old Designator=U2-7 Old Name=CH4 New Designator =CH5 New Name=8
+Change Pin Designator/Name:  Old Designator=U2-31 Old Name=CH0 New Designator =CH1 New Name=32
+Change Pin Designator/Name:  Old Designator=U2-32 Old Name=CH1 New Designator =CH0 New Name=31

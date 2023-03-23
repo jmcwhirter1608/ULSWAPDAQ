@@ -1,0 +1,67 @@
+Change Footprint: Cannot match pads with new footprint in component :C63 Footprint:885012007027
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Comment: Unknown Component : J1
+Add Pin To Net: Unknown Pin: Pin C49-1
+Add Pin To Net: Unknown Pin: Pin C49-2
+Add Pin To Net: Unknown Pin: Pin C50-1
+Add Pin To Net: Unknown Pin: Pin C50-2
+Add Pin To Net: Unknown Pin: Pin C53-1
+Add Pin To Net: Unknown Pin: Pin C53-2
+Add Pin To Net: Unknown Pin: Pin C54-1
+Add Pin To Net: Unknown Pin: Pin C54-2
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C58-1
+Add Pin To Net: Unknown Pin: Pin C58-2
+Add Pin To Net: Unknown Pin: Pin C59-1
+Add Pin To Net: Unknown Pin: Pin C59-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R35-1
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-14
+Add Pin To Net: Unknown Pin: Pin U6-15
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U6-17
+Add Pin To Net: Unknown Pin: Pin U6-18
+Add Pin To Net: Unknown Pin: Pin U6-19
+Add Pin To Net: Unknown Pin: Pin U6-21
+Add Pin To Net: Unknown Pin: Pin U6-22
+Add Pin To Net: Unknown Pin: Pin U6-23
+Add Pin To Net: Unknown Pin: Pin U6-24
+Change Net Name : Old Net Name=NetU1_46 New Net Name=RESET
+Change Net Name : Old Net Name=NetU1_53 New Net Name=BUSY
+Change Net Name : Old Net Name=NetU1_54 New Net Name=RDL
+Change Net Name : Old Net Name=NetU1_55 New Net Name=CNV
+Add Net: Net with name "FB2" already exists
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Add Class Member: Failed to add class member : Component J1 1003-NDD-9PBRTT-A174-ND

@@ -1,0 +1,133 @@
+Added Component: Designator=LED1(KING-APT1608SGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "APT1608x.sldprt
+
+APT1608x.pro
+
+APT1608x.igs
+
+APT1608x.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Catalog Drawings"; Value = "APT1608SeriesTop
+
+APT1608SeriesSide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/2113/apt1608sgc-2113808.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 16B, 02/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RectanglewithFlatTop,1.2mmx0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "15mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "0603RectanglewithFlatTopChipLEDs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1121-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603(1608Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 0.8 x 1.6 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "APT1608SGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape&Reel(TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mmLx0.80mmW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "2,000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "120°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "2.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "568nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "565nm"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(KING-APT1608SGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "APT1608x.sldprt
+
+APT1608x.pro
+
+APT1608x.igs
+
+APT1608x.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Catalog Drawings"; Value = "APT1608SeriesTop
+
+APT1608SeriesSide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/2113/apt1608sgc-2113808.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 16B, 02/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RectanglewithFlatTop,1.2mmx0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "15mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "0603RectanglewithFlatTopChipLEDs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1121-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603(1608Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 0.8 x 1.6 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "APT1608SGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape&Reel(TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mmLx0.80mmW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "2,000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "120°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "2.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "568nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "565nm"; VariantName = "[No Variations]"
+Added Component: Designator=LED3(KING-APT1608SGC_V)
+Add component (AddParameter): Name = "3D Model"; Value = "APT1608x.sldprt
+
+APT1608x.pro
+
+APT1608x.igs
+
+APT1608x.stp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Catalog Drawings"; Value = "APT1608SeriesTop
+
+APT1608SeriesSide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Optoelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Test"; Value = "20mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/2113/apt1608sgc-2113808.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 16B, 02/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Family"; Value = "LEDIndication-Discrete"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.75mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Style/Size"; Value = "RectanglewithFlatTop,1.2mmx0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lens Type"; Value = "Clear"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Kingbright"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.kingbright.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Millicandela Rating"; Value = "15mcd"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Online Catalog"; Value = "0603RectanglewithFlatTopChipLEDs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Other Names"; Value = "754-1121-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0603(1608Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 0.8 x 1.6 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "APT1608SGC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape&Reel(TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mmLx0.80mmW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Standard Package"; Value = "2,000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Viewing Angle"; Value = "120°"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "2.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Dominant"; Value = "568nm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wavelength - Peak"; Value = "565nm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LED1 Pin=LED1-1
+Added Pin To Net: NetName=LED1 Pin=U1-29
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=LED2-1
+Added Pin To Net: NetName=LED2 Pin=U1-30
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=LED3-1
+Added Pin To Net: NetName=LED3 Pin=U1-31
+Added Net: Name=LED3
+Added Pin To Net: NetName=NetLED1_2 Pin=LED1-2
+Added Net: Name=NetLED1_2
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Net: Name=NetLED2_2
+Added Pin To Net: NetName=NetLED3_2 Pin=LED3-2
+Added Net: Name=NetLED3_2
+Added Class: Name=Signal_Conditioning
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component LED1
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component LED2
+Added Member To Class: ClassName=PIC32_Subsystem Member=Component LED3
+Add Class Member: Failed to add class member : Component R70 Resistor
+Add Class Member: Failed to add class member : Component R71 Resistor
+Add Class Member: Failed to add class member : Component R72 Resistor

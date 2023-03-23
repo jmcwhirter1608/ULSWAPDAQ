@@ -1,0 +1,53 @@
+Change Footprint: Footprint Not Found FP-4-644456-0-MFG
+Change Component Footprint: Designator=C23 Old Footprint=FP-C2012-060-0_2-IPC_B New Footprint=FP-C2012-060-0_2-IPC_A
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Footprint: Footprint Not Found PWP0028E_M
+Change Component Comment : Designator=C14 Old Comment=C2012JB1A685K060AC New Comment=
+Change Component Comment : Designator=C17 Old Comment=C2012JB1A685K060AC New Comment=
+Change Component Comment : Designator=C26 Old Comment=C2012JB1A685K060AC New Comment=
+Change Component Library : Designator=C14 Old Library=Altium Content Vault New Library=Capacitors.SchLib
+Change Component Library : Designator=C17 Old Library=Altium Content Vault New Library=Capacitors.SchLib
+Change Component Library : Designator=C26 Old Library=Altium Content Vault New Library=Capacitors.SchLib
+Change Managed Component Library Link : Designator=C14 Old VaultGUID= New VaultGUID= Old ItemGUID=9758915B-81C1-412E-9C3F-8B676BA2F088 New ItemGUID= Old RevisionGUID=1EC9A6A9-AA85-4EAA-9A2D-C5AFB35654A9 New RevisionGUID=
+Change Managed Component Library Link : Designator=C17 Old VaultGUID= New VaultGUID= Old ItemGUID=9758915B-81C1-412E-9C3F-8B676BA2F088 New ItemGUID= Old RevisionGUID=1EC9A6A9-AA85-4EAA-9A2D-C5AFB35654A9 New RevisionGUID=
+Change Managed Component Library Link : Designator=C26 Old VaultGUID= New VaultGUID= Old ItemGUID=9758915B-81C1-412E-9C3F-8B676BA2F088 New ItemGUID= Old RevisionGUID=1EC9A6A9-AA85-4EAA-9A2D-C5AFB35654A9 New RevisionGUID=
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Add Pin To Net: Unknown Pin: Pin U10-2
+Add Pin To Net: Unknown Pin: Pin U10-3
+Add Pin To Net: Unknown Pin: Pin U10-4
+Add Pin To Net: Unknown Pin: Pin U10-5
+Add Pin To Net: Unknown Pin: Pin U10-6
+Add Pin To Net: Unknown Pin: Pin U10-7
+Add Pin To Net: Unknown Pin: Pin U10-8
+Add Pin To Net: Unknown Pin: Pin U10-9
+Add Pin To Net: Unknown Pin: Pin U10-10
+Add Pin To Net: Unknown Pin: Pin U10-11
+Add Pin To Net: Unknown Pin: Pin U10-13
+Add Pin To Net: Unknown Pin: Pin U10-14
+Add Pin To Net: Unknown Pin: Pin U10-15
+Add Pin To Net: Unknown Pin: Pin U10-16
+Add Pin To Net: Unknown Pin: Pin U10-17
+Add Pin To Net: Unknown Pin: Pin U10-18
+Add Pin To Net: Unknown Pin: Pin U10-19
+Add Pin To Net: Unknown Pin: Pin U10-21
+Add Pin To Net: Unknown Pin: Pin U10-22
+Add Pin To Net: Unknown Pin: Pin U10-23
+Add Pin To Net: Unknown Pin: Pin U10-24
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5

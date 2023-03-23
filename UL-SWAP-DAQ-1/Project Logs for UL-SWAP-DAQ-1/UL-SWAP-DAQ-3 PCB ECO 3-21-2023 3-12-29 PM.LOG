@@ -1,0 +1,152 @@
+Removed Pin From Net: NetName=NetR26_2 Pin=U6-1
+Add Component: Footprint Not Found FP-4-644456-0-MFG
+Add Component: Footprint Not Found PWP0028E_M
+Add Component: Footprint Not Found PWP0028E_M
+Add Component: Footprint Not Found LT-MS8-8_L
+Add Component: Footprint Not Found LT-MS8-8_L
+Add Component: Footprint Not Found LT-MS8-8_L
+Add Component: Footprint Not Found LT-MS8-8_L
+Add Pin To Net: Unknown Pin: Pin C55-1
+Add Pin To Net: Unknown Pin: Pin C55-2
+Add Pin To Net: Unknown Pin: Pin C56-1
+Add Pin To Net: Unknown Pin: Pin C56-2
+Add Pin To Net: Unknown Pin: Pin C62-1
+Add Pin To Net: Unknown Pin: Pin C62-2
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin J1-5
+Add Pin To Net: Unknown Pin: Pin J1-6
+Add Pin To Net: Unknown Pin: Pin J1-7
+Add Pin To Net: Unknown Pin: Pin J1-8
+Add Pin To Net: Unknown Pin: Pin J1-9
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin R36-1
+Add Pin To Net: Unknown Pin: Pin R36-2
+Add Pin To Net: Unknown Pin: Pin R37-1
+Add Pin To Net: Unknown Pin: Pin R37-2
+Add Pin To Net: Unknown Pin: Pin R38-1
+Add Pin To Net: Unknown Pin: Pin R38-2
+Add Pin To Net: Unknown Pin: Pin R40-1
+Add Pin To Net: Unknown Pin: Pin R40-2
+Add Pin To Net: Unknown Pin: Pin U1-65
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-9
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-11
+Add Pin To Net: Unknown Pin: Pin U4-12
+Add Pin To Net: Unknown Pin: Pin U4-13
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Pin To Net: Unknown Pin: Pin U4-15
+Add Pin To Net: Unknown Pin: Pin U4-16
+Add Pin To Net: Unknown Pin: Pin U4-17
+Add Pin To Net: Unknown Pin: Pin U4-18
+Add Pin To Net: Unknown Pin: Pin U4-19
+Add Pin To Net: Unknown Pin: Pin U4-20
+Add Pin To Net: Unknown Pin: Pin U4-21
+Add Pin To Net: Unknown Pin: Pin U4-22
+Add Pin To Net: Unknown Pin: Pin U4-23
+Add Pin To Net: Unknown Pin: Pin U4-24
+Add Pin To Net: Unknown Pin: Pin U4-25
+Add Pin To Net: Unknown Pin: Pin U4-26
+Add Pin To Net: Unknown Pin: Pin U4-27
+Add Pin To Net: Unknown Pin: Pin U4-28
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U5-5
+Add Pin To Net: Unknown Pin: Pin U5-6
+Add Pin To Net: Unknown Pin: Pin U5-7
+Add Pin To Net: Unknown Pin: Pin U5-8
+Add Pin To Net: Unknown Pin: Pin U5-9
+Add Pin To Net: Unknown Pin: Pin U5-10
+Add Pin To Net: Unknown Pin: Pin U5-11
+Add Pin To Net: Unknown Pin: Pin U5-12
+Add Pin To Net: Unknown Pin: Pin U5-13
+Add Pin To Net: Unknown Pin: Pin U5-14
+Add Pin To Net: Unknown Pin: Pin U5-15
+Add Pin To Net: Unknown Pin: Pin U5-16
+Add Pin To Net: Unknown Pin: Pin U5-17
+Add Pin To Net: Unknown Pin: Pin U5-18
+Add Pin To Net: Unknown Pin: Pin U5-19
+Add Pin To Net: Unknown Pin: Pin U5-20
+Add Pin To Net: Unknown Pin: Pin U5-21
+Add Pin To Net: Unknown Pin: Pin U5-22
+Add Pin To Net: Unknown Pin: Pin U5-23
+Add Pin To Net: Unknown Pin: Pin U5-24
+Add Pin To Net: Unknown Pin: Pin U5-25
+Add Pin To Net: Unknown Pin: Pin U5-26
+Add Pin To Net: Unknown Pin: Pin U5-27
+Add Pin To Net: Unknown Pin: Pin U5-28
+Added Pin To Net: NetName=INP Pin=U6-1
+Added Pin To Net: NetName=NetR26_2 Pin=U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Pin To Net: Unknown Pin: Pin U6-11
+Add Pin To Net: Unknown Pin: Pin U6-13
+Add Pin To Net: Unknown Pin: Pin U6-14
+Add Pin To Net: Unknown Pin: Pin U6-15
+Add Pin To Net: Unknown Pin: Pin U6-16
+Add Pin To Net: Unknown Pin: Pin U6-17
+Add Pin To Net: Unknown Pin: Pin U6-18
+Add Pin To Net: Unknown Pin: Pin U6-19
+Add Pin To Net: Unknown Pin: Pin U6-21
+Add Pin To Net: Unknown Pin: Pin U6-22
+Add Pin To Net: Unknown Pin: Pin U6-23
+Add Pin To Net: Unknown Pin: Pin U6-24
+Add Pin To Net: Unknown Pin: Pin U7-1
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-4
+Add Pin To Net: Unknown Pin: Pin U7-5
+Add Pin To Net: Unknown Pin: Pin U7-6
+Add Pin To Net: Unknown Pin: Pin U7-7
+Add Pin To Net: Unknown Pin: Pin U7-8
+Add Pin To Net: Unknown Pin: Pin U8-1
+Add Pin To Net: Unknown Pin: Pin U8-2
+Add Pin To Net: Unknown Pin: Pin U8-3
+Add Pin To Net: Unknown Pin: Pin U8-4
+Add Pin To Net: Unknown Pin: Pin U8-5
+Add Pin To Net: Unknown Pin: Pin U8-6
+Add Pin To Net: Unknown Pin: Pin U8-7
+Add Pin To Net: Unknown Pin: Pin U8-8
+Add Pin To Net: Unknown Pin: Pin U9-1
+Add Pin To Net: Unknown Pin: Pin U9-2
+Add Pin To Net: Unknown Pin: Pin U9-3
+Add Pin To Net: Unknown Pin: Pin U9-4
+Add Pin To Net: Unknown Pin: Pin U9-5
+Add Pin To Net: Unknown Pin: Pin U9-6
+Add Pin To Net: Unknown Pin: Pin U9-7
+Add Pin To Net: Unknown Pin: Pin U9-8
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Add Class Member: Failed to add class member : Component J1 1945164
+Add Class Member: Failed to add class member : Component U4 THS7002CPWP
+Add Class Member: Failed to add class member : Component U5 THS7002CPWP
+Add Class Member: Failed to add class member : Component U7 LTC6362HMS8#PBF
+Add Class Member: Failed to add class member : Component U8 LTC6362HMS8#PBF
+Add Class Member: Failed to add class member : Component U9 LTC6362HMS8#PBF
