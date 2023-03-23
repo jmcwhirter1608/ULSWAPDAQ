@@ -236,6 +236,23 @@ GenerateClassCluster=0
 DocumentUniqueId=JHEBLRFO
 
 [Document12]
+DocumentPath=LVDS_Driver_Subsystem.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PQUEMWKZ
+
+[Document13]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KAPZFQPE
 
-[Document13]
+[Document14]
 DocumentPath=THS7002CPWP_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAUBEAJM
 
-[Document14]
+[Document15]
 DocumentPath=LMR514205V.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMAESQAM
 
-[Document15]
+[Document16]
 DocumentPath=ADC_PIC32_LVDS_DRIVER_Subsystem.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RTMKDDKL
 
-[Document16]
+[Document17]
 DocumentPath=ADC_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TPPKLCXF
 
-[Document17]
+[Document18]
 DocumentPath=PIC32_Subsystem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZLNZZDT
 
-[Document18]
+[Document19]
 DocumentPath=LTC6362_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -353,23 +370,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJXGSNIP
-
-[Document19]
-DocumentPath=LVDS_Driver_Subsystem.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JDXKZQGE
 
 [Document20]
 DocumentPath=403mainschematic.SchDoc
@@ -1109,16 +1109,6 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -1130,16 +1120,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1393,6 +1373,11 @@ OutputName8=Report Single Pin Nets
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
+OutputType9=GOSTBOM
+OutputName9=GOST BOM
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1611,6 +1596,11 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=AnsysEDB
+OutputName13=Ansys EDB
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1743,6 +1733,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
