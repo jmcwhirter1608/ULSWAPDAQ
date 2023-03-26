@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: UL-SWAP-DAQ-2.PcbDoc   3/25/2023  8:43:48 PM
+NCDrill File Report For: UL-SWAP-DAQ-2.PcbDoc   3/25/2023  9:10:22 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -11,7 +11,7 @@ Tool       Hole Size               Hole Tolerance               Hole Type       
 T1      10mil (0.254mm)                                           Round             38        PTH        2.18inch (55.25mm)
 T2      12mil (0.305mm)                                           Round             5         PTH        1.75inch (44.57mm)
 T3      13mil (0.33mm)                                            Round             25        PTH        1.26inch (32.00mm)
-T4      15mil (0.381mm)                                           Round             153       PTH        28.12inch (714.26mm)
+T4      15mil (0.381mm)                                           Round             153       PTH        27.80inch (706.14mm)
 T5      30mil (0.762mm)                                           Round             26        PTH        13.47inch (342.18mm)
 T6      35mil (0.889mm)                                           Round             5         PTH        0.49inch (12.50mm)
 T7      39mil (1.001mm)                                           Round             1         PTH        0.00inch (0.00mm)
