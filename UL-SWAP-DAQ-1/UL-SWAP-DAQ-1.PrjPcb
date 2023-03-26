@@ -1061,6 +1061,94 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.RUL
 DItemRevisionGUID=
 
+[GeneratedDocument46]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\BOM\ULSWAPDAQ2-BOM-UL-SWAP-DAQ-2.xlsx
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0

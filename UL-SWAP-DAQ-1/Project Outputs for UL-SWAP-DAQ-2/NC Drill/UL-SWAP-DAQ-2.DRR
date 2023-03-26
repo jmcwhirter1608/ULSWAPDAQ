@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: UL-SWAP-DAQ-2.PcbDoc   3/25/2023  8:43:48 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : UL-SWAP-DAQ-2-Plated.TXT
+ASCII Non-Plated RoundHoles File : UL-SWAP-DAQ-2-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             38        PTH        2.18inch (55.25mm)
+T2      12mil (0.305mm)                                           Round             5         PTH        1.75inch (44.57mm)
+T3      13mil (0.33mm)                                            Round             25        PTH        1.26inch (32.00mm)
+T4      15mil (0.381mm)                                           Round             153       PTH        28.12inch (714.26mm)
+T5      30mil (0.762mm)                                           Round             26        PTH        13.47inch (342.18mm)
+T6      35mil (0.889mm)                                           Round             5         PTH        0.49inch (12.50mm)
+T7      39mil (1.001mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T8      47mil (1.199mm)                                           Round             9         PTH        1.10inch (28.00mm)
+T9      70mil (1.778mm)                                           Round             2         PTH        0.47inch (11.94mm)
+T10     128mil (3.251mm)                                          Round             4         PTH        9.97inch (253.17mm)
+T11     128mil (3.251mm)                                          Round             2         NPTH       0.40inch (10.16mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              270
+
+Total Processing Time (hh:mm:ss) : 00:00:00
