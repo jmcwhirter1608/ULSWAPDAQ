@@ -890,258 +890,326 @@ DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Design Rule Check - UL-SWAP-DAQ-2
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB-Plated.TXT
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\Pick Place for UL-SWAP-DAQ-2.txt
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.DRR
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GD1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GG1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GM1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.LDP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\NC Drill\Power_PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.RUL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.RUL
+DocumentPath=Project Outputs for Free Documents\Gerber\Power_PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-NonPlated.TXT
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\POWER_PCB_OUTPUT\Gerber\Power_PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-Plated.TXT
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.DRR
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.EXTREP
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GD1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GG1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GM1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP2
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP1
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GP2
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.LDP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\NC Drill\UL-SWAP-DAQ-1.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.RUL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.REP
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.RUL
+DocumentPath=Project Outputs for Free Documents\Gerber\UL-SWAP-DAQ-1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-NonPlated.TXT
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\ULSWAPDAQ_1_OUTPUT\Gerber\UL-SWAP-DAQ-1.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-Plated.TXT
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.DRR
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.EXTREP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GD1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GG1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GM1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP1
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP2
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTO
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTS
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.LDP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.REP
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.RUL
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument66]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for UL-SWAP-DAQ-2\Gerber\UL-SWAP-DAQ-2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument83]
 DocumentPath=Project Outputs for UL-SWAP-DAQ-2\NC Drill\UL-SWAP-DAQ-2.TXT
 DItemRevisionGUID=
 
@@ -1388,97 +1456,101 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Conn Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#18=Name:Package Reference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:142|Column#19=Name:REACH SVHC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:160|Column#20=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91|Column#21=Name:Code_JEITA,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#22=Name:Case Code (Metric),Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#23=Name:Lens Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:97|Column#24=Name:Military Standard,Fixed:False,Metric:False,Visible:False,Sort:None,Position:111|Column#25=Name:ESR (Equivalent Series Resistance),Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#26=Name:Lifetime @ Temp.,Fixed:False,Metric:False,Visible:False,Sort:None,Position:98|Column#27=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:113|Column#28=Name:Channels (#),Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#29=Name:Automotive Grade,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#30=Name:Operating Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:135|Column#31=Name:Is (mA) Typical,Fixed:False,Metric:False,Visible:False,Sort:None,Position:89|Column#32=Name:Manufacturer URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:104|Column#33=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#34=Name:RoHSCompliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:168|Column#35=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#36=Name:Eco-Plan,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#37=Name:Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:150|Column#38=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#39=Name:BW @ Acl(MHz),Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#40=Name:3D Model,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#41=Name:Operating Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:133|Column#42=Name:Dissipation Factor,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#43=Name:Temperature Range High,Fixed:False,Metric:False,Visible:False,Sort:None,Position:183|Column#44=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:154|Column#45=Name:Max Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:108|Column#46=Name:Frequency Stability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#47=Name:Regulated Outputs(#),Fixed:False,Metric:False,Visible:False,Sort:None,Position:161|Column#48=Name:Millicandela Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:112|Column#49=Name:Ipc Land Pattern Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88|Column#50=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:166|Column#51=Name:Input Offset (+/-)(Max)(uV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#52=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:149|Column#53=Name:Weight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:213|Column#54=Name:Device Class L3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#55=Name:Datasheet URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#56=Name:Lead Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:92|Column#57=Name:Vs(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:210|Column#58=Name:Radiation Hardening,Fixed:False,Metric:False,Visible:False,Sort:None,Position:157|Column#59=Name:Featured Product,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#60=Name:IFSM Max (A),Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#61=Name:Catalog Drawings,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#62=Name:SubFamily,Fixed:False,Metric:False,Visible:False,Sort:None,Position:176|Column#63=Name:Mouser Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:118|Column#64=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#65=Name:Temperature Characteristic,Fixed:False,Metric:False,Visible:False,Sort:None,Position:181|Column#66=Name:Lead Spacing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:94|Column#67=Name:Case\/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#68=Name:Case Code (Imperial),Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#69=Name:Vout2(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:206|Column#70=Name:Current - Test,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#71=Name:Height - Seated (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#72=Name:Power Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:152|Column#73=Name:Housing Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#74=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:95|Column#75=Name:Number of Drivers,Fixed:False,Metric:False,Visible:False,Sort:None,Position:125|Column#76=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:106|Column#77=Name:Thickness,Fixed:False,Metric:False,Visible:False,Sort:None,Position:186|Column#78=Name:Code_IEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#79=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:148|Column#80=Name:Vs(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:209|Column#81=Name:Quiescent Current (+/-)(Typ)(mA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:156|Column#82=Name:Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:179|Column#83=Name:Device Class L2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#84=Name:Manufacturer Size Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:103|Column#85=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:214|Column#86=Name:Voltage - Forward (Vf) (Typ),Fixed:False,Metric:False,Visible:False,Sort:None,Position:199|Column#87=Name:Nominal Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:120|Column#88=Name:Size / Dimension,Fixed:False,Metric:False,Visible:False,Sort:None,Position:172|Column#89=Name:Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:215|Column#90=Name:Topology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:189|Column#91=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#92=Name:Noise at 1kHz(Typ)(nV/rt(Hz)),Fixed:False,Metric:False,Visible:False,Sort:None,Position:119|Column#93=Name:Construction,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#94=Name:Dielectric Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#95=Name:Lens Style/Size,Fixed:False,Metric:False,Visible:False,Sort:None,Position:96|Column#96=Name:Colour,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#97=Name:Code_JEDEC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#98=Name:Online Catalog,Fixed:False,Metric:False,Visible:False,Sort:None,Position:132|Column#99=Name:Data Rate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#100=Name:Vs Max (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:207|Column#101=Name:Device Class L1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#102=Name:Temperature Range Low,Fixed:False,Metric:False,Visible:False,Sort:None,Position:184|Column#103=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#104=Name:Vin(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:195|Column#105=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#106=Name:SR (V/us) Typical,Fixed:False,Metric:False,Visible:False,Sort:None,Position:174|Column#107=Name:Max Voltage Rating (AC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:110|Column#108=Name:Package Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:140|Column#109=Name:Vs Min (V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:208|Column#110=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:201|Column#111=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#112=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:145|Column#113=Name:Operating Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:134|Column#114=Name:Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:105|Column#115=Name:Package / Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:139|Column#116=Name:GBW (MHz) Typical,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#117=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#118=Name:Configuration,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#119=Name:RevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:165|Column#120=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:151|Column#121=Name:Inductance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#122=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#123=Name:Non-Linearity (+/-)(Max)(%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:121|Column#124=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:141|Column#125=Name:RoHS Compliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:167|Column#126=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:198|Column#127=Name:Insulation Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#128=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#129=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:146|Column#130=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:115|Column#131=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#132=Name:Settling Time to 0.01%(Typ)(us),Fixed:False,Metric:False,Visible:False,Sort:None,Position:171|Column#133=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:127|Column#134=Name:Turn-On Delay Time,Fixed:False,Metric:False,Visible:False,Sort:None,Position:190|Column#135=Name:Digikey Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#136=Name:Packing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:147|Column#137=Name:Other Names,Fixed:False,Metric:False,Visible:False,Sort:None,Position:137|Column#138=Name:Vn at Flatband(Typ)(nV/rtHz),Fixed:False,Metric:False,Visible:False,Sort:None,Position:197|Column#139=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:162|Column#140=Name:Voltage Rating (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:202|Column#141=Name:Lead Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93|Column#142=Name:Gain(V/V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#143=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:187|Column#144=Name:Number Of Contacts,Fixed:False,Metric:False,Visible:False,Sort:None,Position:124|Column#145=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:158|Column#146=Name:Resistance Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:163|Column#147=Name:Contact Finish,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#148=Name:Wavelength - Peak,Fixed:False,Metric:False,Visible:False,Sort:None,Position:212|Column#149=Name:Composition,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#150=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#151=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#152=Name:Tolerance (%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:188|Column#153=Name:Termination,Fixed:False,Metric:False,Visible:False,Sort:None,Position:185|Column#154=Name:Max Power Dissipation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:107|Column#155=Name:Temperature Coefficient,Fixed:False,Metric:False,Visible:False,Sort:None,Position:182|Column#156=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:143|Column#157=Name:Resistor Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:164|Column#158=Name:Vos (mV) Typical,Fixed:False,Metric:False,Visible:False,Sort:None,Position:203|Column#159=Name:Disable,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#160=Name:Vout(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:204|Column#161=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:192|Column#162=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:90|Column#163=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:144|Column#164=Name:Vin(Max)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:194|Column#165=Name:Series,Fixed:False,Metric:False,Visible:False,Sort:None,Position:169|Column#166=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:155|Column#167=Name:Input Bias Current (+/-)(Max)(nA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#168=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#169=Name:Features,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#170=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:117|Column#171=Name:Gain Error (+/-)(Max)(%),Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#172=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#173=Name:Max Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:109|Column#174=Name:Standard Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:175|Column#175=Name:Number of Receivers,Fixed:False,Metric:False,Visible:False,Sort:None,Position:128|Column#176=Name:Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:180|Column#177=Name:Number of Terminations,Fixed:False,Metric:False,Visible:False,Sort:None,Position:130|Column#178=Name:Switching Frequency(Typ)(kHz),Fixed:False,Metric:False,Visible:False,Sort:None,Position:178|Column#179=Name:Case Size/Dimension,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#180=Name:Voltage - Rated,Fixed:False,Metric:False,Visible:False,Sort:None,Position:200|Column#181=Name:Input Offset Drift (+/-)(Max)(uV/Degrees Celsius),Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#182=Name:Vio(Max)(mV),Fixed:False,Metric:False,Visible:False,Sort:None,Position:196|Column#183=Name:Iib(Max)(nA),Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#184=Name:Min Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:114|Column#185=Name:Ratings,Fixed:False,Metric:False,Visible:False,Sort:None,Position:159|Column#186=Name:Vout(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:205|Column#187=Name:NoPins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:122|Column#188=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:116|Column#189=Name:Load Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:100|Column#190=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#191=Name:Conn Gender,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#192=Name:Common Mode Input Low(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#193=Name:Octopart,Fixed:False,Metric:False,Visible:False,Sort:None,Position:131|Column#194=Name:Series Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:170|Column#195=Name:Wavelength - Dominant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:211|Column#196=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:193|Column#197=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:101|Column#198=Name:Frequency Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#199=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:191|Column#200=Name:Number of Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:129|Column#201=Name:Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:177|Column#202=Name:Number of Channels,Fixed:False,Metric:False,Visible:False,Sort:None,Position:123|Column#203=Name:Common Mode Input High(Min)(V),Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#204=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:138|Column#205=Name:Slew Rate(Typ)(V/us),Fixed:False,Metric:False,Visible:False,Sort:None,Position:173|Column#206=Name:Contact Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#207=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#208=Name:Automotive,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#209=Name:Propagation Delay,Fixed:False,Metric:False,Visible:False,Sort:None,Position:153|Column#210=Name:Number of Elements,Fixed:False,Metric:False,Visible:False,Sort:None,Position:126|Column#211=Name:Linear Technology Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:99|Column#212=Name:Halogen Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#213=Name:Footprint Url,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#214=Name:Depth,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#215=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:136|Column#216=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:102|DocumentPath=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
-OutputVariantName1=[No Variations]
+OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Board Stack Report
-OutputName3=Report Board Stack
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
-OutputVariantName3=
+OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-Configuration5_Name1=ForceUpdateSettings
-Configuration5_Item1=False
-Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=40|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842754~1,16973831~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16908289~1,16973834~1,16842753~1|PlusApertureTolerance=40|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
-Configuration8_Name1=ForceUpdateSettings
-Configuration8_Item1=False
-Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
-OutputType9=IPC2581
-OutputName9=IPC-2581 Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
-OutputVariantName9=[No Variations]
+OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+Configuration10_Name1=ForceUpdateSettings
+Configuration10_Item1=False
+Configuration10_Name2=OutputConfigurationParameter1
+Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=40|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842754~1,16973831~1,16973835~1,16973833~1,16973830~1,16973832~1,16842751~1,16908289~1,16973834~1,16842753~1|PlusApertureTolerance=40|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -1487,7 +1559,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-1.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842753~1,16842754~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\UL-SWAP-DAQ-2.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
