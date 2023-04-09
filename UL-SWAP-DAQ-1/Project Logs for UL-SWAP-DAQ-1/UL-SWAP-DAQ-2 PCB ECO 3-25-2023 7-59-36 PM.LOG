@@ -1,0 +1,22 @@
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Footprint: Footprint Not Found THS7002CPWP
+Added Component: Designator=J3(A28400-025)
+Added Pin To Net: NetName=DOUT_N Pin=J3-1
+Added Pin To Net: NetName=DOUT_P Pin=J3-2
+Added Pin To Net: NetName=Vin Pin=J3-5
+Added Pin To Net: NetName=Vin Pin=J3-6
+Added Pin To Net: NetName=Vin Pin=J3-7
+Added Pin To Net: NetName=GND Pin=J3-8
+Added Pin To Net: NetName=GND Pin=J3-9
+Added Pin To Net: NetName=GND Pin=J3-10
+Added Pin To Net: NetName=GND Pin=J3-11
+Added Pin To Net: NetName=GND Pin=J3-13
+Added Pin To Net: NetName=GND Pin=J3-15
+Added Pin To Net: NetName=GND Pin=J3-16
+Added Pin To Net: NetName=GND Pin=J3-17
+Added Pin To Net: NetName=GND Pin=J3-18
+Add Pin To Net: Unknown Pin: Pin U1-65
+Added Pin To Net: NetName=ADC_CH4_CH5_P Pin=U2-8
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Added Member To Class: ClassName=LVDS_Driver_Subsystem Member=Component J3 Nano-D-Connector
+Added Room: Name=LVDS_Driver_Subsystem

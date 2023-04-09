@@ -1,0 +1,10 @@
+Output: ULSWAPDAQ2-BOM
+Type  : BOM
+From  : Variant [[No Variations]] of PCB Document [UL-SWAP-DAQ-2.PcbDoc]
+   Generated File[ULSWAPDAQ2-BOM-UL-SWAP-DAQ-2.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:10:24 PM On 3/25/2023

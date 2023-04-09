@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Vin Pin=D3-1
+Removed Pin From Net: NetName=Sensor_D Pin=D3-2
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Footprint: Footprint Not Found THS7002CPWP
+Add Pin To Net: Unknown Pin: Pin U1-65
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5

@@ -1,0 +1,36 @@
+Change Footprint: Footprint Not Found THS7002CPWP
+Change Footprint: Footprint Not Found THS7002CPWP
+Added Component: Designator=J3(A28400-025)
+Added Pin To Net: NetName=DOUT_N Pin=J3-1
+Added Pin To Net: NetName=DOUT_P Pin=J3-2
+Added Pin To Net: NetName=Vin Pin=J3-5
+Added Pin To Net: NetName=Vin Pin=J3-6
+Added Pin To Net: NetName=Vin Pin=J3-7
+Added Pin To Net: NetName=GND Pin=J3-8
+Added Pin To Net: NetName=GND Pin=J3-9
+Added Pin To Net: NetName=GND Pin=J3-10
+Added Pin To Net: NetName=GND Pin=J3-11
+Added Pin To Net: NetName=GND Pin=J3-13
+Added Pin To Net: NetName=GND Pin=J3-15
+Added Pin To Net: NetName=GND Pin=J3-16
+Added Pin To Net: NetName=GND Pin=J3-17
+Added Pin To Net: NetName=GND Pin=J3-18
+Add Pin To Net: Unknown Pin: Pin U1-65
+Added Pin To Net: NetName=ADC_CH4_CH5_N Pin=U2-8
+Added Member To Class: ClassName=TPS6513x Member=Component C55 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component C56 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component C57 C0402C104K8PAC
+Added Member To Class: ClassName=TPS6513x Member=Component C60 C1206C472J5GAC
+Added Member To Class: ClassName=TPS6513x Member=Component C61 C0402C103J4RAC
+Added Member To Class: ClassName=TPS6513x Member=Component C62 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component D1 MBRM120ET3G
+Add Class Member: Failed to add class member : Component HDR1 Header 2x5
+Added Member To Class: ClassName=LVDS_Driver_Subsystem Member=Component J3 Nano-D-Connector
+Added Member To Class: ClassName=TPS6513x Member=Component Q1 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component R36 ESR01MZPF1004
+Added Member To Class: ClassName=TPS6513x Member=Component R37 SFR03EZPF1303
+Added Member To Class: ClassName=TPS6513x Member=Component R38 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component R39 Comment
+Added Member To Class: ClassName=TPS6513x Member=Component R41 AC0603FR-10100RL
+Added Member To Class: ClassName=TPS6513x Member=Component U10 TPS6513x
+Added Room: Name=LVDS_Driver_Subsystem
