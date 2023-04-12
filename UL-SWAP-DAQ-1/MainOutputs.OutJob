@@ -21,7 +21,7 @@ TargetOutputMedium=ULSWAPDAQ_2_OUTPUT
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Adobe PDF
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -172,11 +172,13 @@ Configuration8_Item1=CaptionAsName
 Configuration8_Name2=General
 Configuration8_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration8_Name3=GroupOrder
-Configuration8_Item3=Comment=True|Footprint=True
+Configuration8_Item3=Comment=True|Footprint=True|Manufacturer Part Number=True|Case/Package=True
 Configuration8_Name4=SortOrder
-Configuration8_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration8_Item4=Designator=Up
 Configuration8_Name5=VisibleOrder
-Configuration8_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration8_Item5=Quantity=120|Comment=100|Designator=120|Description=120|Case/Package=100
+Configuration8_Name6=VisibleOrder_Flat
+Configuration8_Item6=Quantity=120|Comment=100|Designator=120|Description=120|Case/Package=100
 
 [PublishSettings]
 OutputFilePath2=
@@ -269,7 +271,7 @@ OutputFileNameMulti5=
 UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
 OpenOutput5=1
-OutputFilePath6=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\Project Outputs for UL-SWAP-DAQ-2\
+OutputFilePath6=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\Project Outputs for UL-SWAP-DAQ-2\
 ReleaseManaged6=0
 OutputBasePath6=Project Outputs for UL-SWAP-DAQ-2\
 OutputPathMedia6=
@@ -308,7 +310,7 @@ OpenGerberOutput5=1
 OpenNCDrillOutput5=1
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=C:\Users\Brea McWhirter\Desktop\ULSWAPDAQ\ULSWAPDAQ\UL-SWAP-DAQ-1\Project Outputs for UL-SWAP-DAQ-2\
+RelativeOutputPath6=C:\Users\abain\Desktop\ULSWAPDAQ\UL-SWAP-DAQ-1\Project Outputs for UL-SWAP-DAQ-2\
 OpenOutputs6=1
 AddToProject6=1
 TimestampFolder6=0
