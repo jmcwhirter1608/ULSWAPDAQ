@@ -335,7 +335,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=PXPUOXIE
 
 [Document18]
 DocumentPath=..\PCBLibraries\PIC32MX470-F512H-120MR.PcbLib
@@ -488,7 +488,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XBPNTTMO
 
 [Document27]
 DocumentPath=..\SchematicLibraries\LTC2373_Schematic.SchLib
@@ -591,6 +591,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LJVWDJWT
+
+[Document33]
+DocumentPath=THS7002_New_Schematic.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UUDXYBXQ
 
 [Configuration1]
 Name=Sources
