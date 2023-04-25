@@ -25,14 +25,12 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
 AutoCrossReferences=1
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -49,23 +47,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\SchematicLibraries\LTC6362HMS_Schematic.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DWNFZFGY
-
-[Document2]
 DocumentPath=LTC6362_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +63,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VJXGSNIP
 
-[Document3]
+[Document2]
 DocumentPath=THS7002CPWP_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +80,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BAUBEAJM
 
-[Document4]
+[Document3]
 DocumentPath=CONNECTED-MODULE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +97,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUSXLMAY
 
-[Document5]
+[Document4]
 DocumentPath=MainOutputs.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,24 +114,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=..\PCBLibraries\LTC6362HMS_Footprint.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ERBBIWWR
-
-[Document7]
+[Document5]
 DocumentPath=..\PCBLibraries\8.2uH_MSS1260H-822MED.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +131,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=..\PCBLibraries\BNC_Conn_PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +148,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=..\PCBLibraries\Capacitor_0603_TPS65130.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +165,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document8]
 DocumentPath=..\PCBLibraries\Capacitors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +182,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document9]
 DocumentPath=..\PCBLibraries\CapacitorsforLMR51420.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +199,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document10]
 DocumentPath=..\PCBLibraries\CapacitorsforTPS6513x.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +216,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=..\PCBLibraries\CMJ2000_Footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +233,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document12]
 DocumentPath=..\PCBLibraries\Connectors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +250,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document13]
 DocumentPath=..\PCBLibraries\InductorsLM51420.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +267,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=..\PCBLibraries\LMR51420.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +284,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document15]
 DocumentPath=..\PCBLibraries\LTC2373_Footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +301,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document16]
 DocumentPath=..\PCBLibraries\LTC6362_Footprint.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +318,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXPUOXIE
 
-[Document19]
+[Document17]
 DocumentPath=..\PCBLibraries\PIC32MX470-F512H-120MR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +335,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document18]
 DocumentPath=..\PCBLibraries\ResistorsTPS6513x.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +352,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document19]
 DocumentPath=..\PCBLibraries\THS7002CPWP.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +369,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document20]
 DocumentPath=..\PCBLibraries\TPS6513_0603resistors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +386,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document21]
 DocumentPath=..\PCBLibraries\TPS6513_pcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -439,7 +403,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document22]
 DocumentPath=..\SchematicLibraries\Buck_and_Inverter.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -456,7 +420,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document23]
 DocumentPath=..\SchematicLibraries\Capacitors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,7 +437,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document24]
 DocumentPath=..\SchematicLibraries\CMJ2000_Schematic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -490,7 +454,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document25]
 DocumentPath=..\SchematicLibraries\Connectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -507,7 +471,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBPNTTMO
 
-[Document28]
+[Document26]
 DocumentPath=..\SchematicLibraries\LTC2373_Schematic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,7 +488,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document27]
 DocumentPath=..\SchematicLibraries\LTC2373CUH-16#PBF.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -541,7 +505,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document28]
 DocumentPath=..\SchematicLibraries\PIC32MX470-F512H-120MR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,7 +522,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document29]
 DocumentPath=Nano_D_A29100.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -575,7 +539,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HZPBSGOL
 
-[Document32]
+[Document30]
 DocumentPath=Nano_D_A29100_PCB.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -592,7 +556,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QIJNHOLA
 
-[Document33]
+[Document31]
 DocumentPath=UL-SWAP-DAQ-3-MODULE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -609,7 +573,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LJVWDJWT
 
-[Document34]
+[Document32]
 DocumentPath=THS7002_New_Schematic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -741,42 +705,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=Mixed Sim Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -849,18 +783,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1217,11 +1139,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1545,13 +1462,12 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
-Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
