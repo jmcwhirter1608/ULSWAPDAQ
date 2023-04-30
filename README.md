@@ -19,7 +19,8 @@ University and Sandia National Laboratories.
 - Power Module Subsystem Altium Files
 - Signal Conditioning Subsystem Altium Files
 - Processor and Interface Altium Files
-- Initial C Project for the PIC32 (Recommendation: Open in MPLAB X IDE)
+- Full System Altium Files
+- Initial C Project for the PIC32 (Recommendation: Open in MPLAB X IDE v6.00 and Harmony v3 Code Configurator)
 
 
 
@@ -28,8 +29,8 @@ University and Sandia National Laboratories.
 
 The Documentation for the C Project can be found by following this path:
 
-UL-SWaP-DaQ-1.0 > doxygen > html > index.html
+doxygen > html > index.html
 
-To open in the browser, one must download the UL-SWaP-DaQ-1.0 Directory to 
+To open in the browser, one must download the doxygen Directory to 
 their local machine and follow the path above to the index.html file.
 
