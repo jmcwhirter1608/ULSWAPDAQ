@@ -1,0 +1,1699 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/gpio/plib\+\_\+gpio.h File Reference}
+\label{plib__gpio_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.h@{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.h}}
+{\ttfamily \#include $<$device.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Set}()~(LATESET = (1$<$$<$5))
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Clear}()~(LATECLR = (1$<$$<$5))
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$5))
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$5))
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$5))
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+Get}()~((PORTE $>$$>$ 5) \& 0x1)
+\item 
+\#define \textbf{ C\+\_\+\+GP1\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE5}
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Set}()~(LATESET = (1$<$$<$6))
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Clear}()~(LATECLR = (1$<$$<$6))
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$6))
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$6))
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$6))
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+Get}()~((PORTE $>$$>$ 6) \& 0x1)
+\item 
+\#define \textbf{ C\+\_\+\+GP0\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE6}
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Set}()~(LATESET = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Clear}()~(LATECLR = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+Get}()~((PORTE $>$$>$ 7) \& 0x1)
+\item 
+\#define \textbf{ D\+\_\+\+SHDN\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE7}
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Set}()~(LATGSET = (1$<$$<$6))
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Clear}()~(LATGCLR = (1$<$$<$6))
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Toggle}()~(LATGINV= (1$<$$<$6))
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Output\+Enable}()~(TRISGCLR = (1$<$$<$6))
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Input\+Enable}()~(TRISGSET = (1$<$$<$6))
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+Get}()~((PORTG $>$$>$ 6) \& 0x1)
+\item 
+\#define \textbf{ D\+\_\+\+GP2\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG6}
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Set}()~(LATGSET = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Clear}()~(LATGCLR = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Toggle}()~(LATGINV= (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Output\+Enable}()~(TRISGCLR = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Input\+Enable}()~(TRISGSET = (1$<$$<$7))
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+Get}()~((PORTG $>$$>$ 7) \& 0x1)
+\item 
+\#define \textbf{ D\+\_\+\+GP1\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG7}
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Set}()~(LATGSET = (1$<$$<$8))
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Clear}()~(LATGCLR = (1$<$$<$8))
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Toggle}()~(LATGINV= (1$<$$<$8))
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Output\+Enable}()~(TRISGCLR = (1$<$$<$8))
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Input\+Enable}()~(TRISGSET = (1$<$$<$8))
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+Get}()~((PORTG $>$$>$ 8) \& 0x1)
+\item 
+\#define \textbf{ D\+\_\+\+GP0\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG8}
+\item 
+\#define \textbf{ LED1\+\_\+\+Set}()~(LATBSET = (1$<$$<$14))
+\item 
+\#define \textbf{ LED1\+\_\+\+Clear}()~(LATBCLR = (1$<$$<$14))
+\item 
+\#define \textbf{ LED1\+\_\+\+Toggle}()~(LATBINV= (1$<$$<$14))
+\item 
+\#define \textbf{ LED1\+\_\+\+Output\+Enable}()~(TRISBCLR = (1$<$$<$14))
+\item 
+\#define \textbf{ LED1\+\_\+\+Input\+Enable}()~(TRISBSET = (1$<$$<$14))
+\item 
+\#define \textbf{ LED1\+\_\+\+Get}()~((PORTB $>$$>$ 14) \& 0x1)
+\item 
+\#define \textbf{ LED1\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB14}
+\item 
+\#define \textbf{ LED2\+\_\+\+Set}()~(LATBSET = (1$<$$<$15))
+\item 
+\#define \textbf{ LED2\+\_\+\+Clear}()~(LATBCLR = (1$<$$<$15))
+\item 
+\#define \textbf{ LED2\+\_\+\+Toggle}()~(LATBINV= (1$<$$<$15))
+\item 
+\#define \textbf{ LED2\+\_\+\+Output\+Enable}()~(TRISBCLR = (1$<$$<$15))
+\item 
+\#define \textbf{ LED2\+\_\+\+Input\+Enable}()~(TRISBSET = (1$<$$<$15))
+\item 
+\#define \textbf{ LED2\+\_\+\+Get}()~((PORTB $>$$>$ 15) \& 0x1)
+\item 
+\#define \textbf{ LED2\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB15}
+\item 
+\#define \textbf{ LED3\+\_\+\+Set}()~(LATFSET = (1$<$$<$4))
+\item 
+\#define \textbf{ LED3\+\_\+\+Clear}()~(LATFCLR = (1$<$$<$4))
+\item 
+\#define \textbf{ LED3\+\_\+\+Toggle}()~(LATFINV= (1$<$$<$4))
+\item 
+\#define \textbf{ LED3\+\_\+\+Output\+Enable}()~(TRISFCLR = (1$<$$<$4))
+\item 
+\#define \textbf{ LED3\+\_\+\+Input\+Enable}()~(TRISFSET = (1$<$$<$4))
+\item 
+\#define \textbf{ LED3\+\_\+\+Get}()~((PORTF $>$$>$ 4) \& 0x1)
+\item 
+\#define \textbf{ LED3\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF4}
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Set}()~(LATDSET = (1$<$$<$8))
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$8))
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$8))
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$8))
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$8))
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+Get}()~((PORTD $>$$>$ 8) \& 0x1)
+\item 
+\#define \textbf{ A\+\_\+\+GP0\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD8}
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Set}()~(LATDSET = (1$<$$<$9))
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$9))
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$9))
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$9))
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$9))
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+Get}()~((PORTD $>$$>$ 9) \& 0x1)
+\item 
+\#define \textbf{ A\+\_\+\+GP1\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD9}
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Set}()~(LATDSET = (1$<$$<$10))
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$10))
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$10))
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$10))
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$10))
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+Get}()~((PORTD $>$$>$ 10) \& 0x1)
+\item 
+\#define \textbf{ A\+\_\+\+GP2\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD10}
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Set}()~(LATDSET = (1$<$$<$11))
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$11))
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$11))
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$11))
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$11))
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+Get}()~((PORTD $>$$>$ 11) \& 0x1)
+\item 
+\#define \textbf{ A\+\_\+\+SHDN\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD11}
+\item 
+\#define \textbf{ RESET\+\_\+\+Set}()~(LATDSET = (1$<$$<$0))
+\item 
+\#define \textbf{ RESET\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$0))
+\item 
+\#define \textbf{ RESET\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$0))
+\item 
+\#define \textbf{ RESET\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$0))
+\item 
+\#define \textbf{ RESET\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$0))
+\item 
+\#define \textbf{ RESET\+\_\+\+Get}()~((PORTD $>$$>$ 0) \& 0x1)
+\item 
+\#define \textbf{ RESET\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD0}
+\item 
+\#define \textbf{ BUSY\+\_\+\+Set}()~(LATDSET = (1$<$$<$5))
+\item 
+\#define \textbf{ BUSY\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$5))
+\item 
+\#define \textbf{ BUSY\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$5))
+\item 
+\#define \textbf{ BUSY\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$5))
+\item 
+\#define \textbf{ BUSY\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$5))
+\item 
+\#define \textbf{ BUSY\+\_\+\+Get}()~((PORTD $>$$>$ 5) \& 0x1)
+\item 
+\#define \textbf{ BUSY\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD5}
+\item 
+\#define \textbf{ RDL\+\_\+\+Set}()~(LATDSET = (1$<$$<$6))
+\item 
+\#define \textbf{ RDL\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$6))
+\item 
+\#define \textbf{ RDL\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$6))
+\item 
+\#define \textbf{ RDL\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$6))
+\item 
+\#define \textbf{ RDL\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$6))
+\item 
+\#define \textbf{ RDL\+\_\+\+Get}()~((PORTD $>$$>$ 6) \& 0x1)
+\item 
+\#define \textbf{ RDL\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD6}
+\item 
+\#define \textbf{ CNV\+\_\+\+Set}()~(LATDSET = (1$<$$<$7))
+\item 
+\#define \textbf{ CNV\+\_\+\+Clear}()~(LATDCLR = (1$<$$<$7))
+\item 
+\#define \textbf{ CNV\+\_\+\+Toggle}()~(LATDINV= (1$<$$<$7))
+\item 
+\#define \textbf{ CNV\+\_\+\+Output\+Enable}()~(TRISDCLR = (1$<$$<$7))
+\item 
+\#define \textbf{ CNV\+\_\+\+Input\+Enable}()~(TRISDSET = (1$<$$<$7))
+\item 
+\#define \textbf{ CNV\+\_\+\+Get}()~((PORTD $>$$>$ 7) \& 0x1)
+\item 
+\#define \textbf{ CNV\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD7}
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Set}()~(LATFSET = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Clear}()~(LATFCLR = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Toggle}()~(LATFINV= (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Output\+Enable}()~(TRISFCLR = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Input\+Enable}()~(TRISFSET = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+Get}()~((PORTF $>$$>$ 1) \& 0x1)
+\item 
+\#define \textbf{ B\+\_\+\+SHDN\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF1}
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Set}()~(LATESET = (1$<$$<$0))
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Clear}()~(LATECLR = (1$<$$<$0))
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$0))
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$0))
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$0))
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+Get}()~((PORTE $>$$>$ 0) \& 0x1)
+\item 
+\#define \textbf{ B\+\_\+\+GP2\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE0}
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Set}()~(LATESET = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Clear}()~(LATECLR = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$1))
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+Get}()~((PORTE $>$$>$ 1) \& 0x1)
+\item 
+\#define \textbf{ B\+\_\+\+GP1\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE1}
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Set}()~(LATESET = (1$<$$<$2))
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Clear}()~(LATECLR = (1$<$$<$2))
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$2))
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$2))
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$2))
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+Get}()~((PORTE $>$$>$ 2) \& 0x1)
+\item 
+\#define \textbf{ B\+\_\+\+GP0\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE2}
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Set}()~(LATESET = (1$<$$<$3))
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Clear}()~(LATECLR = (1$<$$<$3))
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$3))
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$3))
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$3))
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+Get}()~((PORTE $>$$>$ 3) \& 0x1)
+\item 
+\#define \textbf{ C\+\_\+\+SHDN\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE3}
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Set}()~(LATESET = (1$<$$<$4))
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Clear}()~(LATECLR = (1$<$$<$4))
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Toggle}()~(LATEINV= (1$<$$<$4))
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Output\+Enable}()~(TRISECLR = (1$<$$<$4))
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Input\+Enable}()~(TRISESET = (1$<$$<$4))
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+Get}()~((PORTE $>$$>$ 4) \& 0x1)
+\item 
+\#define \textbf{ C\+\_\+\+GP2\+\_\+\+PIN}~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE4}
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \textbf{ GPIO\+\_\+\+PORT} \{ \newline
+\textbf{ GPIO\+\_\+\+PORT\+\_\+B} = 0
+, \textbf{ GPIO\+\_\+\+PORT\+\_\+C} = 1
+, \textbf{ GPIO\+\_\+\+PORT\+\_\+D} = 2
+, \textbf{ GPIO\+\_\+\+PORT\+\_\+E} = 3
+, \newline
+\textbf{ GPIO\+\_\+\+PORT\+\_\+F} = 4
+, \textbf{ GPIO\+\_\+\+PORT\+\_\+G} = 5
+ \}
+\item 
+enum \textbf{ GPIO\+\_\+\+PIN} \{ \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB0} = 0
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB1} = 1
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB2} = 2
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB3} = 3
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB4} = 4
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB5} = 5
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB6} = 6
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB7} = 7
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB8} = 8
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB9} = 9
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB10} = 10
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB11} = 11
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB12} = 12
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB13} = 13
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB14} = 14
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB15} = 15
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RC12} = 28
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RC13} = 29
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RC14} = 30
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RC15} = 31
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD0} = 32
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD1} = 33
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD2} = 34
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD3} = 35
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD4} = 36
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD5} = 37
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD6} = 38
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD7} = 39
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD8} = 40
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD9} = 41
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD10} = 42
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD11} = 43
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE0} = 48
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE1} = 49
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE2} = 50
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE3} = 51
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE4} = 52
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE5} = 53
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE6} = 54
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE7} = 55
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF0} = 64
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF1} = 65
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF3} = 67
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF4} = 68
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF5} = 69
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG6} = 86
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG7} = 87
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG8} = 88
+, \newline
+\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG9} = 89
+, \textbf{ GPIO\+\_\+\+PIN\+\_\+\+NONE} = -\/1
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ GPIO\+\_\+\+Initialize} (void)
+\item 
+uint32\+\_\+t \textbf{ GPIO\+\_\+\+Port\+Read} (\textbf{ GPIO\+\_\+\+PORT} port)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Write} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask, uint32\+\_\+t value)
+\item 
+uint32\+\_\+t \textbf{ GPIO\+\_\+\+Port\+Latch\+Read} (\textbf{ GPIO\+\_\+\+PORT} port)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Set} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Clear} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Toggle} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Input\+Enable} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Output\+Enable} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\label{plib__gpio_8h_a47d9db1c60de3c632e28e51f9ca69c76}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_Clear@{A\_GP0\_Clear}}
+\index{A\_GP0\_Clear@{A\_GP0\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_Clear}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a45d365a1f1ff6efa3fa19166530297ed}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_Get@{A\_GP0\_Get}}
+\index{A\_GP0\_Get@{A\_GP0\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_Get}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 8) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a0a6bd2ef21e78ab2471a78a9ecc9b22d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_InputEnable@{A\_GP0\_InputEnable}}
+\index{A\_GP0\_InputEnable@{A\_GP0\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_InputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_adb510bcd020cb1408805fecef008469b}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_OutputEnable@{A\_GP0\_OutputEnable}}
+\index{A\_GP0\_OutputEnable@{A\_GP0\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_OutputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a0012c15f44e3cce3e335a874766a25c0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_PIN@{A\_GP0\_PIN}}
+\index{A\_GP0\_PIN@{A\_GP0\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_PIN}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD8}}
+
+\mbox{\label{plib__gpio_8h_ad22c5a58e07f98303ed41c8bab71c612}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_Set@{A\_GP0\_Set}}
+\index{A\_GP0\_Set@{A\_GP0\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_Set}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a1bacef1155b824d6f68862275e4ceba4}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP0\_Toggle@{A\_GP0\_Toggle}}
+\index{A\_GP0\_Toggle@{A\_GP0\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP0\_Toggle}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP0\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a12a220a261636154d6a44b2cd1455e58}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_Clear@{A\_GP1\_Clear}}
+\index{A\_GP1\_Clear@{A\_GP1\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_Clear}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$9))}
+
+\mbox{\label{plib__gpio_8h_a2e81d61c0f22f5b850cd2ba4f98e0591}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_Get@{A\_GP1\_Get}}
+\index{A\_GP1\_Get@{A\_GP1\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_Get}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 9) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a10f6f041e83d14eb6a350ea4aae185ee}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_InputEnable@{A\_GP1\_InputEnable}}
+\index{A\_GP1\_InputEnable@{A\_GP1\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_InputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$9))}
+
+\mbox{\label{plib__gpio_8h_ab0d001535f2729c74c3a6bf46c670cc0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_OutputEnable@{A\_GP1\_OutputEnable}}
+\index{A\_GP1\_OutputEnable@{A\_GP1\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_OutputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$9))}
+
+\mbox{\label{plib__gpio_8h_a67c16ad64bd1452301eab1e43f6bf838}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_PIN@{A\_GP1\_PIN}}
+\index{A\_GP1\_PIN@{A\_GP1\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_PIN}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD9}}
+
+\mbox{\label{plib__gpio_8h_a0a8d349d3eeaedac2be0d976a2aed5f3}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_Set@{A\_GP1\_Set}}
+\index{A\_GP1\_Set@{A\_GP1\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_Set}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$9))}
+
+\mbox{\label{plib__gpio_8h_a1456ecdbbdaec8209820083c49ed67fa}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP1\_Toggle@{A\_GP1\_Toggle}}
+\index{A\_GP1\_Toggle@{A\_GP1\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP1\_Toggle}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP1\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$9))}
+
+\mbox{\label{plib__gpio_8h_a5f210878ea3231989e3b11d01203e020}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_Clear@{A\_GP2\_Clear}}
+\index{A\_GP2\_Clear@{A\_GP2\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_Clear}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$10))}
+
+\mbox{\label{plib__gpio_8h_aebaef26bd73fc28a4963956f039c57a2}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_Get@{A\_GP2\_Get}}
+\index{A\_GP2\_Get@{A\_GP2\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_Get}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 10) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_ab4c0dbc046ac1fcd75387c5543db84eb}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_InputEnable@{A\_GP2\_InputEnable}}
+\index{A\_GP2\_InputEnable@{A\_GP2\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_InputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$10))}
+
+\mbox{\label{plib__gpio_8h_adeb3e69e74bb29ffbfd7dbf1f6c786d5}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_OutputEnable@{A\_GP2\_OutputEnable}}
+\index{A\_GP2\_OutputEnable@{A\_GP2\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_OutputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$10))}
+
+\mbox{\label{plib__gpio_8h_a144008d1bbb137256c965e2949a8eb42}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_PIN@{A\_GP2\_PIN}}
+\index{A\_GP2\_PIN@{A\_GP2\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_PIN}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD10}}
+
+\mbox{\label{plib__gpio_8h_ac710da1e81bbc52ee4d6ef5999cd15c0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_Set@{A\_GP2\_Set}}
+\index{A\_GP2\_Set@{A\_GP2\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_Set}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$10))}
+
+\mbox{\label{plib__gpio_8h_a154dc106cc605cec1f4ad971399ad526}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_GP2\_Toggle@{A\_GP2\_Toggle}}
+\index{A\_GP2\_Toggle@{A\_GP2\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_GP2\_Toggle}
+{\footnotesize\ttfamily \#define A\+\_\+\+GP2\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$10))}
+
+\mbox{\label{plib__gpio_8h_a19b5f5f1aa6c6672da59f041986e4533}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_Clear@{A\_SHDN\_Clear}}
+\index{A\_SHDN\_Clear@{A\_SHDN\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_Clear}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$11))}
+
+\mbox{\label{plib__gpio_8h_a10f655ef94dfcc726124c74926a8bf02}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_Get@{A\_SHDN\_Get}}
+\index{A\_SHDN\_Get@{A\_SHDN\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_Get}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 11) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_ad63aebe6b90acd89ae48aa0fcc9ebb9f}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_InputEnable@{A\_SHDN\_InputEnable}}
+\index{A\_SHDN\_InputEnable@{A\_SHDN\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_InputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$11))}
+
+\mbox{\label{plib__gpio_8h_ab3f2fb9e6751b49ba73d3fe37d25dde5}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_OutputEnable@{A\_SHDN\_OutputEnable}}
+\index{A\_SHDN\_OutputEnable@{A\_SHDN\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_OutputEnable}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$11))}
+
+\mbox{\label{plib__gpio_8h_a12bfa868297d80bc62a3611124b4a468}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_PIN@{A\_SHDN\_PIN}}
+\index{A\_SHDN\_PIN@{A\_SHDN\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_PIN}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD11}}
+
+\mbox{\label{plib__gpio_8h_ab95f429ce4bcd2d28e9050a4ae59d208}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_Set@{A\_SHDN\_Set}}
+\index{A\_SHDN\_Set@{A\_SHDN\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_Set}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$11))}
+
+\mbox{\label{plib__gpio_8h_affc1123ed415c881b1cb6dbf242f6603}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!A\_SHDN\_Toggle@{A\_SHDN\_Toggle}}
+\index{A\_SHDN\_Toggle@{A\_SHDN\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{A\_SHDN\_Toggle}
+{\footnotesize\ttfamily \#define A\+\_\+\+SHDN\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$11))}
+
+\mbox{\label{plib__gpio_8h_ae802052d9bbe870415c601bc65d8cb5a}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_Clear@{B\_GP0\_Clear}}
+\index{B\_GP0\_Clear@{B\_GP0\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_Clear}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$2))}
+
+\mbox{\label{plib__gpio_8h_af63e2643b2eb837af89dc0188bea4671}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_Get@{B\_GP0\_Get}}
+\index{B\_GP0\_Get@{B\_GP0\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_Get}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 2) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a337ca713ba4beb53137a2d8de2d52e3b}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_InputEnable@{B\_GP0\_InputEnable}}
+\index{B\_GP0\_InputEnable@{B\_GP0\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_InputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$2))}
+
+\mbox{\label{plib__gpio_8h_a46220c2c9a6fd286413f750bab1cd384}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_OutputEnable@{B\_GP0\_OutputEnable}}
+\index{B\_GP0\_OutputEnable@{B\_GP0\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_OutputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$2))}
+
+\mbox{\label{plib__gpio_8h_a5100f881ded8842397a071569a26e4bf}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_PIN@{B\_GP0\_PIN}}
+\index{B\_GP0\_PIN@{B\_GP0\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_PIN}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE2}}
+
+\mbox{\label{plib__gpio_8h_af2f20aef930ba4a10379feb50938c660}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_Set@{B\_GP0\_Set}}
+\index{B\_GP0\_Set@{B\_GP0\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_Set}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$2))}
+
+\mbox{\label{plib__gpio_8h_ad5efb73d794aac221f49f7923a0f90a0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP0\_Toggle@{B\_GP0\_Toggle}}
+\index{B\_GP0\_Toggle@{B\_GP0\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP0\_Toggle}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP0\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$2))}
+
+\mbox{\label{plib__gpio_8h_a3704a678981adadca3b3a099946dc299}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_Clear@{B\_GP1\_Clear}}
+\index{B\_GP1\_Clear@{B\_GP1\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_Clear}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_aa0341d4aae8709579cd74fc092e5dd7c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_Get@{B\_GP1\_Get}}
+\index{B\_GP1\_Get@{B\_GP1\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_Get}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 1) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a667eb7057a7349ad83d2142f202f7e67}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_InputEnable@{B\_GP1\_InputEnable}}
+\index{B\_GP1\_InputEnable@{B\_GP1\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_InputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_a55d182b8fc641bcd496b3f6c866d984d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_OutputEnable@{B\_GP1\_OutputEnable}}
+\index{B\_GP1\_OutputEnable@{B\_GP1\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_OutputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_a2896ce3754d2a88c0d5a687c0a883e60}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_PIN@{B\_GP1\_PIN}}
+\index{B\_GP1\_PIN@{B\_GP1\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_PIN}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE1}}
+
+\mbox{\label{plib__gpio_8h_aa01a22785678d01ab763b20cd90f3569}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_Set@{B\_GP1\_Set}}
+\index{B\_GP1\_Set@{B\_GP1\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_Set}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_adb5d6ed476ed3bf96a0bba04f083cb3b}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP1\_Toggle@{B\_GP1\_Toggle}}
+\index{B\_GP1\_Toggle@{B\_GP1\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP1\_Toggle}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP1\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_acd73c3a77a7fe3b916667f8216f8b2df}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_Clear@{B\_GP2\_Clear}}
+\index{B\_GP2\_Clear@{B\_GP2\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_Clear}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a122989d7ba910a76eade72c52b9870ad}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_Get@{B\_GP2\_Get}}
+\index{B\_GP2\_Get@{B\_GP2\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_Get}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 0) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a3cb59278e42277307cfbb119d0383810}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_InputEnable@{B\_GP2\_InputEnable}}
+\index{B\_GP2\_InputEnable@{B\_GP2\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_InputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_af73ff29c0673013c6e664e478e18e812}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_OutputEnable@{B\_GP2\_OutputEnable}}
+\index{B\_GP2\_OutputEnable@{B\_GP2\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_OutputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a762a23ba4504308d7867df2002867a28}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_PIN@{B\_GP2\_PIN}}
+\index{B\_GP2\_PIN@{B\_GP2\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_PIN}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE0}}
+
+\mbox{\label{plib__gpio_8h_a4e55037b7f44e215dfc3bb8e7a89dc2a}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_Set@{B\_GP2\_Set}}
+\index{B\_GP2\_Set@{B\_GP2\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_Set}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a055412f45dbb5556b470f9fbc047e726}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_GP2\_Toggle@{B\_GP2\_Toggle}}
+\index{B\_GP2\_Toggle@{B\_GP2\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_GP2\_Toggle}
+{\footnotesize\ttfamily \#define B\+\_\+\+GP2\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_af37c07778d0d0b8626cc72258fd3f7d5}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_Clear@{B\_SHDN\_Clear}}
+\index{B\_SHDN\_Clear@{B\_SHDN\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_Clear}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFCLR = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_af487dcc9cc0411f7bbb704f6c1c8d73c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_Get@{B\_SHDN\_Get}}
+\index{B\_SHDN\_Get@{B\_SHDN\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_Get}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTF $>$$>$ 1) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a1d38270339894aace4b1b6635019eb38}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_InputEnable@{B\_SHDN\_InputEnable}}
+\index{B\_SHDN\_InputEnable@{B\_SHDN\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_InputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISFSET = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_abac47514bf4d86a8cd4e74f65819c2c1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_OutputEnable@{B\_SHDN\_OutputEnable}}
+\index{B\_SHDN\_OutputEnable@{B\_SHDN\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_OutputEnable}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISFCLR = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_aa24a7cee6398b582d43b4e808b16daae}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_PIN@{B\_SHDN\_PIN}}
+\index{B\_SHDN\_PIN@{B\_SHDN\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_PIN}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF1}}
+
+\mbox{\label{plib__gpio_8h_ab3260aefea800997c84e633aaa7588be}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_Set@{B\_SHDN\_Set}}
+\index{B\_SHDN\_Set@{B\_SHDN\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_Set}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFSET = (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_a892fe6d342230a1ed3347e6827bae6c8}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!B\_SHDN\_Toggle@{B\_SHDN\_Toggle}}
+\index{B\_SHDN\_Toggle@{B\_SHDN\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{B\_SHDN\_Toggle}
+{\footnotesize\ttfamily \#define B\+\_\+\+SHDN\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFINV= (1$<$$<$1))}
+
+\mbox{\label{plib__gpio_8h_aaf754e93adca358fd6891728c9ab5538}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_Clear@{BUSY\_Clear}}
+\index{BUSY\_Clear@{BUSY\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_Clear}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a87cb73d24d1315646b1324edb9369664}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_Get@{BUSY\_Get}}
+\index{BUSY\_Get@{BUSY\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_Get}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 5) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a73b8856baf581d2ed9c2e66cf7374ef1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_InputEnable@{BUSY\_InputEnable}}
+\index{BUSY\_InputEnable@{BUSY\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_InputEnable}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_abfeeb678fde001f85bc1d3d711154f82}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_OutputEnable@{BUSY\_OutputEnable}}
+\index{BUSY\_OutputEnable@{BUSY\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_OutputEnable}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a18220360fc1f5e8a8f8590ec6d237951}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_PIN@{BUSY\_PIN}}
+\index{BUSY\_PIN@{BUSY\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_PIN}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD5}}
+
+\mbox{\label{plib__gpio_8h_a4036b9f4dfb4418bf98672ca84621182}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_Set@{BUSY\_Set}}
+\index{BUSY\_Set@{BUSY\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_Set}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a52afdc478082433bccfaa5077e8c97a6}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!BUSY\_Toggle@{BUSY\_Toggle}}
+\index{BUSY\_Toggle@{BUSY\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{BUSY\_Toggle}
+{\footnotesize\ttfamily \#define BUSY\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a187b6182671170fe94a528edfae0551e}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_Clear@{C\_GP0\_Clear}}
+\index{C\_GP0\_Clear@{C\_GP0\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_Clear}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a9d0d6d2b0361aaa322d6e961593e4530}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_Get@{C\_GP0\_Get}}
+\index{C\_GP0\_Get@{C\_GP0\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_Get}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 6) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a9c2045b079cd5056db69eca4da57c34d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_InputEnable@{C\_GP0\_InputEnable}}
+\index{C\_GP0\_InputEnable@{C\_GP0\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_InputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_ac6c69acd1ddfc5cb86dcd94a02aa8466}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_OutputEnable@{C\_GP0\_OutputEnable}}
+\index{C\_GP0\_OutputEnable@{C\_GP0\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_OutputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a9b5e30faff56e8012d5bb245d2f5b221}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_PIN@{C\_GP0\_PIN}}
+\index{C\_GP0\_PIN@{C\_GP0\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_PIN}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE6}}
+
+\mbox{\label{plib__gpio_8h_a809b0cfed52a3aa63e8511858b00395d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_Set@{C\_GP0\_Set}}
+\index{C\_GP0\_Set@{C\_GP0\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_Set}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a23920752354bc6b191ef68475f836229}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP0\_Toggle@{C\_GP0\_Toggle}}
+\index{C\_GP0\_Toggle@{C\_GP0\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP0\_Toggle}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP0\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_ac67de22769a271d04c66cec28e4a7203}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_Clear@{C\_GP1\_Clear}}
+\index{C\_GP1\_Clear@{C\_GP1\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_Clear}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a1e8e76a094d9ddb46d1df9fbf8560928}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_Get@{C\_GP1\_Get}}
+\index{C\_GP1\_Get@{C\_GP1\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_Get}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 5) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a67f5c2d3bc47a641943bf3f5a4f2483d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_InputEnable@{C\_GP1\_InputEnable}}
+\index{C\_GP1\_InputEnable@{C\_GP1\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_InputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_af678b0f1979e12cd1b08f16abe95fd7c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_OutputEnable@{C\_GP1\_OutputEnable}}
+\index{C\_GP1\_OutputEnable@{C\_GP1\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_OutputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a37897df5bb76613aaa90282bdb6837c5}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_PIN@{C\_GP1\_PIN}}
+\index{C\_GP1\_PIN@{C\_GP1\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_PIN}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE5}}
+
+\mbox{\label{plib__gpio_8h_a3f47cf8a0581674875ea4555ef21f6c8}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_Set@{C\_GP1\_Set}}
+\index{C\_GP1\_Set@{C\_GP1\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_Set}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a119f4d3f5277bd9545d8a9c15735d7a3}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP1\_Toggle@{C\_GP1\_Toggle}}
+\index{C\_GP1\_Toggle@{C\_GP1\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP1\_Toggle}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP1\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$5))}
+
+\mbox{\label{plib__gpio_8h_a0246788a74781c4fe0a4c749b607ead6}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_Clear@{C\_GP2\_Clear}}
+\index{C\_GP2\_Clear@{C\_GP2\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_Clear}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a0c90351eb7b97a086703aab618d80c24}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_Get@{C\_GP2\_Get}}
+\index{C\_GP2\_Get@{C\_GP2\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_Get}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 4) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a104436ccda876aaac3f388a73e4edfd2}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_InputEnable@{C\_GP2\_InputEnable}}
+\index{C\_GP2\_InputEnable@{C\_GP2\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_InputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_aa2669b61f80d85f0a9bc48ec10f5ae2f}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_OutputEnable@{C\_GP2\_OutputEnable}}
+\index{C\_GP2\_OutputEnable@{C\_GP2\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_OutputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_ad1f1bf044a5d2b5bd1564bcb8ba29711}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_PIN@{C\_GP2\_PIN}}
+\index{C\_GP2\_PIN@{C\_GP2\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_PIN}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE4}}
+
+\mbox{\label{plib__gpio_8h_a317aacf628180b328785bae1f3aec8ff}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_Set@{C\_GP2\_Set}}
+\index{C\_GP2\_Set@{C\_GP2\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_Set}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a5fd8c75d7bda406e65dc9da981d70ddf}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_GP2\_Toggle@{C\_GP2\_Toggle}}
+\index{C\_GP2\_Toggle@{C\_GP2\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_GP2\_Toggle}
+{\footnotesize\ttfamily \#define C\+\_\+\+GP2\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a2e4b4067332c8d46b8204220af56750a}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_Clear@{C\_SHDN\_Clear}}
+\index{C\_SHDN\_Clear@{C\_SHDN\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_Clear}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$3))}
+
+\mbox{\label{plib__gpio_8h_a332605a0dabb76f5c7a83708b376180c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_Get@{C\_SHDN\_Get}}
+\index{C\_SHDN\_Get@{C\_SHDN\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_Get}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 3) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a20c0731c6fa004c6038c420302b78c5d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_InputEnable@{C\_SHDN\_InputEnable}}
+\index{C\_SHDN\_InputEnable@{C\_SHDN\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_InputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$3))}
+
+\mbox{\label{plib__gpio_8h_a544b284e6d8f8bccfe79ebeb7043dae1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_OutputEnable@{C\_SHDN\_OutputEnable}}
+\index{C\_SHDN\_OutputEnable@{C\_SHDN\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_OutputEnable}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$3))}
+
+\mbox{\label{plib__gpio_8h_a3b61e72efda575a850d2c02ca2260499}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_PIN@{C\_SHDN\_PIN}}
+\index{C\_SHDN\_PIN@{C\_SHDN\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_PIN}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE3}}
+
+\mbox{\label{plib__gpio_8h_aaaa331f518e91318f673d7dd4575f167}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_Set@{C\_SHDN\_Set}}
+\index{C\_SHDN\_Set@{C\_SHDN\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_Set}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$3))}
+
+\mbox{\label{plib__gpio_8h_a4bd834f0b729cfef4494eee0697ea027}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!C\_SHDN\_Toggle@{C\_SHDN\_Toggle}}
+\index{C\_SHDN\_Toggle@{C\_SHDN\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{C\_SHDN\_Toggle}
+{\footnotesize\ttfamily \#define C\+\_\+\+SHDN\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$3))}
+
+\mbox{\label{plib__gpio_8h_a72c07f04b6353f985970192750ae64aa}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_Clear@{CNV\_Clear}}
+\index{CNV\_Clear@{CNV\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_Clear}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_ac20dda23c6ad38b866a35fdbd480baa1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_Get@{CNV\_Get}}
+\index{CNV\_Get@{CNV\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_Get}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 7) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a7df7fc0dafd05b2f73d1ab4af5d077d3}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_InputEnable@{CNV\_InputEnable}}
+\index{CNV\_InputEnable@{CNV\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_InputEnable}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_aff7663f1e45b4a92cb4099d4aeead5c2}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_OutputEnable@{CNV\_OutputEnable}}
+\index{CNV\_OutputEnable@{CNV\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_OutputEnable}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_ad1fbb8dfe5b95ebdb33a621800b62360}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_PIN@{CNV\_PIN}}
+\index{CNV\_PIN@{CNV\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_PIN}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD7}}
+
+\mbox{\label{plib__gpio_8h_acfd50137cd0dfb171a78fb8d9665daa4}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_Set@{CNV\_Set}}
+\index{CNV\_Set@{CNV\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_Set}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a53d56443dacaf8f17a10be43beab456a}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!CNV\_Toggle@{CNV\_Toggle}}
+\index{CNV\_Toggle@{CNV\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{CNV\_Toggle}
+{\footnotesize\ttfamily \#define CNV\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a40f54d91830a0406f951ae12292b6bd4}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_Clear@{D\_GP0\_Clear}}
+\index{D\_GP0\_Clear@{D\_GP0\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_Clear}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGCLR = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_ae7fcd861f258611c65494394f5bb5f90}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_Get@{D\_GP0\_Get}}
+\index{D\_GP0\_Get@{D\_GP0\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_Get}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTG $>$$>$ 8) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a8ae801f734936ff82c47eaa1f7109724}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_InputEnable@{D\_GP0\_InputEnable}}
+\index{D\_GP0\_InputEnable@{D\_GP0\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_InputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGSET = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_aaa1c58e51b47dc8eb994eef57aa282e1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_OutputEnable@{D\_GP0\_OutputEnable}}
+\index{D\_GP0\_OutputEnable@{D\_GP0\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_OutputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGCLR = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a3daa52c4b62d06d08c7ab6eb0b8beb16}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_PIN@{D\_GP0\_PIN}}
+\index{D\_GP0\_PIN@{D\_GP0\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_PIN}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG8}}
+
+\mbox{\label{plib__gpio_8h_afe66360904b55579fef892e63f66e9c0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_Set@{D\_GP0\_Set}}
+\index{D\_GP0\_Set@{D\_GP0\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_Set}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGSET = (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_a18756393b2e25a81a9fe5d8f26645ce5}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP0\_Toggle@{D\_GP0\_Toggle}}
+\index{D\_GP0\_Toggle@{D\_GP0\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP0\_Toggle}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP0\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGINV= (1$<$$<$8))}
+
+\mbox{\label{plib__gpio_8h_afcf289aeaabb041e148cdbb437afb68d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_Clear@{D\_GP1\_Clear}}
+\index{D\_GP1\_Clear@{D\_GP1\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_Clear}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGCLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_ad11350ed06acc2b107b846da848578ec}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_Get@{D\_GP1\_Get}}
+\index{D\_GP1\_Get@{D\_GP1\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_Get}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTG $>$$>$ 7) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a4e8d6b8720f6e58ac8571f3eb20d4d69}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_InputEnable@{D\_GP1\_InputEnable}}
+\index{D\_GP1\_InputEnable@{D\_GP1\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_InputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGSET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a666a3212cfa9771439daefa42fdf62c7}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_OutputEnable@{D\_GP1\_OutputEnable}}
+\index{D\_GP1\_OutputEnable@{D\_GP1\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_OutputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGCLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a409e180a07b41ac91dcd01a1eb90f3b1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_PIN@{D\_GP1\_PIN}}
+\index{D\_GP1\_PIN@{D\_GP1\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_PIN}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG7}}
+
+\mbox{\label{plib__gpio_8h_a3f39a376a3b686f354550cf014387635}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_Set@{D\_GP1\_Set}}
+\index{D\_GP1\_Set@{D\_GP1\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_Set}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGSET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a1f595fac35506854b67f12596827a542}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP1\_Toggle@{D\_GP1\_Toggle}}
+\index{D\_GP1\_Toggle@{D\_GP1\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP1\_Toggle}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP1\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGINV= (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_aabe224533d7a5bb85e9e991e324e5efe}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_Clear@{D\_GP2\_Clear}}
+\index{D\_GP2\_Clear@{D\_GP2\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_Clear}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGCLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_ac9e9c8b0fcb386cc72f39d77c2fccbfb}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_Get@{D\_GP2\_Get}}
+\index{D\_GP2\_Get@{D\_GP2\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_Get}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTG $>$$>$ 6) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a8fe094c0f046a0aeae631e660e551bf9}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_InputEnable@{D\_GP2\_InputEnable}}
+\index{D\_GP2\_InputEnable@{D\_GP2\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_InputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGSET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_afea37e5678857652b6bacb924898570b}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_OutputEnable@{D\_GP2\_OutputEnable}}
+\index{D\_GP2\_OutputEnable@{D\_GP2\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_OutputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISGCLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a43cf3024ef7273cb846a46ca8f163056}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_PIN@{D\_GP2\_PIN}}
+\index{D\_GP2\_PIN@{D\_GP2\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_PIN}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RG6}}
+
+\mbox{\label{plib__gpio_8h_a1bcbd9c6c2394c5f7d7019ca0e72c114}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_Set@{D\_GP2\_Set}}
+\index{D\_GP2\_Set@{D\_GP2\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_Set}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGSET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_adc92f6fbaecda953bd394e31ddf0e8f3}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_GP2\_Toggle@{D\_GP2\_Toggle}}
+\index{D\_GP2\_Toggle@{D\_GP2\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_GP2\_Toggle}
+{\footnotesize\ttfamily \#define D\+\_\+\+GP2\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATGINV= (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a7d7402328dd1856dc54e32d3c74df631}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_Clear@{D\_SHDN\_Clear}}
+\index{D\_SHDN\_Clear@{D\_SHDN\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_Clear}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATECLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_af0a03f7c1f4ea7d67e1a1e2e858ab307}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_Get@{D\_SHDN\_Get}}
+\index{D\_SHDN\_Get@{D\_SHDN\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_Get}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTE $>$$>$ 7) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a640e23b1875fb9372cb35d2b95b269a9}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_InputEnable@{D\_SHDN\_InputEnable}}
+\index{D\_SHDN\_InputEnable@{D\_SHDN\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_InputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISESET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a0a5589995256c16af009f9b77a11b667}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_OutputEnable@{D\_SHDN\_OutputEnable}}
+\index{D\_SHDN\_OutputEnable@{D\_SHDN\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_OutputEnable}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISECLR = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a4798b6ced476075dc75218febfddb287}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_PIN@{D\_SHDN\_PIN}}
+\index{D\_SHDN\_PIN@{D\_SHDN\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_PIN}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RE7}}
+
+\mbox{\label{plib__gpio_8h_a8dbfa3ec35fd8f8013c92c96b53565b6}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_Set@{D\_SHDN\_Set}}
+\index{D\_SHDN\_Set@{D\_SHDN\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_Set}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATESET = (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_a203990bad101ff4ac5159f22f1053729}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!D\_SHDN\_Toggle@{D\_SHDN\_Toggle}}
+\index{D\_SHDN\_Toggle@{D\_SHDN\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{D\_SHDN\_Toggle}
+{\footnotesize\ttfamily \#define D\+\_\+\+SHDN\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATEINV= (1$<$$<$7))}
+
+\mbox{\label{plib__gpio_8h_af292cc6afed7b1e2d6a04ed02b695974}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_Clear@{LED1\_Clear}}
+\index{LED1\_Clear@{LED1\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_Clear}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBCLR = (1$<$$<$14))}
+
+\mbox{\label{plib__gpio_8h_ad2a46898a84defae07ca049b9935c40a}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_Get@{LED1\_Get}}
+\index{LED1\_Get@{LED1\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_Get}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTB $>$$>$ 14) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a066dcc795485b4ac8c7da982930372e4}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_InputEnable@{LED1\_InputEnable}}
+\index{LED1\_InputEnable@{LED1\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_InputEnable}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISBSET = (1$<$$<$14))}
+
+\mbox{\label{plib__gpio_8h_ab0fa21935b999ee166891b471e251f03}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_OutputEnable@{LED1\_OutputEnable}}
+\index{LED1\_OutputEnable@{LED1\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_OutputEnable}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISBCLR = (1$<$$<$14))}
+
+\mbox{\label{plib__gpio_8h_a318aa17e5d40e2132d2c7f6269ce7f51}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_PIN@{LED1\_PIN}}
+\index{LED1\_PIN@{LED1\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_PIN}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB14}}
+
+\mbox{\label{plib__gpio_8h_aef0ad338ebb1c29f96452c4bd6252961}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_Set@{LED1\_Set}}
+\index{LED1\_Set@{LED1\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_Set}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBSET = (1$<$$<$14))}
+
+\mbox{\label{plib__gpio_8h_ab8266151866bc8fb62d133206831bd6c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED1\_Toggle@{LED1\_Toggle}}
+\index{LED1\_Toggle@{LED1\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED1\_Toggle}
+{\footnotesize\ttfamily \#define LED1\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBINV= (1$<$$<$14))}
+
+\mbox{\label{plib__gpio_8h_a620b796d0422b01146530a3db06701d3}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_Clear@{LED2\_Clear}}
+\index{LED2\_Clear@{LED2\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_Clear}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBCLR = (1$<$$<$15))}
+
+\mbox{\label{plib__gpio_8h_aef23f158f37c10ec2f99e0d6d198cdde}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_Get@{LED2\_Get}}
+\index{LED2\_Get@{LED2\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_Get}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTB $>$$>$ 15) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a1e40f7845ff2e7285ce70a3094b3d0fe}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_InputEnable@{LED2\_InputEnable}}
+\index{LED2\_InputEnable@{LED2\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_InputEnable}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISBSET = (1$<$$<$15))}
+
+\mbox{\label{plib__gpio_8h_a007b341f4f63b6820ca04e7c87fd6668}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_OutputEnable@{LED2\_OutputEnable}}
+\index{LED2\_OutputEnable@{LED2\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_OutputEnable}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISBCLR = (1$<$$<$15))}
+
+\mbox{\label{plib__gpio_8h_af6f84078113b55354d20585131b386f7}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_PIN@{LED2\_PIN}}
+\index{LED2\_PIN@{LED2\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_PIN}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RB15}}
+
+\mbox{\label{plib__gpio_8h_ac086352bc69342f92fdaf5d932004318}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_Set@{LED2\_Set}}
+\index{LED2\_Set@{LED2\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_Set}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBSET = (1$<$$<$15))}
+
+\mbox{\label{plib__gpio_8h_ab4f810177935374160fa96537afbfe96}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED2\_Toggle@{LED2\_Toggle}}
+\index{LED2\_Toggle@{LED2\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED2\_Toggle}
+{\footnotesize\ttfamily \#define LED2\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATBINV= (1$<$$<$15))}
+
+\mbox{\label{plib__gpio_8h_aada9b95710277dd3d9cab218c7806aec}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_Clear@{LED3\_Clear}}
+\index{LED3\_Clear@{LED3\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_Clear}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFCLR = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a0f4f6967f08e7d49ac71f6ad944fcbed}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_Get@{LED3\_Get}}
+\index{LED3\_Get@{LED3\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_Get}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTF $>$$>$ 4) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a5f65dc115b6b229d1be3bd0c9dd197f7}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_InputEnable@{LED3\_InputEnable}}
+\index{LED3\_InputEnable@{LED3\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_InputEnable}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISFSET = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_ad7e3b02fb1f2a4aab89dd382cfbdd1c1}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_OutputEnable@{LED3\_OutputEnable}}
+\index{LED3\_OutputEnable@{LED3\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_OutputEnable}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISFCLR = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a4cb3ff938bcabb01494ce529ae55a542}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_PIN@{LED3\_PIN}}
+\index{LED3\_PIN@{LED3\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_PIN}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RF4}}
+
+\mbox{\label{plib__gpio_8h_ad5be982679543b72b5f5e3ab9c88d363}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_Set@{LED3\_Set}}
+\index{LED3\_Set@{LED3\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_Set}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFSET = (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a77275f5f494ce5ca56275b659f77393f}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!LED3\_Toggle@{LED3\_Toggle}}
+\index{LED3\_Toggle@{LED3\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{LED3\_Toggle}
+{\footnotesize\ttfamily \#define LED3\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATFINV= (1$<$$<$4))}
+
+\mbox{\label{plib__gpio_8h_a42fb5d2bf9b7fc7532b6edaf9b479bf4}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_Clear@{RDL\_Clear}}
+\index{RDL\_Clear@{RDL\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_Clear}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a70c105b3b09ae5ece7442c01999c3afd}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_Get@{RDL\_Get}}
+\index{RDL\_Get@{RDL\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_Get}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 6) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_a5c3f30b5865c2358c4af240fdca94057}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_InputEnable@{RDL\_InputEnable}}
+\index{RDL\_InputEnable@{RDL\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_InputEnable}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_aadd7b865df7b256888268801361beabd}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_OutputEnable@{RDL\_OutputEnable}}
+\index{RDL\_OutputEnable@{RDL\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_OutputEnable}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_ab4397f1f3afe07e427a9619c7a05844d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_PIN@{RDL\_PIN}}
+\index{RDL\_PIN@{RDL\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_PIN}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD6}}
+
+\mbox{\label{plib__gpio_8h_a44e1a3f392f039dbe3b1cc8db674ab23}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_Set@{RDL\_Set}}
+\index{RDL\_Set@{RDL\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_Set}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a055f45ae9e0be304cffb4059bd1ec4d0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RDL\_Toggle@{RDL\_Toggle}}
+\index{RDL\_Toggle@{RDL\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RDL\_Toggle}
+{\footnotesize\ttfamily \#define RDL\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$6))}
+
+\mbox{\label{plib__gpio_8h_a589a8a9448b33558f6976952fcfa8eef}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_Clear@{RESET\_Clear}}
+\index{RESET\_Clear@{RESET\_Clear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_Clear}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Clear(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDCLR = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a3f7936507e5d79942a63848523fad26d}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_Get@{RESET\_Get}}
+\index{RESET\_Get@{RESET\_Get}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_Get}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~((PORTD $>$$>$ 0) \& 0x1)}
+
+\mbox{\label{plib__gpio_8h_ad63503cf8c5d0adf3410ddae0607ffcb}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_InputEnable@{RESET\_InputEnable}}
+\index{RESET\_InputEnable@{RESET\_InputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_InputEnable}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Input\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDSET = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a225f506ad6cbab4c0cfaaf2b52680a23}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_OutputEnable@{RESET\_OutputEnable}}
+\index{RESET\_OutputEnable@{RESET\_OutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_OutputEnable}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Output\+Enable(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(TRISDCLR = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a08bca59db4b190eaaea4d47b7562869c}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_PIN@{RESET\_PIN}}
+\index{RESET\_PIN@{RESET\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_PIN}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+PIN~\textbf{ GPIO\+\_\+\+PIN\+\_\+\+RD0}}
+
+\mbox{\label{plib__gpio_8h_a8ed2cf44a3d3f2ff27afa69ac8550293}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_Set@{RESET\_Set}}
+\index{RESET\_Set@{RESET\_Set}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_Set}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Set(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDSET = (1$<$$<$0))}
+
+\mbox{\label{plib__gpio_8h_a78451b585c626c89e8a7186afbe4f2d2}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!RESET\_Toggle@{RESET\_Toggle}}
+\index{RESET\_Toggle@{RESET\_Toggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{RESET\_Toggle}
+{\footnotesize\ttfamily \#define RESET\+\_\+\+Toggle(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(LATDINV= (1$<$$<$0))}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN@{GPIO\_PIN}}
+\index{GPIO\_PIN@{GPIO\_PIN}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PIN}
+{\footnotesize\ttfamily enum \textbf{ GPIO\+\_\+\+PIN}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB0@{GPIO\_PIN\_RB0}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB0@{GPIO\_PIN\_RB0}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0afd135af9342c51750a7b85327dd2d956}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB0&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB1@{GPIO\_PIN\_RB1}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB1@{GPIO\_PIN\_RB1}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0af7fcbee98a058b9891e143ad6714ea91}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB2@{GPIO\_PIN\_RB2}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB2@{GPIO\_PIN\_RB2}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a2e71a9e25d681a4c3a370168ee2bcd84}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB3@{GPIO\_PIN\_RB3}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB3@{GPIO\_PIN\_RB3}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a0915c2e5951971c96810c8f6a2530988}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB4@{GPIO\_PIN\_RB4}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB4@{GPIO\_PIN\_RB4}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ae161f446e646a13a4f697551ac379074}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB4&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB5@{GPIO\_PIN\_RB5}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB5@{GPIO\_PIN\_RB5}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a0539d8d7867ae3c9dbc2326690874538}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB5&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB6@{GPIO\_PIN\_RB6}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB6@{GPIO\_PIN\_RB6}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0acb2972a90f06b21d05e9236e051896c2}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB6&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB7@{GPIO\_PIN\_RB7}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB7@{GPIO\_PIN\_RB7}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a601c40c9147ee1622ecd77778459ca28}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB8@{GPIO\_PIN\_RB8}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB8@{GPIO\_PIN\_RB8}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a1a4a394bb803210ed9076cf589589373}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB8&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB9@{GPIO\_PIN\_RB9}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB9@{GPIO\_PIN\_RB9}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a8287e47aa81a50c703c05be7f1c058be}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB9&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB10@{GPIO\_PIN\_RB10}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB10@{GPIO\_PIN\_RB10}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ac432efb6dc8c8567209302d009af8ac6}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB10&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB11@{GPIO\_PIN\_RB11}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB11@{GPIO\_PIN\_RB11}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a9a41547787f928f6b527e13b7b916db2}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB11&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB12@{GPIO\_PIN\_RB12}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB12@{GPIO\_PIN\_RB12}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a16fc9aef728ecad9a6c5dd15a07224ab}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB12&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB13@{GPIO\_PIN\_RB13}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB13@{GPIO\_PIN\_RB13}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0add79dde1336bdd2a7b98e36e237bc74e}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB13&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB14@{GPIO\_PIN\_RB14}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB14@{GPIO\_PIN\_RB14}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ae1a061a1c2825358b32503fd436a3242}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB14&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RB15@{GPIO\_PIN\_RB15}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RB15@{GPIO\_PIN\_RB15}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a4ba8687ca2c0668cd23ea3d9af667311}} 
+GPIO\+\_\+\+PIN\+\_\+\+RB15&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RC12@{GPIO\_PIN\_RC12}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RC12@{GPIO\_PIN\_RC12}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a9d8a93834aad32fbb935d0edb3cd390b}} 
+GPIO\+\_\+\+PIN\+\_\+\+RC12&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RC13@{GPIO\_PIN\_RC13}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RC13@{GPIO\_PIN\_RC13}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0acee6fafb27a7101d7e8b0b13dc21eca3}} 
+GPIO\+\_\+\+PIN\+\_\+\+RC13&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RC14@{GPIO\_PIN\_RC14}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RC14@{GPIO\_PIN\_RC14}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a18f49e8ce9b98ab05803830dd53fc593}} 
+GPIO\+\_\+\+PIN\+\_\+\+RC14&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RC15@{GPIO\_PIN\_RC15}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RC15@{GPIO\_PIN\_RC15}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a0c11b127a2e38876e28c35505a5b8e78}} 
+GPIO\+\_\+\+PIN\+\_\+\+RC15&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD0@{GPIO\_PIN\_RD0}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD0@{GPIO\_PIN\_RD0}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a9fd3170ab0d870d372e7f4c9df43709a}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD0&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD1@{GPIO\_PIN\_RD1}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD1@{GPIO\_PIN\_RD1}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0adbe313eeb7cf70288ec52db9fe916126}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD2@{GPIO\_PIN\_RD2}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD2@{GPIO\_PIN\_RD2}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a7493a74fda3223c194d9a0d7c9e32bbb}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD3@{GPIO\_PIN\_RD3}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD3@{GPIO\_PIN\_RD3}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a63bd712a8a5a7089f97a757f4306c2fb}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD4@{GPIO\_PIN\_RD4}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD4@{GPIO\_PIN\_RD4}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a851f89e3170b42ad39e3e8eba03eaeb8}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD4&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD5@{GPIO\_PIN\_RD5}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD5@{GPIO\_PIN\_RD5}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ad8bb506add9ec5eaf1071587fc17d914}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD5&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD6@{GPIO\_PIN\_RD6}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD6@{GPIO\_PIN\_RD6}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ac9260b5456b99a76dbc114837f498211}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD6&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD7@{GPIO\_PIN\_RD7}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD7@{GPIO\_PIN\_RD7}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ab5008ed65b04eb70a0c7e67191e6d71f}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD8@{GPIO\_PIN\_RD8}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD8@{GPIO\_PIN\_RD8}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ab64da9383e2f8e4a597ea31279d09fea}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD8&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD9@{GPIO\_PIN\_RD9}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD9@{GPIO\_PIN\_RD9}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a5c1f5e204e153968137b7f2c86f4c14b}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD9&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD10@{GPIO\_PIN\_RD10}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD10@{GPIO\_PIN\_RD10}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a0936163bb30fe0152a06818f43292c19}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD10&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RD11@{GPIO\_PIN\_RD11}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RD11@{GPIO\_PIN\_RD11}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a1d6bc32c71d43c6c45b97c2930010019}} 
+GPIO\+\_\+\+PIN\+\_\+\+RD11&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE0@{GPIO\_PIN\_RE0}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE0@{GPIO\_PIN\_RE0}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a16a361727702235cdfc928d943ad5540}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE0&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE1@{GPIO\_PIN\_RE1}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE1@{GPIO\_PIN\_RE1}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0aec7d3466d77b3285a28a5dd84ce00148}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE2@{GPIO\_PIN\_RE2}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE2@{GPIO\_PIN\_RE2}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a3b5607bf523898eeca89c65386dcf56f}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE3@{GPIO\_PIN\_RE3}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE3@{GPIO\_PIN\_RE3}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a674f0051eafbd57984bb7ed474754548}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE4@{GPIO\_PIN\_RE4}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE4@{GPIO\_PIN\_RE4}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0aba91d86f8ebd9c41877a5f1e986da7f8}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE4&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE5@{GPIO\_PIN\_RE5}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE5@{GPIO\_PIN\_RE5}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a0941f522da31322d4f517e75468e9fca}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE5&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE6@{GPIO\_PIN\_RE6}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE6@{GPIO\_PIN\_RE6}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a209edbc8cc83575343f531d2a40b3534}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE6&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RE7@{GPIO\_PIN\_RE7}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RE7@{GPIO\_PIN\_RE7}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a1d3bd88039994b361ea9a35f0ca3ff30}} 
+GPIO\+\_\+\+PIN\+\_\+\+RE7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RF0@{GPIO\_PIN\_RF0}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RF0@{GPIO\_PIN\_RF0}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a8800a91b891579ad5e61940e076b2ed3}} 
+GPIO\+\_\+\+PIN\+\_\+\+RF0&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RF1@{GPIO\_PIN\_RF1}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RF1@{GPIO\_PIN\_RF1}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ae65b73be3be9bc0f94860e355e427c0c}} 
+GPIO\+\_\+\+PIN\+\_\+\+RF1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RF3@{GPIO\_PIN\_RF3}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RF3@{GPIO\_PIN\_RF3}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0af0f03b97f639c2e2fbb657db4135a1ea}} 
+GPIO\+\_\+\+PIN\+\_\+\+RF3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RF4@{GPIO\_PIN\_RF4}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RF4@{GPIO\_PIN\_RF4}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a53deee42a592cdc57783fd7931f16eed}} 
+GPIO\+\_\+\+PIN\+\_\+\+RF4&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RF5@{GPIO\_PIN\_RF5}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RF5@{GPIO\_PIN\_RF5}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a008edda814f469f45c475b7c81d83018}} 
+GPIO\+\_\+\+PIN\+\_\+\+RF5&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RG6@{GPIO\_PIN\_RG6}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RG6@{GPIO\_PIN\_RG6}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0aea935d15746e8793b0639a16817c7751}} 
+GPIO\+\_\+\+PIN\+\_\+\+RG6&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RG7@{GPIO\_PIN\_RG7}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RG7@{GPIO\_PIN\_RG7}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0ac2af0bc56857f01a1112d7585b80611b}} 
+GPIO\+\_\+\+PIN\+\_\+\+RG7&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RG8@{GPIO\_PIN\_RG8}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RG8@{GPIO\_PIN\_RG8}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a27482fc17bacab8e7ab66d22a9a574a3}} 
+GPIO\+\_\+\+PIN\+\_\+\+RG8&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_RG9@{GPIO\_PIN\_RG9}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_RG9@{GPIO\_PIN\_RG9}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a3de40318f78cb38b532c95ff0ecdd718}} 
+GPIO\+\_\+\+PIN\+\_\+\+RG9&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PIN\_NONE@{GPIO\_PIN\_NONE}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PIN\_NONE@{GPIO\_PIN\_NONE}}}\mbox{\label{plib__gpio_8h_aa996b1dc8b3c8150f9319cf7d33336b0a6580501ca07374232210e4b2b64d6ce8}} 
+GPIO\+\_\+\+PIN\+\_\+\+NONE&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT@{GPIO\_PORT}}
+\index{GPIO\_PORT@{GPIO\_PORT}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PORT}
+{\footnotesize\ttfamily enum \textbf{ GPIO\+\_\+\+PORT}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_B@{GPIO\_PORT\_B}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_B@{GPIO\_PORT\_B}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996af5a83964a6998f346c504ea8a14aa420}} 
+GPIO\+\_\+\+PORT\+\_\+B&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_C@{GPIO\_PORT\_C}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_C@{GPIO\_PORT\_C}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996aa6d64325a6ea4d520a8f7c2f8d9b82ba}} 
+GPIO\+\_\+\+PORT\+\_\+C&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_D@{GPIO\_PORT\_D}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_D@{GPIO\_PORT\_D}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996a28839778b06b58a1b3ece28f39dade8f}} 
+GPIO\+\_\+\+PORT\+\_\+D&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_E@{GPIO\_PORT\_E}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_E@{GPIO\_PORT\_E}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996a9cdccb3f86f1326ee286709c135995c8}} 
+GPIO\+\_\+\+PORT\+\_\+E&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_F@{GPIO\_PORT\_F}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_F@{GPIO\_PORT\_F}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996a2e0f525fddb580bff30dc9dd84f3fa5b}} 
+GPIO\+\_\+\+PORT\+\_\+F&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GPIO\_PORT\_G@{GPIO\_PORT\_G}!plib\_gpio.h@{plib\_gpio.h}}\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PORT\_G@{GPIO\_PORT\_G}}}\mbox{\label{plib__gpio_8h_a40010ecd5fc233aeb2cedf70284b2996a97e13b5e58f0f2b2fca0e21721be0cf0}} 
+GPIO\+\_\+\+PORT\+\_\+G&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__gpio_8h_af2c14d08f5cd6da2843b09b5329c5731}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_Initialize@{GPIO\_Initialize}}
+\index{GPIO\_Initialize@{GPIO\_Initialize}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_Initialize()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_ac9e7c55ddfb33e03fe5ec101cf2ad591}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortClear@{GPIO\_PortClear}}
+\index{GPIO\_PortClear@{GPIO\_PortClear}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortClear()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Clear (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a8f5c3509c88c4ece894bdb2c74027726}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortInputEnable@{GPIO\_PortInputEnable}}
+\index{GPIO\_PortInputEnable@{GPIO\_PortInputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortInputEnable()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Input\+Enable (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a7aed251f9d02f9670ced5851b917b86f}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortLatchRead@{GPIO\_PortLatchRead}}
+\index{GPIO\_PortLatchRead@{GPIO\_PortLatchRead}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortLatchRead()}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Port\+Latch\+Read (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a9c7963889c02bf785a27eced1c4cf159}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortOutputEnable@{GPIO\_PortOutputEnable}}
+\index{GPIO\_PortOutputEnable@{GPIO\_PortOutputEnable}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortOutputEnable()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Output\+Enable (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_abd65922a839af32d84c5651f6e5cf309}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortRead@{GPIO\_PortRead}}
+\index{GPIO\_PortRead@{GPIO\_PortRead}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortRead()}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Port\+Read (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a467714d6c56b0e5ad2c3ac2a654ac10e}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortSet@{GPIO\_PortSet}}
+\index{GPIO\_PortSet@{GPIO\_PortSet}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortSet()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Set (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a05cadea9630046fc07bc15a96e334e57}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortToggle@{GPIO\_PortToggle}}
+\index{GPIO\_PortToggle@{GPIO\_PortToggle}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortToggle()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Toggle (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8h_a7ba503984e354ffb977e967fb20c4513}} 
+\index{plib\_gpio.h@{plib\_gpio.h}!GPIO\_PortWrite@{GPIO\_PortWrite}}
+\index{GPIO\_PortWrite@{GPIO\_PortWrite}!plib\_gpio.h@{plib\_gpio.h}}
+\doxysubsubsection{GPIO\_PortWrite()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Write (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+

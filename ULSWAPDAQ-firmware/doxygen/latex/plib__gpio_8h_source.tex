@@ -1,0 +1,460 @@
+\doxysection{plib\+\_\+gpio.\+h}
+\label{plib__gpio_8h_source}\index{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.h@{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.h}}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*******************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ \ GPIO\ PLIB}}
+\DoxyCodeLine{00003\ \textcolor{comment}{}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ \ Company:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ \ \ \ Microchip\ Technology\ Inc.}}
+\DoxyCodeLine{00006\ \textcolor{comment}{}}
+\DoxyCodeLine{00007\ \textcolor{comment}{\ \ File\ Name:}}
+\DoxyCodeLine{00008\ \textcolor{comment}{\ \ \ \ plib\_gpio.h}}
+\DoxyCodeLine{00009\ \textcolor{comment}{}}
+\DoxyCodeLine{00010\ \textcolor{comment}{\ \ Summary:}}
+\DoxyCodeLine{00011\ \textcolor{comment}{\ \ \ \ GPIO\ PLIB\ Header\ File}}
+\DoxyCodeLine{00012\ \textcolor{comment}{}}
+\DoxyCodeLine{00013\ \textcolor{comment}{\ \ Description:}}
+\DoxyCodeLine{00014\ \textcolor{comment}{\ \ \ \ This\ library\ provides\ an\ interface\ to\ control\ and\ interact\ with\ Parallel}}
+\DoxyCodeLine{00015\ \textcolor{comment}{\ \ \ \ Input/Output\ controller\ (GPIO)\ module.}}
+\DoxyCodeLine{00016\ \textcolor{comment}{}}
+\DoxyCodeLine{00017\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{comment}{/*******************************************************************************}}
+\DoxyCodeLine{00020\ \textcolor{comment}{*\ Copyright\ (C)\ 2019\ Microchip\ Technology\ Inc.\ and\ its\ subsidiaries.}}
+\DoxyCodeLine{00021\ \textcolor{comment}{*}}
+\DoxyCodeLine{00022\ \textcolor{comment}{*\ Subject\ to\ your\ compliance\ with\ these\ terms,\ you\ may\ use\ Microchip\ software}}
+\DoxyCodeLine{00023\ \textcolor{comment}{*\ and\ any\ derivatives\ exclusively\ with\ Microchip\ products.\ It\ is\ your}}
+\DoxyCodeLine{00024\ \textcolor{comment}{*\ responsibility\ to\ comply\ with\ third\ party\ license\ terms\ applicable\ to\ your}}
+\DoxyCodeLine{00025\ \textcolor{comment}{*\ use\ of\ third\ party\ software\ (including\ open\ source\ software)\ that\ may}}
+\DoxyCodeLine{00026\ \textcolor{comment}{*\ accompany\ Microchip\ software.}}
+\DoxyCodeLine{00027\ \textcolor{comment}{*}}
+\DoxyCodeLine{00028\ \textcolor{comment}{*\ THIS\ SOFTWARE\ IS\ SUPPLIED\ BY\ MICROCHIP\ "{}AS\ IS"{}.\ NO\ WARRANTIES,\ WHETHER}}
+\DoxyCodeLine{00029\ \textcolor{comment}{*\ EXPRESS,\ IMPLIED\ OR\ STATUTORY,\ APPLY\ TO\ THIS\ SOFTWARE,\ INCLUDING\ ANY\ IMPLIED}}
+\DoxyCodeLine{00030\ \textcolor{comment}{*\ WARRANTIES\ OF\ NON-\/INFRINGEMENT,\ MERCHANTABILITY,\ AND\ FITNESS\ FOR\ A}}
+\DoxyCodeLine{00031\ \textcolor{comment}{*\ PARTICULAR\ PURPOSE.}}
+\DoxyCodeLine{00032\ \textcolor{comment}{*}}
+\DoxyCodeLine{00033\ \textcolor{comment}{*\ IN\ NO\ EVENT\ WILL\ MICROCHIP\ BE\ LIABLE\ FOR\ ANY\ INDIRECT,\ SPECIAL,\ PUNITIVE,}}
+\DoxyCodeLine{00034\ \textcolor{comment}{*\ INCIDENTAL\ OR\ CONSEQUENTIAL\ LOSS,\ DAMAGE,\ COST\ OR\ EXPENSE\ OF\ ANY\ KIND}}
+\DoxyCodeLine{00035\ \textcolor{comment}{*\ WHATSOEVER\ RELATED\ TO\ THE\ SOFTWARE,\ HOWEVER\ CAUSED,\ EVEN\ IF\ MICROCHIP\ HAS}}
+\DoxyCodeLine{00036\ \textcolor{comment}{*\ BEEN\ ADVISED\ OF\ THE\ POSSIBILITY\ OR\ THE\ DAMAGES\ ARE\ FORESEEABLE.\ TO\ THE}}
+\DoxyCodeLine{00037\ \textcolor{comment}{*\ FULLEST\ EXTENT\ ALLOWED\ BY\ LAW,\ MICROCHIP'S\ TOTAL\ LIABILITY\ ON\ ALL\ CLAIMS\ IN}}
+\DoxyCodeLine{00038\ \textcolor{comment}{*\ ANY\ WAY\ RELATED\ TO\ THIS\ SOFTWARE\ WILL\ NOT\ EXCEED\ THE\ AMOUNT\ OF\ FEES,\ IF\ ANY,}}
+\DoxyCodeLine{00039\ \textcolor{comment}{*\ THAT\ YOU\ HAVE\ PAID\ DIRECTLY\ TO\ MICROCHIP\ FOR\ THIS\ SOFTWARE.}}
+\DoxyCodeLine{00040\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#ifndef\ PLIB\_GPIO\_H}}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#define\ PLIB\_GPIO\_H}}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#include\ <device.h>}}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#include\ <stddef.h>}}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{comment}{//\ DOM-\/IGNORE-\/BEGIN}}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus\ \ }\textcolor{comment}{//\ Provide\ C++\ Compatibility}}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\ \{}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00056\ \textcolor{comment}{//\ DOM-\/IGNORE-\/END}}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00059\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00060\ \textcolor{comment}{//\ Section:\ Data\ types\ and\ constants}}
+\DoxyCodeLine{00061\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00062\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ \textcolor{comment}{/***\ Macros\ for\ C\_GP1\ pin\ ***/}}
+\DoxyCodeLine{00066\ \textcolor{preprocessor}{\#define\ C\_GP1\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<5))}}
+\DoxyCodeLine{00067\ \textcolor{preprocessor}{\#define\ C\_GP1\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<5))}}
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#define\ C\_GP1\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<5))}}
+\DoxyCodeLine{00069\ \textcolor{preprocessor}{\#define\ C\_GP1\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<5))}}
+\DoxyCodeLine{00070\ \textcolor{preprocessor}{\#define\ C\_GP1\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<5))}}
+\DoxyCodeLine{00071\ \textcolor{preprocessor}{\#define\ C\_GP1\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 5)\ \&\ 0x1)}}
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#define\ C\_GP1\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE5}}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \textcolor{comment}{/***\ Macros\ for\ C\_GP0\ pin\ ***/}}
+\DoxyCodeLine{00075\ \textcolor{preprocessor}{\#define\ C\_GP0\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<6))}}
+\DoxyCodeLine{00076\ \textcolor{preprocessor}{\#define\ C\_GP0\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<6))}}
+\DoxyCodeLine{00077\ \textcolor{preprocessor}{\#define\ C\_GP0\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<6))}}
+\DoxyCodeLine{00078\ \textcolor{preprocessor}{\#define\ C\_GP0\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<6))}}
+\DoxyCodeLine{00079\ \textcolor{preprocessor}{\#define\ C\_GP0\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<6))}}
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#define\ C\_GP0\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 6)\ \&\ 0x1)}}
+\DoxyCodeLine{00081\ \textcolor{preprocessor}{\#define\ C\_GP0\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE6}}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00083\ \textcolor{comment}{/***\ Macros\ for\ D\_SHDN\ pin\ ***/}}
+\DoxyCodeLine{00084\ \textcolor{preprocessor}{\#define\ D\_SHDN\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<7))}}
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#define\ D\_SHDN\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<7))}}
+\DoxyCodeLine{00086\ \textcolor{preprocessor}{\#define\ D\_SHDN\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<7))}}
+\DoxyCodeLine{00087\ \textcolor{preprocessor}{\#define\ D\_SHDN\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<7))}}
+\DoxyCodeLine{00088\ \textcolor{preprocessor}{\#define\ D\_SHDN\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<7))}}
+\DoxyCodeLine{00089\ \textcolor{preprocessor}{\#define\ D\_SHDN\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 7)\ \&\ 0x1)}}
+\DoxyCodeLine{00090\ \textcolor{preprocessor}{\#define\ D\_SHDN\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE7}}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \textcolor{comment}{/***\ Macros\ for\ D\_GP2\ pin\ ***/}}
+\DoxyCodeLine{00093\ \textcolor{preprocessor}{\#define\ D\_GP2\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATGSET\ =\ (1<<6))}}
+\DoxyCodeLine{00094\ \textcolor{preprocessor}{\#define\ D\_GP2\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATGCLR\ =\ (1<<6))}}
+\DoxyCodeLine{00095\ \textcolor{preprocessor}{\#define\ D\_GP2\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATGINV=\ (1<<6))}}
+\DoxyCodeLine{00096\ \textcolor{preprocessor}{\#define\ D\_GP2\_OutputEnable()\ \ \ \ \ \ (TRISGCLR\ =\ (1<<6))}}
+\DoxyCodeLine{00097\ \textcolor{preprocessor}{\#define\ D\_GP2\_InputEnable()\ \ \ \ \ \ \ (TRISGSET\ =\ (1<<6))}}
+\DoxyCodeLine{00098\ \textcolor{preprocessor}{\#define\ D\_GP2\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTG\ >>\ 6)\ \&\ 0x1)}}
+\DoxyCodeLine{00099\ \textcolor{preprocessor}{\#define\ D\_GP2\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RG6}}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00101\ \textcolor{comment}{/***\ Macros\ for\ D\_GP1\ pin\ ***/}}
+\DoxyCodeLine{00102\ \textcolor{preprocessor}{\#define\ D\_GP1\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATGSET\ =\ (1<<7))}}
+\DoxyCodeLine{00103\ \textcolor{preprocessor}{\#define\ D\_GP1\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATGCLR\ =\ (1<<7))}}
+\DoxyCodeLine{00104\ \textcolor{preprocessor}{\#define\ D\_GP1\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATGINV=\ (1<<7))}}
+\DoxyCodeLine{00105\ \textcolor{preprocessor}{\#define\ D\_GP1\_OutputEnable()\ \ \ \ \ \ (TRISGCLR\ =\ (1<<7))}}
+\DoxyCodeLine{00106\ \textcolor{preprocessor}{\#define\ D\_GP1\_InputEnable()\ \ \ \ \ \ \ (TRISGSET\ =\ (1<<7))}}
+\DoxyCodeLine{00107\ \textcolor{preprocessor}{\#define\ D\_GP1\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTG\ >>\ 7)\ \&\ 0x1)}}
+\DoxyCodeLine{00108\ \textcolor{preprocessor}{\#define\ D\_GP1\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RG7}}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \textcolor{comment}{/***\ Macros\ for\ D\_GP0\ pin\ ***/}}
+\DoxyCodeLine{00111\ \textcolor{preprocessor}{\#define\ D\_GP0\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATGSET\ =\ (1<<8))}}
+\DoxyCodeLine{00112\ \textcolor{preprocessor}{\#define\ D\_GP0\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATGCLR\ =\ (1<<8))}}
+\DoxyCodeLine{00113\ \textcolor{preprocessor}{\#define\ D\_GP0\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATGINV=\ (1<<8))}}
+\DoxyCodeLine{00114\ \textcolor{preprocessor}{\#define\ D\_GP0\_OutputEnable()\ \ \ \ \ \ (TRISGCLR\ =\ (1<<8))}}
+\DoxyCodeLine{00115\ \textcolor{preprocessor}{\#define\ D\_GP0\_InputEnable()\ \ \ \ \ \ \ (TRISGSET\ =\ (1<<8))}}
+\DoxyCodeLine{00116\ \textcolor{preprocessor}{\#define\ D\_GP0\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTG\ >>\ 8)\ \&\ 0x1)}}
+\DoxyCodeLine{00117\ \textcolor{preprocessor}{\#define\ D\_GP0\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RG8}}
+\DoxyCodeLine{00118\ }
+\DoxyCodeLine{00119\ \textcolor{comment}{/***\ Macros\ for\ LED1\ pin\ ***/}}
+\DoxyCodeLine{00120\ \textcolor{preprocessor}{\#define\ LED1\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATBSET\ =\ (1<<14))}}
+\DoxyCodeLine{00121\ \textcolor{preprocessor}{\#define\ LED1\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATBCLR\ =\ (1<<14))}}
+\DoxyCodeLine{00122\ \textcolor{preprocessor}{\#define\ LED1\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATBINV=\ (1<<14))}}
+\DoxyCodeLine{00123\ \textcolor{preprocessor}{\#define\ LED1\_OutputEnable()\ \ \ \ \ \ (TRISBCLR\ =\ (1<<14))}}
+\DoxyCodeLine{00124\ \textcolor{preprocessor}{\#define\ LED1\_InputEnable()\ \ \ \ \ \ \ (TRISBSET\ =\ (1<<14))}}
+\DoxyCodeLine{00125\ \textcolor{preprocessor}{\#define\ LED1\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTB\ >>\ 14)\ \&\ 0x1)}}
+\DoxyCodeLine{00126\ \textcolor{preprocessor}{\#define\ LED1\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RB14}}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \textcolor{comment}{/***\ Macros\ for\ LED2\ pin\ ***/}}
+\DoxyCodeLine{00129\ \textcolor{preprocessor}{\#define\ LED2\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATBSET\ =\ (1<<15))}}
+\DoxyCodeLine{00130\ \textcolor{preprocessor}{\#define\ LED2\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATBCLR\ =\ (1<<15))}}
+\DoxyCodeLine{00131\ \textcolor{preprocessor}{\#define\ LED2\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATBINV=\ (1<<15))}}
+\DoxyCodeLine{00132\ \textcolor{preprocessor}{\#define\ LED2\_OutputEnable()\ \ \ \ \ \ (TRISBCLR\ =\ (1<<15))}}
+\DoxyCodeLine{00133\ \textcolor{preprocessor}{\#define\ LED2\_InputEnable()\ \ \ \ \ \ \ (TRISBSET\ =\ (1<<15))}}
+\DoxyCodeLine{00134\ \textcolor{preprocessor}{\#define\ LED2\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTB\ >>\ 15)\ \&\ 0x1)}}
+\DoxyCodeLine{00135\ \textcolor{preprocessor}{\#define\ LED2\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RB15}}
+\DoxyCodeLine{00136\ }
+\DoxyCodeLine{00137\ \textcolor{comment}{/***\ Macros\ for\ LED3\ pin\ ***/}}
+\DoxyCodeLine{00138\ \textcolor{preprocessor}{\#define\ LED3\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATFSET\ =\ (1<<4))}}
+\DoxyCodeLine{00139\ \textcolor{preprocessor}{\#define\ LED3\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATFCLR\ =\ (1<<4))}}
+\DoxyCodeLine{00140\ \textcolor{preprocessor}{\#define\ LED3\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATFINV=\ (1<<4))}}
+\DoxyCodeLine{00141\ \textcolor{preprocessor}{\#define\ LED3\_OutputEnable()\ \ \ \ \ \ (TRISFCLR\ =\ (1<<4))}}
+\DoxyCodeLine{00142\ \textcolor{preprocessor}{\#define\ LED3\_InputEnable()\ \ \ \ \ \ \ (TRISFSET\ =\ (1<<4))}}
+\DoxyCodeLine{00143\ \textcolor{preprocessor}{\#define\ LED3\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTF\ >>\ 4)\ \&\ 0x1)}}
+\DoxyCodeLine{00144\ \textcolor{preprocessor}{\#define\ LED3\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RF4}}
+\DoxyCodeLine{00145\ }
+\DoxyCodeLine{00146\ \textcolor{comment}{/***\ Macros\ for\ A\_GP0\ pin\ ***/}}
+\DoxyCodeLine{00147\ \textcolor{preprocessor}{\#define\ A\_GP0\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<8))}}
+\DoxyCodeLine{00148\ \textcolor{preprocessor}{\#define\ A\_GP0\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<8))}}
+\DoxyCodeLine{00149\ \textcolor{preprocessor}{\#define\ A\_GP0\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<8))}}
+\DoxyCodeLine{00150\ \textcolor{preprocessor}{\#define\ A\_GP0\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<8))}}
+\DoxyCodeLine{00151\ \textcolor{preprocessor}{\#define\ A\_GP0\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<8))}}
+\DoxyCodeLine{00152\ \textcolor{preprocessor}{\#define\ A\_GP0\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 8)\ \&\ 0x1)}}
+\DoxyCodeLine{00153\ \textcolor{preprocessor}{\#define\ A\_GP0\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD8}}
+\DoxyCodeLine{00154\ }
+\DoxyCodeLine{00155\ \textcolor{comment}{/***\ Macros\ for\ A\_GP1\ pin\ ***/}}
+\DoxyCodeLine{00156\ \textcolor{preprocessor}{\#define\ A\_GP1\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<9))}}
+\DoxyCodeLine{00157\ \textcolor{preprocessor}{\#define\ A\_GP1\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<9))}}
+\DoxyCodeLine{00158\ \textcolor{preprocessor}{\#define\ A\_GP1\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<9))}}
+\DoxyCodeLine{00159\ \textcolor{preprocessor}{\#define\ A\_GP1\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<9))}}
+\DoxyCodeLine{00160\ \textcolor{preprocessor}{\#define\ A\_GP1\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<9))}}
+\DoxyCodeLine{00161\ \textcolor{preprocessor}{\#define\ A\_GP1\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 9)\ \&\ 0x1)}}
+\DoxyCodeLine{00162\ \textcolor{preprocessor}{\#define\ A\_GP1\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD9}}
+\DoxyCodeLine{00163\ }
+\DoxyCodeLine{00164\ \textcolor{comment}{/***\ Macros\ for\ A\_GP2\ pin\ ***/}}
+\DoxyCodeLine{00165\ \textcolor{preprocessor}{\#define\ A\_GP2\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<10))}}
+\DoxyCodeLine{00166\ \textcolor{preprocessor}{\#define\ A\_GP2\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<10))}}
+\DoxyCodeLine{00167\ \textcolor{preprocessor}{\#define\ A\_GP2\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<10))}}
+\DoxyCodeLine{00168\ \textcolor{preprocessor}{\#define\ A\_GP2\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<10))}}
+\DoxyCodeLine{00169\ \textcolor{preprocessor}{\#define\ A\_GP2\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<10))}}
+\DoxyCodeLine{00170\ \textcolor{preprocessor}{\#define\ A\_GP2\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 10)\ \&\ 0x1)}}
+\DoxyCodeLine{00171\ \textcolor{preprocessor}{\#define\ A\_GP2\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD10}}
+\DoxyCodeLine{00172\ }
+\DoxyCodeLine{00173\ \textcolor{comment}{/***\ Macros\ for\ A\_SHDN\ pin\ ***/}}
+\DoxyCodeLine{00174\ \textcolor{preprocessor}{\#define\ A\_SHDN\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<11))}}
+\DoxyCodeLine{00175\ \textcolor{preprocessor}{\#define\ A\_SHDN\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<11))}}
+\DoxyCodeLine{00176\ \textcolor{preprocessor}{\#define\ A\_SHDN\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<11))}}
+\DoxyCodeLine{00177\ \textcolor{preprocessor}{\#define\ A\_SHDN\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<11))}}
+\DoxyCodeLine{00178\ \textcolor{preprocessor}{\#define\ A\_SHDN\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<11))}}
+\DoxyCodeLine{00179\ \textcolor{preprocessor}{\#define\ A\_SHDN\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 11)\ \&\ 0x1)}}
+\DoxyCodeLine{00180\ \textcolor{preprocessor}{\#define\ A\_SHDN\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD11}}
+\DoxyCodeLine{00181\ }
+\DoxyCodeLine{00182\ \textcolor{comment}{/***\ Macros\ for\ RESET\ pin\ ***/}}
+\DoxyCodeLine{00183\ \textcolor{preprocessor}{\#define\ RESET\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<0))}}
+\DoxyCodeLine{00184\ \textcolor{preprocessor}{\#define\ RESET\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<0))}}
+\DoxyCodeLine{00185\ \textcolor{preprocessor}{\#define\ RESET\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<0))}}
+\DoxyCodeLine{00186\ \textcolor{preprocessor}{\#define\ RESET\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<0))}}
+\DoxyCodeLine{00187\ \textcolor{preprocessor}{\#define\ RESET\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<0))}}
+\DoxyCodeLine{00188\ \textcolor{preprocessor}{\#define\ RESET\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 0)\ \&\ 0x1)}}
+\DoxyCodeLine{00189\ \textcolor{preprocessor}{\#define\ RESET\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD0}}
+\DoxyCodeLine{00190\ }
+\DoxyCodeLine{00191\ \textcolor{comment}{/***\ Macros\ for\ BUSY\ pin\ ***/}}
+\DoxyCodeLine{00192\ \textcolor{preprocessor}{\#define\ BUSY\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<5))}}
+\DoxyCodeLine{00193\ \textcolor{preprocessor}{\#define\ BUSY\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<5))}}
+\DoxyCodeLine{00194\ \textcolor{preprocessor}{\#define\ BUSY\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<5))}}
+\DoxyCodeLine{00195\ \textcolor{preprocessor}{\#define\ BUSY\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<5))}}
+\DoxyCodeLine{00196\ \textcolor{preprocessor}{\#define\ BUSY\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<5))}}
+\DoxyCodeLine{00197\ \textcolor{preprocessor}{\#define\ BUSY\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 5)\ \&\ 0x1)}}
+\DoxyCodeLine{00198\ \textcolor{preprocessor}{\#define\ BUSY\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD5}}
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00200\ \textcolor{comment}{/***\ Macros\ for\ RDL\ pin\ ***/}}
+\DoxyCodeLine{00201\ \textcolor{preprocessor}{\#define\ RDL\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<6))}}
+\DoxyCodeLine{00202\ \textcolor{preprocessor}{\#define\ RDL\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<6))}}
+\DoxyCodeLine{00203\ \textcolor{preprocessor}{\#define\ RDL\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<6))}}
+\DoxyCodeLine{00204\ \textcolor{preprocessor}{\#define\ RDL\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<6))}}
+\DoxyCodeLine{00205\ \textcolor{preprocessor}{\#define\ RDL\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<6))}}
+\DoxyCodeLine{00206\ \textcolor{preprocessor}{\#define\ RDL\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 6)\ \&\ 0x1)}}
+\DoxyCodeLine{00207\ \textcolor{preprocessor}{\#define\ RDL\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD6}}
+\DoxyCodeLine{00208\ }
+\DoxyCodeLine{00209\ \textcolor{comment}{/***\ Macros\ for\ CNV\ pin\ ***/}}
+\DoxyCodeLine{00210\ \textcolor{preprocessor}{\#define\ CNV\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATDSET\ =\ (1<<7))}}
+\DoxyCodeLine{00211\ \textcolor{preprocessor}{\#define\ CNV\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATDCLR\ =\ (1<<7))}}
+\DoxyCodeLine{00212\ \textcolor{preprocessor}{\#define\ CNV\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATDINV=\ (1<<7))}}
+\DoxyCodeLine{00213\ \textcolor{preprocessor}{\#define\ CNV\_OutputEnable()\ \ \ \ \ \ (TRISDCLR\ =\ (1<<7))}}
+\DoxyCodeLine{00214\ \textcolor{preprocessor}{\#define\ CNV\_InputEnable()\ \ \ \ \ \ \ (TRISDSET\ =\ (1<<7))}}
+\DoxyCodeLine{00215\ \textcolor{preprocessor}{\#define\ CNV\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTD\ >>\ 7)\ \&\ 0x1)}}
+\DoxyCodeLine{00216\ \textcolor{preprocessor}{\#define\ CNV\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RD7}}
+\DoxyCodeLine{00217\ }
+\DoxyCodeLine{00218\ \textcolor{comment}{/***\ Macros\ for\ B\_SHDN\ pin\ ***/}}
+\DoxyCodeLine{00219\ \textcolor{preprocessor}{\#define\ B\_SHDN\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATFSET\ =\ (1<<1))}}
+\DoxyCodeLine{00220\ \textcolor{preprocessor}{\#define\ B\_SHDN\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATFCLR\ =\ (1<<1))}}
+\DoxyCodeLine{00221\ \textcolor{preprocessor}{\#define\ B\_SHDN\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATFINV=\ (1<<1))}}
+\DoxyCodeLine{00222\ \textcolor{preprocessor}{\#define\ B\_SHDN\_OutputEnable()\ \ \ \ \ \ (TRISFCLR\ =\ (1<<1))}}
+\DoxyCodeLine{00223\ \textcolor{preprocessor}{\#define\ B\_SHDN\_InputEnable()\ \ \ \ \ \ \ (TRISFSET\ =\ (1<<1))}}
+\DoxyCodeLine{00224\ \textcolor{preprocessor}{\#define\ B\_SHDN\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTF\ >>\ 1)\ \&\ 0x1)}}
+\DoxyCodeLine{00225\ \textcolor{preprocessor}{\#define\ B\_SHDN\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RF1}}
+\DoxyCodeLine{00226\ }
+\DoxyCodeLine{00227\ \textcolor{comment}{/***\ Macros\ for\ B\_GP2\ pin\ ***/}}
+\DoxyCodeLine{00228\ \textcolor{preprocessor}{\#define\ B\_GP2\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<0))}}
+\DoxyCodeLine{00229\ \textcolor{preprocessor}{\#define\ B\_GP2\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<0))}}
+\DoxyCodeLine{00230\ \textcolor{preprocessor}{\#define\ B\_GP2\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<0))}}
+\DoxyCodeLine{00231\ \textcolor{preprocessor}{\#define\ B\_GP2\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<0))}}
+\DoxyCodeLine{00232\ \textcolor{preprocessor}{\#define\ B\_GP2\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<0))}}
+\DoxyCodeLine{00233\ \textcolor{preprocessor}{\#define\ B\_GP2\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 0)\ \&\ 0x1)}}
+\DoxyCodeLine{00234\ \textcolor{preprocessor}{\#define\ B\_GP2\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE0}}
+\DoxyCodeLine{00235\ }
+\DoxyCodeLine{00236\ \textcolor{comment}{/***\ Macros\ for\ B\_GP1\ pin\ ***/}}
+\DoxyCodeLine{00237\ \textcolor{preprocessor}{\#define\ B\_GP1\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<1))}}
+\DoxyCodeLine{00238\ \textcolor{preprocessor}{\#define\ B\_GP1\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<1))}}
+\DoxyCodeLine{00239\ \textcolor{preprocessor}{\#define\ B\_GP1\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<1))}}
+\DoxyCodeLine{00240\ \textcolor{preprocessor}{\#define\ B\_GP1\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<1))}}
+\DoxyCodeLine{00241\ \textcolor{preprocessor}{\#define\ B\_GP1\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<1))}}
+\DoxyCodeLine{00242\ \textcolor{preprocessor}{\#define\ B\_GP1\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 1)\ \&\ 0x1)}}
+\DoxyCodeLine{00243\ \textcolor{preprocessor}{\#define\ B\_GP1\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE1}}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00245\ \textcolor{comment}{/***\ Macros\ for\ B\_GP0\ pin\ ***/}}
+\DoxyCodeLine{00246\ \textcolor{preprocessor}{\#define\ B\_GP0\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<2))}}
+\DoxyCodeLine{00247\ \textcolor{preprocessor}{\#define\ B\_GP0\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<2))}}
+\DoxyCodeLine{00248\ \textcolor{preprocessor}{\#define\ B\_GP0\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<2))}}
+\DoxyCodeLine{00249\ \textcolor{preprocessor}{\#define\ B\_GP0\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<2))}}
+\DoxyCodeLine{00250\ \textcolor{preprocessor}{\#define\ B\_GP0\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<2))}}
+\DoxyCodeLine{00251\ \textcolor{preprocessor}{\#define\ B\_GP0\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 2)\ \&\ 0x1)}}
+\DoxyCodeLine{00252\ \textcolor{preprocessor}{\#define\ B\_GP0\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE2}}
+\DoxyCodeLine{00253\ }
+\DoxyCodeLine{00254\ \textcolor{comment}{/***\ Macros\ for\ C\_SHDN\ pin\ ***/}}
+\DoxyCodeLine{00255\ \textcolor{preprocessor}{\#define\ C\_SHDN\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<3))}}
+\DoxyCodeLine{00256\ \textcolor{preprocessor}{\#define\ C\_SHDN\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<3))}}
+\DoxyCodeLine{00257\ \textcolor{preprocessor}{\#define\ C\_SHDN\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<3))}}
+\DoxyCodeLine{00258\ \textcolor{preprocessor}{\#define\ C\_SHDN\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<3))}}
+\DoxyCodeLine{00259\ \textcolor{preprocessor}{\#define\ C\_SHDN\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<3))}}
+\DoxyCodeLine{00260\ \textcolor{preprocessor}{\#define\ C\_SHDN\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 3)\ \&\ 0x1)}}
+\DoxyCodeLine{00261\ \textcolor{preprocessor}{\#define\ C\_SHDN\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE3}}
+\DoxyCodeLine{00262\ }
+\DoxyCodeLine{00263\ \textcolor{comment}{/***\ Macros\ for\ C\_GP2\ pin\ ***/}}
+\DoxyCodeLine{00264\ \textcolor{preprocessor}{\#define\ C\_GP2\_Set()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (LATESET\ =\ (1<<4))}}
+\DoxyCodeLine{00265\ \textcolor{preprocessor}{\#define\ C\_GP2\_Clear()\ \ \ \ \ \ \ \ \ \ \ \ \ (LATECLR\ =\ (1<<4))}}
+\DoxyCodeLine{00266\ \textcolor{preprocessor}{\#define\ C\_GP2\_Toggle()\ \ \ \ \ \ \ \ \ \ \ \ (LATEINV=\ (1<<4))}}
+\DoxyCodeLine{00267\ \textcolor{preprocessor}{\#define\ C\_GP2\_OutputEnable()\ \ \ \ \ \ (TRISECLR\ =\ (1<<4))}}
+\DoxyCodeLine{00268\ \textcolor{preprocessor}{\#define\ C\_GP2\_InputEnable()\ \ \ \ \ \ \ (TRISESET\ =\ (1<<4))}}
+\DoxyCodeLine{00269\ \textcolor{preprocessor}{\#define\ C\_GP2\_Get()\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ((PORTE\ >>\ 4)\ \&\ 0x1)}}
+\DoxyCodeLine{00270\ \textcolor{preprocessor}{\#define\ C\_GP2\_PIN\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ GPIO\_PIN\_RE4}}
+\DoxyCodeLine{00271\ }
+\DoxyCodeLine{00272\ }
+\DoxyCodeLine{00273\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00274\ \textcolor{comment}{/*\ GPIO\ Port}}
+\DoxyCodeLine{00275\ \textcolor{comment}{}}
+\DoxyCodeLine{00276\ \textcolor{comment}{\ \ Summary:}}
+\DoxyCodeLine{00277\ \textcolor{comment}{\ \ \ \ Identifies\ the\ available\ GPIO\ Ports.}}
+\DoxyCodeLine{00278\ \textcolor{comment}{}}
+\DoxyCodeLine{00279\ \textcolor{comment}{\ \ Description:}}
+\DoxyCodeLine{00280\ \textcolor{comment}{\ \ \ \ This\ enumeration\ identifies\ the\ available\ GPIO\ Ports.}}
+\DoxyCodeLine{00281\ \textcolor{comment}{}}
+\DoxyCodeLine{00282\ \textcolor{comment}{\ \ Remarks:}}
+\DoxyCodeLine{00283\ \textcolor{comment}{\ \ \ \ The\ caller\ should\ not\ rely\ on\ the\ specific\ numbers\ assigned\ to\ any\ of}}
+\DoxyCodeLine{00284\ \textcolor{comment}{\ \ \ \ these\ values\ as\ they\ may\ change\ from\ one\ processor\ to\ the\ next.}}
+\DoxyCodeLine{00285\ \textcolor{comment}{}}
+\DoxyCodeLine{00286\ \textcolor{comment}{\ \ \ \ Not\ all\ ports\ are\ available\ on\ all\ devices.\ \ Refer\ to\ the\ specific}}
+\DoxyCodeLine{00287\ \textcolor{comment}{\ \ \ \ device\ data\ sheet\ to\ determine\ which\ ports\ are\ supported.}}
+\DoxyCodeLine{00288\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00289\ }
+\DoxyCodeLine{00290\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00291\ \{}
+\DoxyCodeLine{00292\ \ \ \ \ GPIO\_PORT\_B\ =\ 0,}
+\DoxyCodeLine{00293\ \ \ \ \ GPIO\_PORT\_C\ =\ 1,}
+\DoxyCodeLine{00294\ \ \ \ \ GPIO\_PORT\_D\ =\ 2,}
+\DoxyCodeLine{00295\ \ \ \ \ GPIO\_PORT\_E\ =\ 3,}
+\DoxyCodeLine{00296\ \ \ \ \ GPIO\_PORT\_F\ =\ 4,}
+\DoxyCodeLine{00297\ \ \ \ \ GPIO\_PORT\_G\ =\ 5,}
+\DoxyCodeLine{00298\ \}\ GPIO\_PORT;}
+\DoxyCodeLine{00299\ }
+\DoxyCodeLine{00300\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00301\ \textcolor{comment}{/*\ GPIO\ Port\ Pins}}
+\DoxyCodeLine{00302\ \textcolor{comment}{}}
+\DoxyCodeLine{00303\ \textcolor{comment}{\ \ Summary:}}
+\DoxyCodeLine{00304\ \textcolor{comment}{\ \ \ \ Identifies\ the\ available\ GPIO\ port\ pins.}}
+\DoxyCodeLine{00305\ \textcolor{comment}{}}
+\DoxyCodeLine{00306\ \textcolor{comment}{\ \ Description:}}
+\DoxyCodeLine{00307\ \textcolor{comment}{\ \ \ \ This\ enumeration\ identifies\ the\ available\ GPIO\ port\ pins.}}
+\DoxyCodeLine{00308\ \textcolor{comment}{}}
+\DoxyCodeLine{00309\ \textcolor{comment}{\ \ Remarks:}}
+\DoxyCodeLine{00310\ \textcolor{comment}{\ \ \ \ The\ caller\ should\ not\ rely\ on\ the\ specific\ numbers\ assigned\ to\ any\ of}}
+\DoxyCodeLine{00311\ \textcolor{comment}{\ \ \ \ these\ values\ as\ they\ may\ change\ from\ one\ processor\ to\ the\ next.}}
+\DoxyCodeLine{00312\ \textcolor{comment}{}}
+\DoxyCodeLine{00313\ \textcolor{comment}{\ \ \ \ Not\ all\ pins\ are\ available\ on\ all\ devices.\ \ Refer\ to\ the\ specific}}
+\DoxyCodeLine{00314\ \textcolor{comment}{\ \ \ \ device\ data\ sheet\ to\ determine\ which\ pins\ are\ supported.}}
+\DoxyCodeLine{00315\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00316\ }
+\DoxyCodeLine{00317\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00318\ \{}
+\DoxyCodeLine{00319\ \ \ \ \ GPIO\_PIN\_RB0\ =\ 0,}
+\DoxyCodeLine{00320\ \ \ \ \ GPIO\_PIN\_RB1\ =\ 1,}
+\DoxyCodeLine{00321\ \ \ \ \ GPIO\_PIN\_RB2\ =\ 2,}
+\DoxyCodeLine{00322\ \ \ \ \ GPIO\_PIN\_RB3\ =\ 3,}
+\DoxyCodeLine{00323\ \ \ \ \ GPIO\_PIN\_RB4\ =\ 4,}
+\DoxyCodeLine{00324\ \ \ \ \ GPIO\_PIN\_RB5\ =\ 5,}
+\DoxyCodeLine{00325\ \ \ \ \ GPIO\_PIN\_RB6\ =\ 6,}
+\DoxyCodeLine{00326\ \ \ \ \ GPIO\_PIN\_RB7\ =\ 7,}
+\DoxyCodeLine{00327\ \ \ \ \ GPIO\_PIN\_RB8\ =\ 8,}
+\DoxyCodeLine{00328\ \ \ \ \ GPIO\_PIN\_RB9\ =\ 9,}
+\DoxyCodeLine{00329\ \ \ \ \ GPIO\_PIN\_RB10\ =\ 10,}
+\DoxyCodeLine{00330\ \ \ \ \ GPIO\_PIN\_RB11\ =\ 11,}
+\DoxyCodeLine{00331\ \ \ \ \ GPIO\_PIN\_RB12\ =\ 12,}
+\DoxyCodeLine{00332\ \ \ \ \ GPIO\_PIN\_RB13\ =\ 13,}
+\DoxyCodeLine{00333\ \ \ \ \ GPIO\_PIN\_RB14\ =\ 14,}
+\DoxyCodeLine{00334\ \ \ \ \ GPIO\_PIN\_RB15\ =\ 15,}
+\DoxyCodeLine{00335\ \ \ \ \ GPIO\_PIN\_RC12\ =\ 28,}
+\DoxyCodeLine{00336\ \ \ \ \ GPIO\_PIN\_RC13\ =\ 29,}
+\DoxyCodeLine{00337\ \ \ \ \ GPIO\_PIN\_RC14\ =\ 30,}
+\DoxyCodeLine{00338\ \ \ \ \ GPIO\_PIN\_RC15\ =\ 31,}
+\DoxyCodeLine{00339\ \ \ \ \ GPIO\_PIN\_RD0\ =\ 32,}
+\DoxyCodeLine{00340\ \ \ \ \ GPIO\_PIN\_RD1\ =\ 33,}
+\DoxyCodeLine{00341\ \ \ \ \ GPIO\_PIN\_RD2\ =\ 34,}
+\DoxyCodeLine{00342\ \ \ \ \ GPIO\_PIN\_RD3\ =\ 35,}
+\DoxyCodeLine{00343\ \ \ \ \ GPIO\_PIN\_RD4\ =\ 36,}
+\DoxyCodeLine{00344\ \ \ \ \ GPIO\_PIN\_RD5\ =\ 37,}
+\DoxyCodeLine{00345\ \ \ \ \ GPIO\_PIN\_RD6\ =\ 38,}
+\DoxyCodeLine{00346\ \ \ \ \ GPIO\_PIN\_RD7\ =\ 39,}
+\DoxyCodeLine{00347\ \ \ \ \ GPIO\_PIN\_RD8\ =\ 40,}
+\DoxyCodeLine{00348\ \ \ \ \ GPIO\_PIN\_RD9\ =\ 41,}
+\DoxyCodeLine{00349\ \ \ \ \ GPIO\_PIN\_RD10\ =\ 42,}
+\DoxyCodeLine{00350\ \ \ \ \ GPIO\_PIN\_RD11\ =\ 43,}
+\DoxyCodeLine{00351\ \ \ \ \ GPIO\_PIN\_RE0\ =\ 48,}
+\DoxyCodeLine{00352\ \ \ \ \ GPIO\_PIN\_RE1\ =\ 49,}
+\DoxyCodeLine{00353\ \ \ \ \ GPIO\_PIN\_RE2\ =\ 50,}
+\DoxyCodeLine{00354\ \ \ \ \ GPIO\_PIN\_RE3\ =\ 51,}
+\DoxyCodeLine{00355\ \ \ \ \ GPIO\_PIN\_RE4\ =\ 52,}
+\DoxyCodeLine{00356\ \ \ \ \ GPIO\_PIN\_RE5\ =\ 53,}
+\DoxyCodeLine{00357\ \ \ \ \ GPIO\_PIN\_RE6\ =\ 54,}
+\DoxyCodeLine{00358\ \ \ \ \ GPIO\_PIN\_RE7\ =\ 55,}
+\DoxyCodeLine{00359\ \ \ \ \ GPIO\_PIN\_RF0\ =\ 64,}
+\DoxyCodeLine{00360\ \ \ \ \ GPIO\_PIN\_RF1\ =\ 65,}
+\DoxyCodeLine{00361\ \ \ \ \ GPIO\_PIN\_RF3\ =\ 67,}
+\DoxyCodeLine{00362\ \ \ \ \ GPIO\_PIN\_RF4\ =\ 68,}
+\DoxyCodeLine{00363\ \ \ \ \ GPIO\_PIN\_RF5\ =\ 69,}
+\DoxyCodeLine{00364\ \ \ \ \ GPIO\_PIN\_RG6\ =\ 86,}
+\DoxyCodeLine{00365\ \ \ \ \ GPIO\_PIN\_RG7\ =\ 87,}
+\DoxyCodeLine{00366\ \ \ \ \ GPIO\_PIN\_RG8\ =\ 88,}
+\DoxyCodeLine{00367\ \ \ \ \ GPIO\_PIN\_RG9\ =\ 89,}
+\DoxyCodeLine{00368\ }
+\DoxyCodeLine{00369\ \ \ \ \ \textcolor{comment}{/*\ This\ element\ should\ not\ be\ used\ in\ any\ of\ the\ GPIO\ APIs.}}
+\DoxyCodeLine{00370\ \textcolor{comment}{\ \ \ \ \ \ \ It\ will\ be\ used\ by\ other\ modules\ or\ application\ to\ denote\ that\ none\ of\ the\ GPIO\ Pin\ is\ used\ */}}
+\DoxyCodeLine{00371\ \ \ \ \ GPIO\_PIN\_NONE\ =\ -\/1}
+\DoxyCodeLine{00372\ }
+\DoxyCodeLine{00373\ \}\ GPIO\_PIN;}
+\DoxyCodeLine{00374\ }
+\DoxyCodeLine{00375\ }
+\DoxyCodeLine{00376\ \textcolor{keywordtype}{void}\ GPIO\_Initialize(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00377\ }
+\DoxyCodeLine{00378\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00379\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00380\ \textcolor{comment}{//\ Section:\ GPIO\ Functions\ which\ operates\ on\ multiple\ pins\ of\ a\ port}}
+\DoxyCodeLine{00381\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00382\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00383\ }
+\DoxyCodeLine{00384\ uint32\_t\ GPIO\_PortRead(GPIO\_PORT\ port);}
+\DoxyCodeLine{00385\ }
+\DoxyCodeLine{00386\ \textcolor{keywordtype}{void}\ GPIO\_PortWrite(GPIO\_PORT\ port,\ uint32\_t\ mask,\ uint32\_t\ value);}
+\DoxyCodeLine{00387\ }
+\DoxyCodeLine{00388\ uint32\_t\ GPIO\_PortLatchRead\ (\ GPIO\_PORT\ port\ );}
+\DoxyCodeLine{00389\ }
+\DoxyCodeLine{00390\ \textcolor{keywordtype}{void}\ GPIO\_PortSet(GPIO\_PORT\ port,\ uint32\_t\ mask);}
+\DoxyCodeLine{00391\ }
+\DoxyCodeLine{00392\ \textcolor{keywordtype}{void}\ GPIO\_PortClear(GPIO\_PORT\ port,\ uint32\_t\ mask);}
+\DoxyCodeLine{00393\ }
+\DoxyCodeLine{00394\ \textcolor{keywordtype}{void}\ GPIO\_PortToggle(GPIO\_PORT\ port,\ uint32\_t\ mask);}
+\DoxyCodeLine{00395\ }
+\DoxyCodeLine{00396\ \textcolor{keywordtype}{void}\ GPIO\_PortInputEnable(GPIO\_PORT\ port,\ uint32\_t\ mask);}
+\DoxyCodeLine{00397\ }
+\DoxyCodeLine{00398\ \textcolor{keywordtype}{void}\ GPIO\_PortOutputEnable(GPIO\_PORT\ port,\ uint32\_t\ mask);}
+\DoxyCodeLine{00399\ }
+\DoxyCodeLine{00400\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00401\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00402\ \textcolor{comment}{//\ Section:\ GPIO\ Functions\ which\ operates\ on\ one\ pin\ at\ a\ time}}
+\DoxyCodeLine{00403\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00404\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00405\ }
+\DoxyCodeLine{00406\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinWrite(GPIO\_PIN\ pin,\ \textcolor{keywordtype}{bool}\ value)}
+\DoxyCodeLine{00407\ \{}
+\DoxyCodeLine{00408\ \ \ \ \ GPIO\_PortWrite((GPIO\_PORT)(pin>>4),\ (uint32\_t)(0x1)\ <<\ (pin\ \&\ 0xF),\ (uint32\_t)(value)\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00409\ \}}
+\DoxyCodeLine{00410\ }
+\DoxyCodeLine{00411\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{bool}\ GPIO\_PinRead(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00412\ \{}
+\DoxyCodeLine{00413\ \ \ \ \ \textcolor{keywordflow}{return}\ (\textcolor{keywordtype}{bool})(((GPIO\_PortRead((GPIO\_PORT)(pin>>4)))\ >>\ (pin\ \&\ 0xF))\ \&\ 0x1);}
+\DoxyCodeLine{00414\ \}}
+\DoxyCodeLine{00415\ }
+\DoxyCodeLine{00416\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{bool}\ GPIO\_PinLatchRead(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00417\ \{}
+\DoxyCodeLine{00418\ \ \ \ \ \textcolor{keywordflow}{return}\ (\textcolor{keywordtype}{bool})((GPIO\_PortLatchRead((GPIO\_PORT)(pin>>4))\ >>\ (pin\ \&\ 0xF))\ \&\ 0x1);}
+\DoxyCodeLine{00419\ \}}
+\DoxyCodeLine{00420\ }
+\DoxyCodeLine{00421\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinToggle(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00422\ \{}
+\DoxyCodeLine{00423\ \ \ \ \ GPIO\_PortToggle((GPIO\_PORT)(pin>>4),\ 0x1\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00424\ \}}
+\DoxyCodeLine{00425\ }
+\DoxyCodeLine{00426\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinSet(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00427\ \{}
+\DoxyCodeLine{00428\ \ \ \ \ GPIO\_PortSet((GPIO\_PORT)(pin>>4),\ 0x1\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00429\ \}}
+\DoxyCodeLine{00430\ }
+\DoxyCodeLine{00431\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinClear(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00432\ \{}
+\DoxyCodeLine{00433\ \ \ \ \ GPIO\_PortClear((GPIO\_PORT)(pin>>4),\ 0x1\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00434\ \}}
+\DoxyCodeLine{00435\ }
+\DoxyCodeLine{00436\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinInputEnable(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00437\ \{}
+\DoxyCodeLine{00438\ \ \ \ \ GPIO\_PortInputEnable((GPIO\_PORT)(pin>>4),\ 0x1\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00439\ \}}
+\DoxyCodeLine{00440\ }
+\DoxyCodeLine{00441\ \textcolor{keyword}{static}\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ GPIO\_PinOutputEnable(GPIO\_PIN\ pin)}
+\DoxyCodeLine{00442\ \{}
+\DoxyCodeLine{00443\ \ \ \ \ GPIO\_PortOutputEnable((GPIO\_PORT)(pin>>4),\ 0x1\ <<\ (pin\ \&\ 0xF));}
+\DoxyCodeLine{00444\ \}}
+\DoxyCodeLine{00445\ }
+\DoxyCodeLine{00446\ }
+\DoxyCodeLine{00447\ \textcolor{comment}{//\ DOM-\/IGNORE-\/BEGIN}}
+\DoxyCodeLine{00448\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus\ \ }\textcolor{comment}{//\ Provide\ C++\ Compatibility}}
+\DoxyCodeLine{00449\ }
+\DoxyCodeLine{00450\ \ \ \ \ \}}
+\DoxyCodeLine{00451\ }
+\DoxyCodeLine{00452\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00453\ \textcolor{comment}{//\ DOM-\/IGNORE-\/END}}
+\DoxyCodeLine{00454\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ PLIB\_GPIO\_H}}
+
+\end{DoxyCode}

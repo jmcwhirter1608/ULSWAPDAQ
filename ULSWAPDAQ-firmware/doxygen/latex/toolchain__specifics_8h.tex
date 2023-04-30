@@ -1,0 +1,161 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/toolchain\+\_\+specifics.h File Reference}
+\label{toolchain__specifics_8h}\index{firmware/src/config/ULSWAPDAQ2/toolchain\_specifics.h@{firmware/src/config/ULSWAPDAQ2/toolchain\_specifics.h}}
+{\ttfamily \#include $<$sys/types.\+h$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ NO\+\_\+\+INIT}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((section(\char`\"{}.no\+\_\+init\char`\"{})))
+\item 
+\#define \textbf{ SECTION}(a)~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((\+\_\+\+\_\+section\+\_\+\+\_\+(a)))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+ASM}~\+\_\+\+\_\+asm\+\_\+\+\_\+
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+INLINE}~\+\_\+\+\_\+inline\+\_\+\+\_\+
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+STATIC\+\_\+\+INLINE}~static \+\_\+\+\_\+inline\+\_\+\+\_\+
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+STATIC\+\_\+\+FORCEINLINE}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((always\+\_\+inline)) static \+\_\+\+\_\+inline\+\_\+\+\_\+
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+NO\+\_\+\+RETURN}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((\+\_\+\+\_\+noreturn\+\_\+\+\_\+))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+USED}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((used))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+WEAK}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((weak))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+PACKED}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+PACKED\+\_\+\+STRUCT}~struct \textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+PACKED\+\_\+\+UNION}~union \textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+COHERENT}~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((coherent))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+ALIGNED}(x)~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((aligned(x)))
+\item 
+\#define \textbf{ \+\_\+\+\_\+\+RESTRICT}~\+\_\+\+\_\+restrict\+\_\+\+\_\+
+\item 
+\#define \textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE}~(4u)
+\item 
+\#define \textbf{ CACHE\+\_\+\+ALIGN}
+\item 
+\#define \textbf{ CACHE\+\_\+\+ALIGNED\+\_\+\+SIZE\+\_\+\+GET}(size)~(size + ((size \% \textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE})? (\textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE} -\/ (size \% \textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE})) \+: 0))
+\item 
+\#define \textbf{ FORMAT\+\_\+\+ATTRIBUTE}(archetype,  string\+\_\+index,  first\+\_\+to\+\_\+check)~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+} ((format (archetype, string\+\_\+index, first\+\_\+to\+\_\+check)))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\label{toolchain__specifics_8h_aa65ef8f7a5e8b7a6ea6c1d48b4c78e55}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_ALIGNED@{\_\_ALIGNED}}
+\index{\_\_ALIGNED@{\_\_ALIGNED}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_ALIGNED}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+ALIGNED(\begin{DoxyParamCaption}\item[{}]{x }\end{DoxyParamCaption})~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((aligned(x)))}
+
+\mbox{\label{toolchain__specifics_8h_a1378040bcf22428955c6e3ce9c2053cd}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_ASM@{\_\_ASM}}
+\index{\_\_ASM@{\_\_ASM}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_ASM}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+ASM~\+\_\+\+\_\+asm\+\_\+\+\_\+}
+
+\mbox{\label{toolchain__specifics_8h_a029a6c58a632ce2d2f41df95fa6165f2}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_COHERENT@{\_\_COHERENT}}
+\index{\_\_COHERENT@{\_\_COHERENT}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_COHERENT}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+COHERENT~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((coherent))}
+
+\mbox{\label{toolchain__specifics_8h_ade2d8d7118f8ff49547f60aa0c3382bb}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_INLINE@{\_\_INLINE}}
+\index{\_\_INLINE@{\_\_INLINE}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_INLINE}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+INLINE~\+\_\+\+\_\+inline\+\_\+\+\_\+}
+
+\mbox{\label{toolchain__specifics_8h_a153a4a31b276a9758959580538720a51}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_NO\_RETURN@{\_\_NO\_RETURN}}
+\index{\_\_NO\_RETURN@{\_\_NO\_RETURN}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_NO\_RETURN}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+NO\+\_\+\+RETURN~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((\+\_\+\+\_\+noreturn\+\_\+\+\_\+))}
+
+\mbox{\label{toolchain__specifics_8h_abe8996d3d985ee1529475443cc635bf1}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_PACKED@{\_\_PACKED}}
+\index{\_\_PACKED@{\_\_PACKED}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_PACKED}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+PACKED~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))}
+
+\mbox{\label{toolchain__specifics_8h_a4dbb70fab85207c27b581ecb6532b314}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_PACKED\_STRUCT@{\_\_PACKED\_STRUCT}}
+\index{\_\_PACKED\_STRUCT@{\_\_PACKED\_STRUCT}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_PACKED\_STRUCT}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+PACKED\+\_\+\+STRUCT~struct \textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))}
+
+\mbox{\label{toolchain__specifics_8h_a6fba34d08b0a526830b4231d2ea0b89a}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_PACKED\_UNION@{\_\_PACKED\_UNION}}
+\index{\_\_PACKED\_UNION@{\_\_PACKED\_UNION}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_PACKED\_UNION}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+PACKED\+\_\+\+UNION~union \textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((packed, aligned(1)))}
+
+\mbox{\label{toolchain__specifics_8h_a378ac21329d33f561f90265eef89f564}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_RESTRICT@{\_\_RESTRICT}}
+\index{\_\_RESTRICT@{\_\_RESTRICT}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_RESTRICT}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+RESTRICT~\+\_\+\+\_\+restrict\+\_\+\+\_\+}
+
+\mbox{\label{toolchain__specifics_8h_ab904513442afdf77d4f8c74f23cbb040}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_STATIC\_FORCEINLINE@{\_\_STATIC\_FORCEINLINE}}
+\index{\_\_STATIC\_FORCEINLINE@{\_\_STATIC\_FORCEINLINE}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_STATIC\_FORCEINLINE}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+STATIC\+\_\+\+FORCEINLINE~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((always\+\_\+inline)) static \+\_\+\+\_\+inline\+\_\+\+\_\+}
+
+\mbox{\label{toolchain__specifics_8h_aba87361bfad2ae52cfe2f40c1a1dbf9c}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_STATIC\_INLINE@{\_\_STATIC\_INLINE}}
+\index{\_\_STATIC\_INLINE@{\_\_STATIC\_INLINE}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_STATIC\_INLINE}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+STATIC\+\_\+\+INLINE~static \+\_\+\+\_\+inline\+\_\+\+\_\+}
+
+\mbox{\label{toolchain__specifics_8h_a3e40e4c553fc11588f7a4c2a19e789e0}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_USED@{\_\_USED}}
+\index{\_\_USED@{\_\_USED}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_USED}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+USED~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((used))}
+
+\mbox{\label{toolchain__specifics_8h_ac607bf387b29162be6a9b77fc7999539}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!\_\_WEAK@{\_\_WEAK}}
+\index{\_\_WEAK@{\_\_WEAK}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{\_\_WEAK}
+{\footnotesize\ttfamily \#define \+\_\+\+\_\+\+WEAK~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((weak))}
+
+\mbox{\label{toolchain__specifics_8h_a437105e333a87b371d62d1552ab1d832}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!CACHE\_ALIGN@{CACHE\_ALIGN}}
+\index{CACHE\_ALIGN@{CACHE\_ALIGN}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{CACHE\_ALIGN}
+{\footnotesize\ttfamily \#define CACHE\+\_\+\+ALIGN}
+
+\mbox{\label{toolchain__specifics_8h_a94c90dc6d5b0385240cdbce63d370de3}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!CACHE\_ALIGNED\_SIZE\_GET@{CACHE\_ALIGNED\_SIZE\_GET}}
+\index{CACHE\_ALIGNED\_SIZE\_GET@{CACHE\_ALIGNED\_SIZE\_GET}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{CACHE\_ALIGNED\_SIZE\_GET}
+{\footnotesize\ttfamily \#define CACHE\+\_\+\+ALIGNED\+\_\+\+SIZE\+\_\+\+GET(\begin{DoxyParamCaption}\item[{}]{size }\end{DoxyParamCaption})~(size + ((size \% \textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE})? (\textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE} -\/ (size \% \textbf{ CACHE\+\_\+\+LINE\+\_\+\+SIZE})) \+: 0))}
+
+\mbox{\label{toolchain__specifics_8h_af89f60b07247176687889ade776c8e10}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!CACHE\_LINE\_SIZE@{CACHE\_LINE\_SIZE}}
+\index{CACHE\_LINE\_SIZE@{CACHE\_LINE\_SIZE}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{CACHE\_LINE\_SIZE}
+{\footnotesize\ttfamily \#define CACHE\+\_\+\+LINE\+\_\+\+SIZE~(4u)}
+
+\mbox{\label{toolchain__specifics_8h_a1a68ccfd3004874777b6e405aafd0bd5}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!FORMAT\_ATTRIBUTE@{FORMAT\_ATTRIBUTE}}
+\index{FORMAT\_ATTRIBUTE@{FORMAT\_ATTRIBUTE}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{FORMAT\_ATTRIBUTE}
+{\footnotesize\ttfamily \#define FORMAT\+\_\+\+ATTRIBUTE(\begin{DoxyParamCaption}\item[{}]{archetype,  }\item[{}]{string\+\_\+index,  }\item[{}]{first\+\_\+to\+\_\+check }\end{DoxyParamCaption})~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+} ((format (archetype, string\+\_\+index, first\+\_\+to\+\_\+check)))}
+
+\mbox{\label{toolchain__specifics_8h_afa9fbc67c23846c8b73d6f0afcfafec8}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!NO\_INIT@{NO\_INIT}}
+\index{NO\_INIT@{NO\_INIT}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{NO\_INIT}
+{\footnotesize\ttfamily \#define NO\+\_\+\+INIT~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((section(\char`\"{}.no\+\_\+init\char`\"{})))}
+
+\mbox{\label{toolchain__specifics_8h_ae8ca0534520a46af46ec830d5fccab63}} 
+\index{toolchain\_specifics.h@{toolchain\_specifics.h}!SECTION@{SECTION}}
+\index{SECTION@{SECTION}!toolchain\_specifics.h@{toolchain\_specifics.h}}
+\doxysubsubsection{SECTION}
+{\footnotesize\ttfamily \#define SECTION(\begin{DoxyParamCaption}\item[{}]{a }\end{DoxyParamCaption})~\textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+}((\+\_\+\+\_\+section\+\_\+\+\_\+(a)))}
+

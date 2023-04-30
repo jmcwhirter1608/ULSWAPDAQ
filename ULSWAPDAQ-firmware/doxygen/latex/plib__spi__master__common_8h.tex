@@ -1,0 +1,112 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/spi/spi\+\_\+master/plib\+\_\+spi\+\_\+master\+\_\+common.h File Reference}
+\label{plib__spi__master__common_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/spi/spi\_master/plib\_spi\_master\_common.h@{firmware/src/config/ULSWAPDAQ2/peripheral/spi/spi\_master/plib\_spi\_master\_common.h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \textbf{ SPI\+\_\+\+TRANSFER\+\_\+\+SETUP}
+\item 
+struct \textbf{ SPI\+\_\+\+OBJECT}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \textbf{ SPI\+\_\+\+CALLBACK}) (uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+PHASE} \{ \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+TRAILING\+\_\+\+EDGE} = 0x00000000
+, \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+LEADING\+\_\+\+EDGE} = 0x00000100
+, \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\item 
+enum \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+POLARITY} \{ \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+IDLE\+\_\+\+LOW} = 0x00000000
+, \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+IDLE\+\_\+\+HIGH} = 0x00000040
+, \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\item 
+enum \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS} \{ \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+8} = 0x00000000
+, \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+16} = 0x00000400
+, \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+32} = 0x00000800
+, \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\label{plib__spi__master__common_8h_ae09d5880ae883eee1b2ef101e157e996}} 
+\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CALLBACK@{SPI\_CALLBACK}}
+\index{SPI\_CALLBACK@{SPI\_CALLBACK}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}
+\doxysubsubsection{SPI\_CALLBACK}
+{\footnotesize\ttfamily typedef void($\ast$ SPI\+\_\+\+CALLBACK) (uintptr\+\_\+t context)}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\label{plib__spi__master__common_8h_af99b25d28248bf5dd2f801290d79a2b0}} 
+\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_PHASE@{SPI\_CLOCK\_PHASE}}
+\index{SPI\_CLOCK\_PHASE@{SPI\_CLOCK\_PHASE}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}
+\doxysubsubsection{SPI\_CLOCK\_PHASE}
+{\footnotesize\ttfamily enum \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+PHASE}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_PHASE\_TRAILING\_EDGE@{SPI\_CLOCK\_PHASE\_TRAILING\_EDGE}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_PHASE\_TRAILING\_EDGE@{SPI\_CLOCK\_PHASE\_TRAILING\_EDGE}}}\mbox{\label{plib__spi__master__common_8h_af99b25d28248bf5dd2f801290d79a2b0ad42e678e8530aec81d79b177f646c383}} 
+SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+TRAILING\+\_\+\+EDGE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_PHASE\_LEADING\_EDGE@{SPI\_CLOCK\_PHASE\_LEADING\_EDGE}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_PHASE\_LEADING\_EDGE@{SPI\_CLOCK\_PHASE\_LEADING\_EDGE}}}\mbox{\label{plib__spi__master__common_8h_af99b25d28248bf5dd2f801290d79a2b0aa414f0d6de6c3140fa79fe129b9b731a}} 
+SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+LEADING\+\_\+\+EDGE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_PHASE\_INVALID@{SPI\_CLOCK\_PHASE\_INVALID}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_PHASE\_INVALID@{SPI\_CLOCK\_PHASE\_INVALID}}}\mbox{\label{plib__spi__master__common_8h_af99b25d28248bf5dd2f801290d79a2b0acc16c586a89f8b79b4ec6e61d9cf0623}} 
+SPI\+\_\+\+CLOCK\+\_\+\+PHASE\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__spi__master__common_8h_a3829e2fbb9ba66694cac033ae8dbfa64}} 
+\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_POLARITY@{SPI\_CLOCK\_POLARITY}}
+\index{SPI\_CLOCK\_POLARITY@{SPI\_CLOCK\_POLARITY}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}
+\doxysubsubsection{SPI\_CLOCK\_POLARITY}
+{\footnotesize\ttfamily enum \textbf{ SPI\+\_\+\+CLOCK\+\_\+\+POLARITY}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_POLARITY\_IDLE\_LOW@{SPI\_CLOCK\_POLARITY\_IDLE\_LOW}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_POLARITY\_IDLE\_LOW@{SPI\_CLOCK\_POLARITY\_IDLE\_LOW}}}\mbox{\label{plib__spi__master__common_8h_a3829e2fbb9ba66694cac033ae8dbfa64abe157ad19731c08747d2b64fad0ca599}} 
+SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+IDLE\+\_\+\+LOW&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_POLARITY\_IDLE\_HIGH@{SPI\_CLOCK\_POLARITY\_IDLE\_HIGH}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_POLARITY\_IDLE\_HIGH@{SPI\_CLOCK\_POLARITY\_IDLE\_HIGH}}}\mbox{\label{plib__spi__master__common_8h_a3829e2fbb9ba66694cac033ae8dbfa64aa82cddd6b50d58de08457c571dba7284}} 
+SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+IDLE\+\_\+\+HIGH&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_CLOCK\_POLARITY\_INVALID@{SPI\_CLOCK\_POLARITY\_INVALID}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_CLOCK\_POLARITY\_INVALID@{SPI\_CLOCK\_POLARITY\_INVALID}}}\mbox{\label{plib__spi__master__common_8h_a3829e2fbb9ba66694cac033ae8dbfa64a9cbbb13a80654e0548518c26d90af41e}} 
+SPI\+\_\+\+CLOCK\+\_\+\+POLARITY\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__spi__master__common_8h_ad4f4485c3d777c62a6a242c8b5e8ca85}} 
+\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_DATA\_BITS@{SPI\_DATA\_BITS}}
+\index{SPI\_DATA\_BITS@{SPI\_DATA\_BITS}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}
+\doxysubsubsection{SPI\_DATA\_BITS}
+{\footnotesize\ttfamily enum \textbf{ SPI\+\_\+\+DATA\+\_\+\+BITS}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_DATA\_BITS\_8@{SPI\_DATA\_BITS\_8}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_DATA\_BITS\_8@{SPI\_DATA\_BITS\_8}}}\mbox{\label{plib__spi__master__common_8h_ad4f4485c3d777c62a6a242c8b5e8ca85a69055b82a537b36b688e59260fa4df54}} 
+SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+8&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_DATA\_BITS\_16@{SPI\_DATA\_BITS\_16}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_DATA\_BITS\_16@{SPI\_DATA\_BITS\_16}}}\mbox{\label{plib__spi__master__common_8h_ad4f4485c3d777c62a6a242c8b5e8ca85a8a0510982d62fed782b960f93dd32a66}} 
+SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+16&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_DATA\_BITS\_32@{SPI\_DATA\_BITS\_32}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_DATA\_BITS\_32@{SPI\_DATA\_BITS\_32}}}\mbox{\label{plib__spi__master__common_8h_ad4f4485c3d777c62a6a242c8b5e8ca85aaec63eaaf5991d27f187d7400a50873b}} 
+SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+32&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{SPI\_DATA\_BITS\_INVALID@{SPI\_DATA\_BITS\_INVALID}!plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}}\index{plib\_spi\_master\_common.h@{plib\_spi\_master\_common.h}!SPI\_DATA\_BITS\_INVALID@{SPI\_DATA\_BITS\_INVALID}}}\mbox{\label{plib__spi__master__common_8h_ad4f4485c3d777c62a6a242c8b5e8ca85a3f3c632bba6b6382b0b984d5857dec07}} 
+SPI\+\_\+\+DATA\+\_\+\+BITS\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}

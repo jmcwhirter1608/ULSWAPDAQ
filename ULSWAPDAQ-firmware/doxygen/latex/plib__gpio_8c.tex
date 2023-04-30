@@ -1,0 +1,81 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/gpio/plib\+\_\+gpio.c File Reference}
+\label{plib__gpio_8c}\index{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.c@{firmware/src/config/ULSWAPDAQ2/peripheral/gpio/plib\_gpio.c}}
+{\ttfamily \#include \char`\"{}plib\+\_\+gpio.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ GPIO\+\_\+\+Initialize} (void)
+\item 
+uint32\+\_\+t \textbf{ GPIO\+\_\+\+Port\+Read} (\textbf{ GPIO\+\_\+\+PORT} port)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Write} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask, uint32\+\_\+t value)
+\item 
+uint32\+\_\+t \textbf{ GPIO\+\_\+\+Port\+Latch\+Read} (\textbf{ GPIO\+\_\+\+PORT} port)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Set} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Clear} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Toggle} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Input\+Enable} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\item 
+void \textbf{ GPIO\+\_\+\+Port\+Output\+Enable} (\textbf{ GPIO\+\_\+\+PORT} port, uint32\+\_\+t mask)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__gpio_8c_af2c14d08f5cd6da2843b09b5329c5731}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_Initialize@{GPIO\_Initialize}}
+\index{GPIO\_Initialize@{GPIO\_Initialize}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_Initialize()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_ac9e7c55ddfb33e03fe5ec101cf2ad591}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortClear@{GPIO\_PortClear}}
+\index{GPIO\_PortClear@{GPIO\_PortClear}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortClear()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Clear (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a8f5c3509c88c4ece894bdb2c74027726}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortInputEnable@{GPIO\_PortInputEnable}}
+\index{GPIO\_PortInputEnable@{GPIO\_PortInputEnable}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortInputEnable()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Input\+Enable (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a7aed251f9d02f9670ced5851b917b86f}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortLatchRead@{GPIO\_PortLatchRead}}
+\index{GPIO\_PortLatchRead@{GPIO\_PortLatchRead}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortLatchRead()}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Port\+Latch\+Read (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a9c7963889c02bf785a27eced1c4cf159}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortOutputEnable@{GPIO\_PortOutputEnable}}
+\index{GPIO\_PortOutputEnable@{GPIO\_PortOutputEnable}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortOutputEnable()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Output\+Enable (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_abd65922a839af32d84c5651f6e5cf309}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortRead@{GPIO\_PortRead}}
+\index{GPIO\_PortRead@{GPIO\_PortRead}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortRead()}
+{\footnotesize\ttfamily uint32\+\_\+t GPIO\+\_\+\+Port\+Read (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a467714d6c56b0e5ad2c3ac2a654ac10e}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortSet@{GPIO\_PortSet}}
+\index{GPIO\_PortSet@{GPIO\_PortSet}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortSet()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Set (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a05cadea9630046fc07bc15a96e334e57}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortToggle@{GPIO\_PortToggle}}
+\index{GPIO\_PortToggle@{GPIO\_PortToggle}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortToggle()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Toggle (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__gpio_8c_a7ba503984e354ffb977e967fb20c4513}} 
+\index{plib\_gpio.c@{plib\_gpio.c}!GPIO\_PortWrite@{GPIO\_PortWrite}}
+\index{GPIO\_PortWrite@{GPIO\_PortWrite}!plib\_gpio.c@{plib\_gpio.c}}
+\doxysubsubsection{GPIO\_PortWrite()}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Port\+Write (\begin{DoxyParamCaption}\item[{\textbf{ GPIO\+\_\+\+PORT}}]{port,  }\item[{uint32\+\_\+t}]{mask,  }\item[{uint32\+\_\+t}]{value }\end{DoxyParamCaption})}
+

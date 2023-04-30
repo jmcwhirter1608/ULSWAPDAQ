@@ -1,0 +1,264 @@
+\doxysection{plib\+\_\+evic.\+h}
+\label{plib__evic_8h_source}\index{firmware/src/config/ULSWAPDAQ2/peripheral/evic/plib\_evic.h@{firmware/src/config/ULSWAPDAQ2/peripheral/evic/plib\_evic.h}}
+\textbf{ Go to the documentation of this file.}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*******************************************************************************}}
+\DoxyCodeLine{00002\ \textcolor{comment}{\ \ EVIC\ PLIB\ Header}}
+\DoxyCodeLine{00003\ \textcolor{comment}{}}
+\DoxyCodeLine{00004\ \textcolor{comment}{\ \ Company:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{\ \ \ \ Microchip\ Technology\ Inc.}}
+\DoxyCodeLine{00006\ \textcolor{comment}{}}
+\DoxyCodeLine{00007\ \textcolor{comment}{\ \ File\ Name:}}
+\DoxyCodeLine{00008\ \textcolor{comment}{\ \ \ \ plib\_evic.h}}
+\DoxyCodeLine{00009\ \textcolor{comment}{}}
+\DoxyCodeLine{00010\ \textcolor{comment}{\ \ Summary:}}
+\DoxyCodeLine{00011\ \textcolor{comment}{\ \ \ \ PIC32MZ\ Interrupt\ Module\ PLIB\ Header\ File}}
+\DoxyCodeLine{00012\ \textcolor{comment}{}}
+\DoxyCodeLine{00013\ \textcolor{comment}{\ \ Description:}}
+\DoxyCodeLine{00014\ \textcolor{comment}{\ \ \ \ None}}
+\DoxyCodeLine{00015\ \textcolor{comment}{}}
+\DoxyCodeLine{00016\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{comment}{//\ DOM-\/IGNORE-\/BEGIN}}
+\DoxyCodeLine{00019\ \textcolor{comment}{/*******************************************************************************}}
+\DoxyCodeLine{00020\ \textcolor{comment}{*\ Copyright\ (C)\ 2019\ Microchip\ Technology\ Inc.\ and\ its\ subsidiaries.}}
+\DoxyCodeLine{00021\ \textcolor{comment}{*}}
+\DoxyCodeLine{00022\ \textcolor{comment}{*\ Subject\ to\ your\ compliance\ with\ these\ terms,\ you\ may\ use\ Microchip\ software}}
+\DoxyCodeLine{00023\ \textcolor{comment}{*\ and\ any\ derivatives\ exclusively\ with\ Microchip\ products.\ It\ is\ your}}
+\DoxyCodeLine{00024\ \textcolor{comment}{*\ responsibility\ to\ comply\ with\ third\ party\ license\ terms\ applicable\ to\ your}}
+\DoxyCodeLine{00025\ \textcolor{comment}{*\ use\ of\ third\ party\ software\ (including\ open\ source\ software)\ that\ may}}
+\DoxyCodeLine{00026\ \textcolor{comment}{*\ accompany\ Microchip\ software.}}
+\DoxyCodeLine{00027\ \textcolor{comment}{*}}
+\DoxyCodeLine{00028\ \textcolor{comment}{*\ THIS\ SOFTWARE\ IS\ SUPPLIED\ BY\ MICROCHIP\ "{}AS\ IS"{}.\ NO\ WARRANTIES,\ WHETHER}}
+\DoxyCodeLine{00029\ \textcolor{comment}{*\ EXPRESS,\ IMPLIED\ OR\ STATUTORY,\ APPLY\ TO\ THIS\ SOFTWARE,\ INCLUDING\ ANY\ IMPLIED}}
+\DoxyCodeLine{00030\ \textcolor{comment}{*\ WARRANTIES\ OF\ NON-\/INFRINGEMENT,\ MERCHANTABILITY,\ AND\ FITNESS\ FOR\ A}}
+\DoxyCodeLine{00031\ \textcolor{comment}{*\ PARTICULAR\ PURPOSE.}}
+\DoxyCodeLine{00032\ \textcolor{comment}{*}}
+\DoxyCodeLine{00033\ \textcolor{comment}{*\ IN\ NO\ EVENT\ WILL\ MICROCHIP\ BE\ LIABLE\ FOR\ ANY\ INDIRECT,\ SPECIAL,\ PUNITIVE,}}
+\DoxyCodeLine{00034\ \textcolor{comment}{*\ INCIDENTAL\ OR\ CONSEQUENTIAL\ LOSS,\ DAMAGE,\ COST\ OR\ EXPENSE\ OF\ ANY\ KIND}}
+\DoxyCodeLine{00035\ \textcolor{comment}{*\ WHATSOEVER\ RELATED\ TO\ THE\ SOFTWARE,\ HOWEVER\ CAUSED,\ EVEN\ IF\ MICROCHIP\ HAS}}
+\DoxyCodeLine{00036\ \textcolor{comment}{*\ BEEN\ ADVISED\ OF\ THE\ POSSIBILITY\ OR\ THE\ DAMAGES\ ARE\ FORESEEABLE.\ TO\ THE}}
+\DoxyCodeLine{00037\ \textcolor{comment}{*\ FULLEST\ EXTENT\ ALLOWED\ BY\ LAW,\ MICROCHIP'S\ TOTAL\ LIABILITY\ ON\ ALL\ CLAIMS\ IN}}
+\DoxyCodeLine{00038\ \textcolor{comment}{*\ ANY\ WAY\ RELATED\ TO\ THIS\ SOFTWARE\ WILL\ NOT\ EXCEED\ THE\ AMOUNT\ OF\ FEES,\ IF\ ANY,}}
+\DoxyCodeLine{00039\ \textcolor{comment}{*\ THAT\ YOU\ HAVE\ PAID\ DIRECTLY\ TO\ MICROCHIP\ FOR\ THIS\ SOFTWARE.}}
+\DoxyCodeLine{00040\ \textcolor{comment}{*******************************************************************************/}}
+\DoxyCodeLine{00041\ \textcolor{comment}{//\ DOM-\/IGNORE-\/END}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#ifndef\ PLIB\_EVIC\_H}}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#define\ PLIB\_EVIC\_H}}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00047\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00048\ \textcolor{comment}{//\ Section:\ Included\ Files}}
+\DoxyCodeLine{00049\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00050\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#include\ <device.h>}}
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#include\ <stddef.h>}}
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#include\ <stdbool.h>}}
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#include\ <device.h>}}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{comment}{//\ DOM-\/IGNORE-\/BEGIN}}
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus\ \ }\textcolor{comment}{//\ Provide\ C++\ Compatibility}}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keyword}{extern}\ \textcolor{stringliteral}{"{}C"{}}\ \{}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00062\ \textcolor{comment}{//\ DOM-\/IGNORE-\/END}}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00067\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00068\ \textcolor{comment}{//\ Section:\ Data\ Types}}
+\DoxyCodeLine{00069\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00070\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}}
+\DoxyCodeLine{00073\ \{}
+\DoxyCodeLine{00074\ \ \ \ \ INT\_SOURCE\_CORE\_TIMER\ =\ \_CORE\_TIMER\_IRQ,}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00076\ \ \ \ \ INT\_SOURCE\_CORE\_SOFTWARE\_0\ =\ \_CORE\_SOFTWARE\_0\_IRQ,}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \ \ \ \ INT\_SOURCE\_CORE\_SOFTWARE\_1\ =\ \_CORE\_SOFTWARE\_1\_IRQ,}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ \ \ \ \ INT\_SOURCE\_EXTERNAL\_0\ =\ \_EXTERNAL\_0\_IRQ,}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00082\ \ \ \ \ INT\_SOURCE\_TIMER\_1\ =\ \_TIMER\_1\_IRQ,}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00084\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_ERROR\_1\ =\ \_INPUT\_CAPTURE\_ERROR\_1\_IRQ,}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_1\ =\ \_INPUT\_CAPTURE\_1\_IRQ,}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \ \ \ \ INT\_SOURCE\_OUTPUT\_COMPARE\_1\ =\ \_OUTPUT\_COMPARE\_1\_IRQ,}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00090\ \ \ \ \ INT\_SOURCE\_EXTERNAL\_1\ =\ \_EXTERNAL\_1\_IRQ,}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00092\ \ \ \ \ INT\_SOURCE\_TIMER\_2\ =\ \_TIMER\_2\_IRQ,}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00094\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_ERROR\_2\ =\ \_INPUT\_CAPTURE\_ERROR\_2\_IRQ,}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_2\ =\ \_INPUT\_CAPTURE\_2\_IRQ,}
+\DoxyCodeLine{00097\ }
+\DoxyCodeLine{00098\ \ \ \ \ INT\_SOURCE\_OUTPUT\_COMPARE\_2\ =\ \_OUTPUT\_COMPARE\_2\_IRQ,}
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00100\ \ \ \ \ INT\_SOURCE\_EXTERNAL\_2\ =\ \_EXTERNAL\_2\_IRQ,}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00102\ \ \ \ \ INT\_SOURCE\_TIMER\_3\ =\ \_TIMER\_3\_IRQ,}
+\DoxyCodeLine{00103\ }
+\DoxyCodeLine{00104\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_ERROR\_3\ =\ \_INPUT\_CAPTURE\_ERROR\_3\_IRQ,}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00106\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_3\ =\ \_INPUT\_CAPTURE\_3\_IRQ,}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00108\ \ \ \ \ INT\_SOURCE\_OUTPUT\_COMPARE\_3\ =\ \_OUTPUT\_COMPARE\_3\_IRQ,}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00110\ \ \ \ \ INT\_SOURCE\_EXTERNAL\_3\ =\ \_EXTERNAL\_3\_IRQ,}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \ \ \ \ INT\_SOURCE\_TIMER\_4\ =\ \_TIMER\_4\_IRQ,}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_ERROR\_4\ =\ \_INPUT\_CAPTURE\_ERROR\_4\_IRQ,}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00116\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_4\ =\ \_INPUT\_CAPTURE\_4\_IRQ,}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00118\ \ \ \ \ INT\_SOURCE\_OUTPUT\_COMPARE\_4\ =\ \_OUTPUT\_COMPARE\_4\_IRQ,}
+\DoxyCodeLine{00119\ }
+\DoxyCodeLine{00120\ \ \ \ \ INT\_SOURCE\_EXTERNAL\_4\ =\ \_EXTERNAL\_4\_IRQ,}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00122\ \ \ \ \ INT\_SOURCE\_TIMER\_5\ =\ \_TIMER\_5\_IRQ,}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00124\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_ERROR\_5\ =\ \_INPUT\_CAPTURE\_ERROR\_5\_IRQ,}
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00126\ \ \ \ \ INT\_SOURCE\_INPUT\_CAPTURE\_5\ =\ \_INPUT\_CAPTURE\_5\_IRQ,}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00128\ \ \ \ \ INT\_SOURCE\_OUTPUT\_COMPARE\_5\ =\ \_OUTPUT\_COMPARE\_5\_IRQ,}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \ \ \ \ INT\_SOURCE\_ADC\ =\ \_ADC\_IRQ,}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ \ \ \ \ INT\_SOURCE\_FAIL\_SAFE\_MONITOR\ =\ \_FAIL\_SAFE\_MONITOR\_IRQ,}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00134\ \ \ \ \ INT\_SOURCE\_RTCC\ =\ \_RTCC\_IRQ,}
+\DoxyCodeLine{00135\ }
+\DoxyCodeLine{00136\ \ \ \ \ INT\_SOURCE\_FLASH\_CONTROL\ =\ \_FLASH\_CONTROL\_IRQ,}
+\DoxyCodeLine{00137\ }
+\DoxyCodeLine{00138\ \ \ \ \ INT\_SOURCE\_COMPARATOR\_1\ =\ \_COMPARATOR\_1\_IRQ,}
+\DoxyCodeLine{00139\ }
+\DoxyCodeLine{00140\ \ \ \ \ INT\_SOURCE\_COMPARATOR\_2\ =\ \_COMPARATOR\_2\_IRQ,}
+\DoxyCodeLine{00141\ }
+\DoxyCodeLine{00142\ \ \ \ \ INT\_SOURCE\_USB\ =\ \_USB\_IRQ,}
+\DoxyCodeLine{00143\ }
+\DoxyCodeLine{00144\ \ \ \ \ INT\_SOURCE\_SPI1\_ERR\ =\ \_SPI1\_ERR\_IRQ,}
+\DoxyCodeLine{00145\ }
+\DoxyCodeLine{00146\ \ \ \ \ INT\_SOURCE\_SPI1\_RX\ =\ \_SPI1\_RX\_IRQ,}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00148\ \ \ \ \ INT\_SOURCE\_SPI1\_TX\ =\ \_SPI1\_TX\_IRQ,}
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00150\ \ \ \ \ INT\_SOURCE\_UART1\_ERR\ =\ \_UART1\_ERR\_IRQ,}
+\DoxyCodeLine{00151\ }
+\DoxyCodeLine{00152\ \ \ \ \ INT\_SOURCE\_UART1\_RX\ =\ \_UART1\_RX\_IRQ,}
+\DoxyCodeLine{00153\ }
+\DoxyCodeLine{00154\ \ \ \ \ INT\_SOURCE\_UART1\_TX\ =\ \_UART1\_TX\_IRQ,}
+\DoxyCodeLine{00155\ }
+\DoxyCodeLine{00156\ \ \ \ \ INT\_SOURCE\_I2C1\_BUS\ =\ \_I2C1\_BUS\_IRQ,}
+\DoxyCodeLine{00157\ }
+\DoxyCodeLine{00158\ \ \ \ \ INT\_SOURCE\_I2C1\_SLAVE\ =\ \_I2C1\_SLAVE\_IRQ,}
+\DoxyCodeLine{00159\ }
+\DoxyCodeLine{00160\ \ \ \ \ INT\_SOURCE\_I2C1\_MASTER\ =\ \_I2C1\_MASTER\_IRQ,}
+\DoxyCodeLine{00161\ }
+\DoxyCodeLine{00162\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_A\ =\ \_CHANGE\_NOTICE\_A\_IRQ,}
+\DoxyCodeLine{00163\ }
+\DoxyCodeLine{00164\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_B\ =\ \_CHANGE\_NOTICE\_B\_IRQ,}
+\DoxyCodeLine{00165\ }
+\DoxyCodeLine{00166\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_C\ =\ \_CHANGE\_NOTICE\_C\_IRQ,}
+\DoxyCodeLine{00167\ }
+\DoxyCodeLine{00168\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_D\ =\ \_CHANGE\_NOTICE\_D\_IRQ,}
+\DoxyCodeLine{00169\ }
+\DoxyCodeLine{00170\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_E\ =\ \_CHANGE\_NOTICE\_E\_IRQ,}
+\DoxyCodeLine{00171\ }
+\DoxyCodeLine{00172\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_F\ =\ \_CHANGE\_NOTICE\_F\_IRQ,}
+\DoxyCodeLine{00173\ }
+\DoxyCodeLine{00174\ \ \ \ \ INT\_SOURCE\_CHANGE\_NOTICE\_G\ =\ \_CHANGE\_NOTICE\_G\_IRQ,}
+\DoxyCodeLine{00175\ }
+\DoxyCodeLine{00176\ \ \ \ \ INT\_SOURCE\_PMP\ =\ \_PMP\_IRQ,}
+\DoxyCodeLine{00177\ }
+\DoxyCodeLine{00178\ \ \ \ \ INT\_SOURCE\_PMP\_ERROR\ =\ \_PMP\_ERROR\_IRQ,}
+\DoxyCodeLine{00179\ }
+\DoxyCodeLine{00180\ \ \ \ \ INT\_SOURCE\_SPI2\_ERR\ =\ \_SPI2\_ERR\_IRQ,}
+\DoxyCodeLine{00181\ }
+\DoxyCodeLine{00182\ \ \ \ \ INT\_SOURCE\_SPI2\_RX\ =\ \_SPI2\_RX\_IRQ,}
+\DoxyCodeLine{00183\ }
+\DoxyCodeLine{00184\ \ \ \ \ INT\_SOURCE\_SPI2\_TX\ =\ \_SPI2\_TX\_IRQ,}
+\DoxyCodeLine{00185\ }
+\DoxyCodeLine{00186\ \ \ \ \ INT\_SOURCE\_UART2\_ERR\ =\ \_UART2\_ERR\_IRQ,}
+\DoxyCodeLine{00187\ }
+\DoxyCodeLine{00188\ \ \ \ \ INT\_SOURCE\_UART2\_RX\ =\ \_UART2\_RX\_IRQ,}
+\DoxyCodeLine{00189\ }
+\DoxyCodeLine{00190\ \ \ \ \ INT\_SOURCE\_UART2\_TX\ =\ \_UART2\_TX\_IRQ,}
+\DoxyCodeLine{00191\ }
+\DoxyCodeLine{00192\ \ \ \ \ INT\_SOURCE\_I2C2\_BUS\ =\ \_I2C2\_BUS\_IRQ,}
+\DoxyCodeLine{00193\ }
+\DoxyCodeLine{00194\ \ \ \ \ INT\_SOURCE\_I2C2\_SLAVE\ =\ \_I2C2\_SLAVE\_IRQ,}
+\DoxyCodeLine{00195\ }
+\DoxyCodeLine{00196\ \ \ \ \ INT\_SOURCE\_I2C2\_MASTER\ =\ \_I2C2\_MASTER\_IRQ,}
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00198\ \ \ \ \ INT\_SOURCE\_UART3\_ERR\ =\ \_UART3\_ERR\_IRQ,}
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00200\ \ \ \ \ INT\_SOURCE\_UART3\_RX\ =\ \_UART3\_RX\_IRQ,}
+\DoxyCodeLine{00201\ }
+\DoxyCodeLine{00202\ \ \ \ \ INT\_SOURCE\_UART3\_TX\ =\ \_UART3\_TX\_IRQ,}
+\DoxyCodeLine{00203\ }
+\DoxyCodeLine{00204\ \ \ \ \ INT\_SOURCE\_UART4\_ERR\ =\ \_UART4\_ERR\_IRQ,}
+\DoxyCodeLine{00205\ }
+\DoxyCodeLine{00206\ \ \ \ \ INT\_SOURCE\_UART4\_RX\ =\ \_UART4\_RX\_IRQ,}
+\DoxyCodeLine{00207\ }
+\DoxyCodeLine{00208\ \ \ \ \ INT\_SOURCE\_UART4\_TX\ =\ \_UART4\_TX\_IRQ,}
+\DoxyCodeLine{00209\ }
+\DoxyCodeLine{00210\ \ \ \ \ INT\_SOURCE\_CTMU\ =\ \_CTMU\_IRQ,}
+\DoxyCodeLine{00211\ }
+\DoxyCodeLine{00212\ \ \ \ \ INT\_SOURCE\_DMA0\ =\ \_DMA0\_IRQ,}
+\DoxyCodeLine{00213\ }
+\DoxyCodeLine{00214\ \ \ \ \ INT\_SOURCE\_DMA1\ =\ \_DMA1\_IRQ,}
+\DoxyCodeLine{00215\ }
+\DoxyCodeLine{00216\ \ \ \ \ INT\_SOURCE\_DMA2\ =\ \_DMA2\_IRQ,}
+\DoxyCodeLine{00217\ }
+\DoxyCodeLine{00218\ \ \ \ \ INT\_SOURCE\_DMA3\ =\ \_DMA3\_IRQ,}
+\DoxyCodeLine{00219\ }
+\DoxyCodeLine{00220\ \}\ INT\_SOURCE;}
+\DoxyCodeLine{00221\ }
+\DoxyCodeLine{00222\ }
+\DoxyCodeLine{00223\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00224\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00225\ \textcolor{comment}{//\ Section:\ Interface\ Routines}}
+\DoxyCodeLine{00226\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00227\ \textcolor{comment}{//\ *****************************************************************************}}
+\DoxyCodeLine{00228\ }
+\DoxyCodeLine{00229\ \textcolor{keywordtype}{void}\ EVIC\_Initialize\ (\ \textcolor{keywordtype}{void}\ );}
+\DoxyCodeLine{00230\ }
+\DoxyCodeLine{00231\ \textcolor{keywordtype}{void}\ EVIC\_SourceEnable(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00232\ }
+\DoxyCodeLine{00233\ \textcolor{keywordtype}{void}\ EVIC\_SourceDisable(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00234\ }
+\DoxyCodeLine{00235\ \textcolor{keywordtype}{bool}\ EVIC\_SourceIsEnabled(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00236\ }
+\DoxyCodeLine{00237\ \textcolor{keywordtype}{bool}\ EVIC\_SourceStatusGet(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00238\ }
+\DoxyCodeLine{00239\ \textcolor{keywordtype}{void}\ EVIC\_SourceStatusSet(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00240\ }
+\DoxyCodeLine{00241\ \textcolor{keywordtype}{void}\ EVIC\_SourceStatusClear(\ INT\_SOURCE\ source\ );}
+\DoxyCodeLine{00242\ }
+\DoxyCodeLine{00243\ \textcolor{keywordtype}{void}\ EVIC\_INT\_Enable(\ \textcolor{keywordtype}{void}\ );}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00245\ \textcolor{keywordtype}{bool}\ EVIC\_INT\_Disable(\ \textcolor{keywordtype}{void}\ );}
+\DoxyCodeLine{00246\ }
+\DoxyCodeLine{00247\ \textcolor{keywordtype}{void}\ EVIC\_INT\_Restore(\ \textcolor{keywordtype}{bool}\ state\ );}
+\DoxyCodeLine{00248\ }
+\DoxyCodeLine{00249\ }
+\DoxyCodeLine{00250\ \textcolor{comment}{//\ DOM-\/IGNORE-\/BEGIN}}
+\DoxyCodeLine{00251\ \textcolor{preprocessor}{\#ifdef\ \_\_cplusplus\ \ }\textcolor{comment}{//\ Provide\ C++\ Compatibility}}
+\DoxyCodeLine{00252\ }
+\DoxyCodeLine{00253\ \ \ \ \ \}}
+\DoxyCodeLine{00254\ }
+\DoxyCodeLine{00255\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00256\ \textcolor{comment}{//\ DOM-\/IGNORE-\/END}}
+\DoxyCodeLine{00257\ }
+\DoxyCodeLine{00258\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ PLIB\_EVIC\_H}}
+
+\end{DoxyCode}

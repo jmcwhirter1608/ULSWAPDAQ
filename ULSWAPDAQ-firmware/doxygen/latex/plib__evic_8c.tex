@@ -1,0 +1,90 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/evic/plib\+\_\+evic.c File Reference}
+\label{plib__evic_8c}\index{firmware/src/config/ULSWAPDAQ2/peripheral/evic/plib\_evic.c@{firmware/src/config/ULSWAPDAQ2/peripheral/evic/plib\_evic.c}}
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}plib\+\_\+evic.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ EVIC\+\_\+\+Initialize} (void)
+\item 
+void \textbf{ EVIC\+\_\+\+Source\+Enable} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+void \textbf{ EVIC\+\_\+\+Source\+Disable} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+bool \textbf{ EVIC\+\_\+\+Source\+Is\+Enabled} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+bool \textbf{ EVIC\+\_\+\+Source\+Status\+Get} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+void \textbf{ EVIC\+\_\+\+Source\+Status\+Set} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+void \textbf{ EVIC\+\_\+\+Source\+Status\+Clear} (\textbf{ INT\+\_\+\+SOURCE} source)
+\item 
+void \textbf{ EVIC\+\_\+\+INT\+\_\+\+Enable} (void)
+\item 
+bool \textbf{ EVIC\+\_\+\+INT\+\_\+\+Disable} (void)
+\item 
+void \textbf{ EVIC\+\_\+\+INT\+\_\+\+Restore} (bool state)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__evic_8c_ac1263eba476d45430b32c59ff3512b44}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_Initialize@{EVIC\_Initialize}}
+\index{EVIC\_Initialize@{EVIC\_Initialize}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_Initialize()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a1d83df9c6c03b6d0cd9faf75359651c6}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_INT\_Disable@{EVIC\_INT\_Disable}}
+\index{EVIC\_INT\_Disable@{EVIC\_INT\_Disable}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_INT\_Disable()}
+{\footnotesize\ttfamily bool EVIC\+\_\+\+INT\+\_\+\+Disable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_ab73eb7b3bd36d669ebff3c9af08f6880}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_INT\_Enable@{EVIC\_INT\_Enable}}
+\index{EVIC\_INT\_Enable@{EVIC\_INT\_Enable}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_INT\_Enable()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+INT\+\_\+\+Enable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a3d3ebdd9f144818823614715c0a56790}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_INT\_Restore@{EVIC\_INT\_Restore}}
+\index{EVIC\_INT\_Restore@{EVIC\_INT\_Restore}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_INT\_Restore()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+INT\+\_\+\+Restore (\begin{DoxyParamCaption}\item[{bool}]{state }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a897262f4fe519898469c1024475020b4}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceDisable@{EVIC\_SourceDisable}}
+\index{EVIC\_SourceDisable@{EVIC\_SourceDisable}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceDisable()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+Source\+Disable (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a79f61a0484db3992a144b45630295376}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceEnable@{EVIC\_SourceEnable}}
+\index{EVIC\_SourceEnable@{EVIC\_SourceEnable}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceEnable()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+Source\+Enable (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a572b2b1eec329a9f84f5751cc5863712}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceIsEnabled@{EVIC\_SourceIsEnabled}}
+\index{EVIC\_SourceIsEnabled@{EVIC\_SourceIsEnabled}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceIsEnabled()}
+{\footnotesize\ttfamily bool EVIC\+\_\+\+Source\+Is\+Enabled (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_acc2a99af0d99b6ca5b93d422c6d81a70}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceStatusClear@{EVIC\_SourceStatusClear}}
+\index{EVIC\_SourceStatusClear@{EVIC\_SourceStatusClear}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceStatusClear()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+Source\+Status\+Clear (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a653015c3f8d15f13c8a2b8d83be742db}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceStatusGet@{EVIC\_SourceStatusGet}}
+\index{EVIC\_SourceStatusGet@{EVIC\_SourceStatusGet}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceStatusGet()}
+{\footnotesize\ttfamily bool EVIC\+\_\+\+Source\+Status\+Get (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__evic_8c_a1e14c09aeed85f83e05ff5383d7489e6}} 
+\index{plib\_evic.c@{plib\_evic.c}!EVIC\_SourceStatusSet@{EVIC\_SourceStatusSet}}
+\index{EVIC\_SourceStatusSet@{EVIC\_SourceStatusSet}!plib\_evic.c@{plib\_evic.c}}
+\doxysubsubsection{EVIC\_SourceStatusSet()}
+{\footnotesize\ttfamily void EVIC\+\_\+\+Source\+Status\+Set (\begin{DoxyParamCaption}\item[{\textbf{ INT\+\_\+\+SOURCE}}]{source }\end{DoxyParamCaption})}
+
