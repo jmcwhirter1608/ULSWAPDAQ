@@ -1,0 +1,164 @@
+\doxysection{firmware/src/main.c File Reference}
+\label{main_8c}\index{firmware/src/main.c@{firmware/src/main.c}}
+
+
+main file for Data Acquisition Unit  
+
+
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}definitions.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$pga\+Configure.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ TMR2\+\_\+\+Interrupt\+Routine} (uint32\+\_\+t status, uintptr\+\_\+t context)
+\item 
+int \textbf{ main} (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \textbf{ A\+\_\+shdn} = 0
+\item 
+uint8\+\_\+t \textbf{ B\+\_\+shdn} = 1
+\item 
+uint8\+\_\+t \textbf{ C\+\_\+shdn} = 1
+\item 
+uint8\+\_\+t \textbf{ D\+\_\+shdn} = 1
+\item 
+uint8\+\_\+t \textbf{ A\+\_\+config} = 0
+\item 
+uint8\+\_\+t \textbf{ B\+\_\+config} = 0
+\item 
+uint8\+\_\+t \textbf{ C\+\_\+config} = 0
+\item 
+uint8\+\_\+t \textbf{ D\+\_\+config} = 0
+\item 
+uint8\+\_\+t \textbf{ reset\+\_\+word} = 0
+\item 
+bool \textbf{ tmr2\+\_\+alarm} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+main file for Data Acquisition Unit 
+
+\begin{DoxyAuthor}{Author}
+John Mc\+Whirter 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+11/2022  
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{main()}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\doxysubsection{the ADC}\label{main.c_Reset}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\doxysubsection{Configuration Word Table}\label{main.c_Possible}
+\tabulinesep=1mm
+\begin{longtabu}spread 0pt [c]{*{3}{|X[-1]}|}
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ channel   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ BINARY   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ INTEGER    }\\\cline{1-3}
+\endfirsthead
+\hline
+\endfoot
+\hline
+\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ channel   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ BINARY   }&\PBS\centering \cellcolor{\tableheadbgcolor}\textbf{ INTEGER    }\\\cline{1-3}
+\endhead
+A   &X0000100   &4    \\\cline{1-3}
+B   &X0001100   &12    \\\cline{1-3}
+C   &X0010100   &20    \\\cline{1-3}
+D   &x0111100   &60   \\\cline{1-3}
+\end{longtabu}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\label{main_8c_a4ecc2923a882e0e64c7e9174b5bc9f67}} 
+\index{main.c@{main.c}!TMR2\_InterruptRoutine@{TMR2\_InterruptRoutine}}
+\index{TMR2\_InterruptRoutine@{TMR2\_InterruptRoutine}!main.c@{main.c}}
+\doxysubsubsection{TMR2\_InterruptRoutine()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Interrupt\+Routine (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{status,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\label{main_8c_aed5e3404ffa3f9ded69298d74264c30d}} 
+\index{main.c@{main.c}!A\_config@{A\_config}}
+\index{A\_config@{A\_config}!main.c@{main.c}}
+\doxysubsubsection{A\_config}
+{\footnotesize\ttfamily uint8\+\_\+t A\+\_\+config = 0}
+
+PGA Configuration Members \mbox{\label{main_8c_a048a973d3d7488e319c1fe88bad8cf39}} 
+\index{main.c@{main.c}!A\_shdn@{A\_shdn}}
+\index{A\_shdn@{A\_shdn}!main.c@{main.c}}
+\doxysubsubsection{A\_shdn}
+{\footnotesize\ttfamily uint8\+\_\+t A\+\_\+shdn = 0}
+
+These are defined to shutdown PGAs in use True for Shutdown, False for On \mbox{\label{main_8c_aea1a76b36f105a88bda12b778cc65e82}} 
+\index{main.c@{main.c}!B\_config@{B\_config}}
+\index{B\_config@{B\_config}!main.c@{main.c}}
+\doxysubsubsection{B\_config}
+{\footnotesize\ttfamily uint8\+\_\+t B\+\_\+config = 0}
+
+\mbox{\label{main_8c_a838ff3d499381a6c146096b294d67ffc}} 
+\index{main.c@{main.c}!B\_shdn@{B\_shdn}}
+\index{B\_shdn@{B\_shdn}!main.c@{main.c}}
+\doxysubsubsection{B\_shdn}
+{\footnotesize\ttfamily uint8\+\_\+t B\+\_\+shdn = 1}
+
+\mbox{\label{main_8c_aceeaf35ef75f56cba79a1215ad0652d1}} 
+\index{main.c@{main.c}!C\_config@{C\_config}}
+\index{C\_config@{C\_config}!main.c@{main.c}}
+\doxysubsubsection{C\_config}
+{\footnotesize\ttfamily uint8\+\_\+t C\+\_\+config = 0}
+
+\mbox{\label{main_8c_a2b219ce6998fc1bedb7b129bcb4afe20}} 
+\index{main.c@{main.c}!C\_shdn@{C\_shdn}}
+\index{C\_shdn@{C\_shdn}!main.c@{main.c}}
+\doxysubsubsection{C\_shdn}
+{\footnotesize\ttfamily uint8\+\_\+t C\+\_\+shdn = 1}
+
+\mbox{\label{main_8c_a616cb07a51a6e07104f17a1c412dbceb}} 
+\index{main.c@{main.c}!D\_config@{D\_config}}
+\index{D\_config@{D\_config}!main.c@{main.c}}
+\doxysubsubsection{D\_config}
+{\footnotesize\ttfamily uint8\+\_\+t D\+\_\+config = 0}
+
+\mbox{\label{main_8c_a04f3bc6d8775c019d3bbd4861f1186e5}} 
+\index{main.c@{main.c}!D\_shdn@{D\_shdn}}
+\index{D\_shdn@{D\_shdn}!main.c@{main.c}}
+\doxysubsubsection{D\_shdn}
+{\footnotesize\ttfamily uint8\+\_\+t D\+\_\+shdn = 1}
+
+\mbox{\label{main_8c_a124310925e7665b79832e98ad11bd39e}} 
+\index{main.c@{main.c}!reset\_word@{reset\_word}}
+\index{reset\_word@{reset\_word}!main.c@{main.c}}
+\doxysubsubsection{reset\_word}
+{\footnotesize\ttfamily uint8\+\_\+t reset\+\_\+word = 0}
+
+Configuration word is used to switch the mux within the ADC The word will work as our \char`\"{}\+State\char`\"{} machine Note\+: It is not what is sent to the ADC. It is 4 bits in the word that will be sent. \doxysubsection{Variables used through the device}\label{main_8c_Global}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\label{main_8c_a3ce956ddd39f5f2b3ec1fc7a4691f98d}} 
+\index{main.c@{main.c}!tmr2\_alarm@{tmr2\_alarm}}
+\index{tmr2\_alarm@{tmr2\_alarm}!main.c@{main.c}}
+\doxysubsubsection{tmr2\_alarm}
+{\footnotesize\ttfamily bool tmr2\+\_\+alarm = false}
+
+\doxysubsection{for Sampling Frequency}\label{main_8c_Interrupt}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

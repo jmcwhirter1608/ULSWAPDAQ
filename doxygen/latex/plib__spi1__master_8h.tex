@@ -1,0 +1,74 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/spi/spi\+\_\+master/plib\+\_\+spi1\+\_\+master.h File Reference}
+\label{plib__spi1__master_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/spi/spi\_master/plib\_spi1\_master.h@{firmware/src/config/ULSWAPDAQ2/peripheral/spi/spi\_master/plib\_spi1\_master.h}}
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}plib\+\_\+spi\+\_\+master\+\_\+common.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ SPI1\+\_\+\+Initialize} (void)
+\item 
+bool \textbf{ SPI1\+\_\+\+Write\+Read} (void $\ast$p\+Transmit\+Data, size\+\_\+t tx\+Size, void $\ast$p\+Receive\+Data, size\+\_\+t rx\+Size)
+\item 
+bool \textbf{ SPI1\+\_\+\+Write} (void $\ast$p\+Transmit\+Data, size\+\_\+t tx\+Size)
+\item 
+bool \textbf{ SPI1\+\_\+\+Read} (void $\ast$p\+Receive\+Data, size\+\_\+t rx\+Size)
+\item 
+bool \textbf{ SPI1\+\_\+\+Transfer\+Setup} (\textbf{ SPI\+\_\+\+TRANSFER\+\_\+\+SETUP} $\ast$setup, uint32\+\_\+t spi\+Source\+Clock)
+\item 
+bool \textbf{ SPI1\+\_\+\+Is\+Transmitter\+Busy} (void)
+\item 
+bool \textbf{ SPI1\+\_\+\+Is\+Busy} (void)
+\item 
+void \textbf{ SPI1\+\_\+\+Callback\+Register} (\textbf{ SPI\+\_\+\+CALLBACK} callback, uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__spi1__master_8h_a6b10327f8fc8b00db0553e5d62b696e6}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_CallbackRegister@{SPI1\_CallbackRegister}}
+\index{SPI1\_CallbackRegister@{SPI1\_CallbackRegister}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_CallbackRegister()}
+{\footnotesize\ttfamily void SPI1\+\_\+\+Callback\+Register (\begin{DoxyParamCaption}\item[{\textbf{ SPI\+\_\+\+CALLBACK}}]{callback,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_a0607cad7a6b302950091fea719146a54}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_Initialize@{SPI1\_Initialize}}
+\index{SPI1\_Initialize@{SPI1\_Initialize}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_Initialize()}
+{\footnotesize\ttfamily void SPI1\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_a3ecd9d43324bcf0e55f1a00b2529417c}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_IsBusy@{SPI1\_IsBusy}}
+\index{SPI1\_IsBusy@{SPI1\_IsBusy}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_IsBusy()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Is\+Busy (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_adc45f406ddadec2616bef5c48622ab40}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_IsTransmitterBusy@{SPI1\_IsTransmitterBusy}}
+\index{SPI1\_IsTransmitterBusy@{SPI1\_IsTransmitterBusy}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_IsTransmitterBusy()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Is\+Transmitter\+Busy (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_a496dd358c511d8c804fd1ef9c639f92e}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_Read@{SPI1\_Read}}
+\index{SPI1\_Read@{SPI1\_Read}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_Read()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Read (\begin{DoxyParamCaption}\item[{void $\ast$}]{p\+Receive\+Data,  }\item[{size\+\_\+t}]{rx\+Size }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_a76e389e1c7f3a7a61b61d32cadf7e4d3}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_TransferSetup@{SPI1\_TransferSetup}}
+\index{SPI1\_TransferSetup@{SPI1\_TransferSetup}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_TransferSetup()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Transfer\+Setup (\begin{DoxyParamCaption}\item[{\textbf{ SPI\+\_\+\+TRANSFER\+\_\+\+SETUP} $\ast$}]{setup,  }\item[{uint32\+\_\+t}]{spi\+Source\+Clock }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_a17b63db3988b3bccfb3ad390409e35a8}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_Write@{SPI1\_Write}}
+\index{SPI1\_Write@{SPI1\_Write}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_Write()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Write (\begin{DoxyParamCaption}\item[{void $\ast$}]{p\+Transmit\+Data,  }\item[{size\+\_\+t}]{tx\+Size }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__spi1__master_8h_ab7bbbbda03a203b88dfd796c5032cdd8}} 
+\index{plib\_spi1\_master.h@{plib\_spi1\_master.h}!SPI1\_WriteRead@{SPI1\_WriteRead}}
+\index{SPI1\_WriteRead@{SPI1\_WriteRead}!plib\_spi1\_master.h@{plib\_spi1\_master.h}}
+\doxysubsubsection{SPI1\_WriteRead()}
+{\footnotesize\ttfamily bool SPI1\+\_\+\+Write\+Read (\begin{DoxyParamCaption}\item[{void $\ast$}]{p\+Transmit\+Data,  }\item[{size\+\_\+t}]{tx\+Size,  }\item[{void $\ast$}]{p\+Receive\+Data,  }\item[{size\+\_\+t}]{rx\+Size }\end{DoxyParamCaption})}
+

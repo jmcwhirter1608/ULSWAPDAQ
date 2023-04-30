@@ -1,0 +1,92 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/tmr/plib\+\_\+tmr2.h File Reference}
+\label{plib__tmr2_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/tmr/plib\_tmr2.h@{firmware/src/config/ULSWAPDAQ2/peripheral/tmr/plib\_tmr2.h}}
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}plib\+\_\+tmr\+\_\+common.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ TMR2\+\_\+\+Initialize} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Start} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Stop} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Period\+Set} (uint16\+\_\+t)
+\item 
+uint16\+\_\+t \textbf{ TMR2\+\_\+\+Period\+Get} (void)
+\item 
+uint16\+\_\+t \textbf{ TMR2\+\_\+\+Counter\+Get} (void)
+\item 
+uint32\+\_\+t \textbf{ TMR2\+\_\+\+Frequency\+Get} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Interrupt\+Enable} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Interrupt\+Disable} (void)
+\item 
+void \textbf{ TMR2\+\_\+\+Callback\+Register} (\textbf{ TMR\+\_\+\+CALLBACK} callback\+\_\+fn, uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__tmr2_8h_af9fb53f57399193aa018bf12c9f9d4d5}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_CallbackRegister@{TMR2\_CallbackRegister}}
+\index{TMR2\_CallbackRegister@{TMR2\_CallbackRegister}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_CallbackRegister()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Callback\+Register (\begin{DoxyParamCaption}\item[{\textbf{ TMR\+\_\+\+CALLBACK}}]{callback\+\_\+fn,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_aa1feeac31ea42c9d32100003eb3d7ee7}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_CounterGet@{TMR2\_CounterGet}}
+\index{TMR2\_CounterGet@{TMR2\_CounterGet}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_CounterGet()}
+{\footnotesize\ttfamily uint16\+\_\+t TMR2\+\_\+\+Counter\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a8d3756a9c327b90418eea74ec6bff646}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_FrequencyGet@{TMR2\_FrequencyGet}}
+\index{TMR2\_FrequencyGet@{TMR2\_FrequencyGet}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_FrequencyGet()}
+{\footnotesize\ttfamily uint32\+\_\+t TMR2\+\_\+\+Frequency\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a46c13c9255379e99c10240229a145d37}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_Initialize@{TMR2\_Initialize}}
+\index{TMR2\_Initialize@{TMR2\_Initialize}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_Initialize()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_aaabcf6cdabb877597617e5ae002fa31c}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_InterruptDisable@{TMR2\_InterruptDisable}}
+\index{TMR2\_InterruptDisable@{TMR2\_InterruptDisable}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_InterruptDisable()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Interrupt\+Disable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a6e0de37106230371c85565fe93fba239}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_InterruptEnable@{TMR2\_InterruptEnable}}
+\index{TMR2\_InterruptEnable@{TMR2\_InterruptEnable}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_InterruptEnable()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Interrupt\+Enable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_afa5a3419806fb1be6006acc4acbaf97b}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_PeriodGet@{TMR2\_PeriodGet}}
+\index{TMR2\_PeriodGet@{TMR2\_PeriodGet}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_PeriodGet()}
+{\footnotesize\ttfamily uint16\+\_\+t TMR2\+\_\+\+Period\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a74fe7279004da326e65ac18ac5fac773}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_PeriodSet@{TMR2\_PeriodSet}}
+\index{TMR2\_PeriodSet@{TMR2\_PeriodSet}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_PeriodSet()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Period\+Set (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{period }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a7eccfd0fac278e0099d27631e116cfbf}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_Start@{TMR2\_Start}}
+\index{TMR2\_Start@{TMR2\_Start}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_Start()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Start (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr2_8h_a90159f110263038f478f43a3ac9ab3ee}} 
+\index{plib\_tmr2.h@{plib\_tmr2.h}!TMR2\_Stop@{TMR2\_Stop}}
+\index{TMR2\_Stop@{TMR2\_Stop}!plib\_tmr2.h@{plib\_tmr2.h}}
+\doxysubsubsection{TMR2\_Stop()}
+{\footnotesize\ttfamily void TMR2\+\_\+\+Stop (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+

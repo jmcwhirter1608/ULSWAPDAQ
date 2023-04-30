@@ -1,0 +1,58 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/interrupts.c File Reference}
+\label{interrupts_8c}\index{firmware/src/config/ULSWAPDAQ2/interrupts.c@{firmware/src/config/ULSWAPDAQ2/interrupts.c}}
+{\ttfamily \#include \char`\"{}interrupts.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}definitions.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ TIMER\+\_\+2\+\_\+\+Interrupt\+Handler} (void)
+\item 
+void \textbf{ SPI\+\_\+1\+\_\+\+Interrupt\+Handler} (void)
+\item 
+void \textbf{ UART\+\_\+1\+\_\+\+Interrupt\+Handler} (void)
+\item 
+void \textbf{ \+\_\+\+\_\+\+ISR} (\+\_\+\+TIMER\+\_\+2\+\_\+\+VECTOR, ipl1\+SOFT)
+\item 
+void \textbf{ \+\_\+\+\_\+\+ISR} (\+\_\+\+SPI\+\_\+1\+\_\+\+VECTOR, ipl1\+SOFT)
+\item 
+void \textbf{ \+\_\+\+\_\+\+ISR} (\+\_\+\+UART\+\_\+1\+\_\+\+VECTOR, ipl1\+SOFT)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{interrupts_8c_a223324b369373cbce9e3eb3ad386983f}} 
+\index{interrupts.c@{interrupts.c}!\_\_ISR@{\_\_ISR}}
+\index{\_\_ISR@{\_\_ISR}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{\_\_ISR()\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void \+\_\+\+\_\+\+ISR (\begin{DoxyParamCaption}\item[{\+\_\+\+SPI\+\_\+1\+\_\+\+VECTOR}]{,  }\item[{ipl1\+SOFT}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{interrupts_8c_a0b88268dd07a4ac2e7d73a407ab5ee97}} 
+\index{interrupts.c@{interrupts.c}!\_\_ISR@{\_\_ISR}}
+\index{\_\_ISR@{\_\_ISR}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{\_\_ISR()\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void \+\_\+\+\_\+\+ISR (\begin{DoxyParamCaption}\item[{\+\_\+\+TIMER\+\_\+2\+\_\+\+VECTOR}]{,  }\item[{ipl1\+SOFT}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{interrupts_8c_a33b3f9e59e6e0cc8a7b948228a52362f}} 
+\index{interrupts.c@{interrupts.c}!\_\_ISR@{\_\_ISR}}
+\index{\_\_ISR@{\_\_ISR}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{\_\_ISR()\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void \+\_\+\+\_\+\+ISR (\begin{DoxyParamCaption}\item[{\+\_\+\+UART\+\_\+1\+\_\+\+VECTOR}]{,  }\item[{ipl1\+SOFT}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{interrupts_8c_aaf0b9883e8eec7afa99c53b5d9bc2c45}} 
+\index{interrupts.c@{interrupts.c}!SPI\_1\_InterruptHandler@{SPI\_1\_InterruptHandler}}
+\index{SPI\_1\_InterruptHandler@{SPI\_1\_InterruptHandler}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{SPI\_1\_InterruptHandler()}
+{\footnotesize\ttfamily void SPI\+\_\+1\+\_\+\+Interrupt\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{interrupts_8c_afe1e52ed072c5f8631e53b126a690c5b}} 
+\index{interrupts.c@{interrupts.c}!TIMER\_2\_InterruptHandler@{TIMER\_2\_InterruptHandler}}
+\index{TIMER\_2\_InterruptHandler@{TIMER\_2\_InterruptHandler}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{TIMER\_2\_InterruptHandler()}
+{\footnotesize\ttfamily void TIMER\+\_\+2\+\_\+\+Interrupt\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{interrupts_8c_a0bc958f974a36c802d0041a2e794efe7}} 
+\index{interrupts.c@{interrupts.c}!UART\_1\_InterruptHandler@{UART\_1\_InterruptHandler}}
+\index{UART\_1\_InterruptHandler@{UART\_1\_InterruptHandler}!interrupts.c@{interrupts.c}}
+\doxysubsubsection{UART\_1\_InterruptHandler()}
+{\footnotesize\ttfamily void UART\+\_\+1\+\_\+\+Interrupt\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+

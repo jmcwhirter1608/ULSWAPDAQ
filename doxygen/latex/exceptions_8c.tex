@@ -1,0 +1,109 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/exceptions.c File Reference}
+\label{exceptions_8c}\index{firmware/src/config/ULSWAPDAQ2/exceptions.c@{firmware/src/config/ULSWAPDAQ2/exceptions.c}}
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}definitions.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \textbf{ excep\+\_\+code} \{ \newline
+\textbf{ EXCEP\+\_\+\+IRQ} = 0
+, \textbf{ EXCEP\+\_\+\+Ad\+EL} = 4
+, \textbf{ EXCEP\+\_\+\+Ad\+ES} = 5
+, \textbf{ EXCEP\+\_\+\+IBE} = 6
+, \newline
+\textbf{ EXCEP\+\_\+\+DBE} = 7
+, \textbf{ EXCEP\+\_\+\+Sys} = 8
+, \textbf{ EXCEP\+\_\+\+Bp} = 9
+, \textbf{ EXCEP\+\_\+\+RI} = 10
+, \newline
+\textbf{ EXCEP\+\_\+\+CpU} = 11
+, \textbf{ EXCEP\+\_\+\+Overflow} = 12
+, \textbf{ EXCEP\+\_\+\+Trap} = 13
+, \textbf{ EXCEP\+\_\+\+IS1} = 16
+, \newline
+\textbf{ EXCEP\+\_\+\+CEU} = 17
+, \textbf{ EXCEP\+\_\+\+C2E} = 18
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ \+\_\+\+\_\+attribute\+\_\+\+\_\+} ((noreturn))
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9}} 
+\index{exceptions.c@{exceptions.c}!excep\_code@{excep\_code}}
+\index{excep\_code@{excep\_code}!exceptions.c@{exceptions.c}}
+\doxysubsubsection{excep\_code}
+{\footnotesize\ttfamily enum \textbf{ excep\+\_\+code}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_IRQ@{EXCEP\_IRQ}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_IRQ@{EXCEP\_IRQ}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9ab414f838b577c2c6401e339bda67d2e7}} 
+EXCEP\+\_\+\+IRQ&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_AdEL@{EXCEP\_AdEL}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_AdEL@{EXCEP\_AdEL}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a9c2c7263488f2a1a0a2809d75c9e7025}} 
+EXCEP\+\_\+\+Ad\+EL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_AdES@{EXCEP\_AdES}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_AdES@{EXCEP\_AdES}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a557a3be6c8166e6a575bb59ededcaf9a}} 
+EXCEP\+\_\+\+Ad\+ES&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_IBE@{EXCEP\_IBE}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_IBE@{EXCEP\_IBE}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a9422274f7eada035e39ef8c2966b9508}} 
+EXCEP\+\_\+\+IBE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_DBE@{EXCEP\_DBE}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_DBE@{EXCEP\_DBE}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a913b2feda6d4ba14ed4eaeef00389340}} 
+EXCEP\+\_\+\+DBE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_Sys@{EXCEP\_Sys}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_Sys@{EXCEP\_Sys}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a83b532419d7e3867a19258b9e5fa89ed}} 
+EXCEP\+\_\+\+Sys&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_Bp@{EXCEP\_Bp}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_Bp@{EXCEP\_Bp}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9ae973f34528ef38c87094ba0bcd11f819}} 
+EXCEP\+\_\+\+Bp&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_RI@{EXCEP\_RI}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_RI@{EXCEP\_RI}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a4f10a29c8a02e2a271e90107250fa077}} 
+EXCEP\+\_\+\+RI&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_CpU@{EXCEP\_CpU}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_CpU@{EXCEP\_CpU}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9ada40c30ca0879f8875f7f245f6ba0402}} 
+EXCEP\+\_\+\+CpU&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_Overflow@{EXCEP\_Overflow}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_Overflow@{EXCEP\_Overflow}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9ace13f3b9ef0134c62175bb3a62256181}} 
+EXCEP\+\_\+\+Overflow&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_Trap@{EXCEP\_Trap}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_Trap@{EXCEP\_Trap}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a92fa9e18f7ad22542464b6fb943e1566}} 
+EXCEP\+\_\+\+Trap&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_IS1@{EXCEP\_IS1}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_IS1@{EXCEP\_IS1}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a62665a60bb438a81084f4544a9497ff2}} 
+EXCEP\+\_\+\+IS1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_CEU@{EXCEP\_CEU}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_CEU@{EXCEP\_CEU}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9ae0fcf518a17c92851992a59f70bb397d}} 
+EXCEP\+\_\+\+CEU&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EXCEP\_C2E@{EXCEP\_C2E}!exceptions.c@{exceptions.c}}\index{exceptions.c@{exceptions.c}!EXCEP\_C2E@{EXCEP\_C2E}}}\mbox{\label{exceptions_8c_a68765f7347b4edefe516853381f086f9a63271f1514e4e46444640846f15b6654}} 
+EXCEP\+\_\+\+C2E&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{exceptions_8c_a93b9cf91f7623d6d8b100a3693d6d5e4}} 
+\index{exceptions.c@{exceptions.c}!\_\_attribute\_\_@{\_\_attribute\_\_}}
+\index{\_\_attribute\_\_@{\_\_attribute\_\_}!exceptions.c@{exceptions.c}}
+\doxysubsubsection{\_\_attribute\_\_()}
+{\footnotesize\ttfamily void \+\_\+\+\_\+attribute\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{(noreturn)}]{ }\end{DoxyParamCaption})}
+

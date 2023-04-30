@@ -1,0 +1,171 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/uart/plib\+\_\+uart1.h File Reference}
+\label{plib__uart1_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/uart/plib\_uart1.h@{firmware/src/config/ULSWAPDAQ2/peripheral/uart/plib\_uart1.h}}
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}plib\+\_\+uart\+\_\+common.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ UART1\+\_\+\+Frequency\+Get}()~(uint32\+\_\+t)(48000000\+UL)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ UART1\+\_\+\+Initialize} (void)
+\item 
+bool \textbf{ UART1\+\_\+\+Serial\+Setup} (\textbf{ UART\+\_\+\+SERIAL\+\_\+\+SETUP} $\ast$setup, uint32\+\_\+t src\+Clk\+Freq)
+\item 
+\textbf{ UART\+\_\+\+ERROR} \textbf{ UART1\+\_\+\+Error\+Get} (void)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Write} (uint8\+\_\+t $\ast$p\+Wr\+Buffer, const size\+\_\+t size)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Write\+Count\+Get} (void)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Write\+Free\+Buffer\+Count\+Get} (void)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Write\+Buffer\+Size\+Get} (void)
+\item 
+bool \textbf{ UART1\+\_\+\+Transmit\+Complete} (void)
+\item 
+bool \textbf{ UART1\+\_\+\+Write\+Notification\+Enable} (bool is\+Enabled, bool is\+Persistent)
+\item 
+void \textbf{ UART1\+\_\+\+Write\+Threshold\+Set} (uint32\+\_\+t n\+Bytes\+Threshold)
+\item 
+void \textbf{ UART1\+\_\+\+Write\+Callback\+Register} (\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} callback, uintptr\+\_\+t context)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Read} (uint8\+\_\+t $\ast$p\+Rd\+Buffer, const size\+\_\+t size)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Read\+Count\+Get} (void)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Read\+Free\+Buffer\+Count\+Get} (void)
+\item 
+size\+\_\+t \textbf{ UART1\+\_\+\+Read\+Buffer\+Size\+Get} (void)
+\item 
+bool \textbf{ UART1\+\_\+\+Read\+Notification\+Enable} (bool is\+Enabled, bool is\+Persistent)
+\item 
+void \textbf{ UART1\+\_\+\+Read\+Threshold\+Set} (uint32\+\_\+t n\+Bytes\+Threshold)
+\item 
+void \textbf{ UART1\+\_\+\+Read\+Callback\+Register} (\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} callback, uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\label{plib__uart1_8h_a762000a479b5a4768f3b94c4242f19e9}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_FrequencyGet@{UART1\_FrequencyGet}}
+\index{UART1\_FrequencyGet@{UART1\_FrequencyGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_FrequencyGet}
+{\footnotesize\ttfamily \#define UART1\+\_\+\+Frequency\+Get(\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})~(uint32\+\_\+t)(48000000\+UL)}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__uart1_8h_ae7062139830814c7e877f7c321586d01}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ErrorGet@{UART1\_ErrorGet}}
+\index{UART1\_ErrorGet@{UART1\_ErrorGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ErrorGet()}
+{\footnotesize\ttfamily \textbf{ UART\+\_\+\+ERROR} UART1\+\_\+\+Error\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a10757505060dc7bf0fe148c5363eae08}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_Initialize@{UART1\_Initialize}}
+\index{UART1\_Initialize@{UART1\_Initialize}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_Initialize()}
+{\footnotesize\ttfamily void UART1\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_aebec603e982ff0f9546900cd364bf6b4}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_Read@{UART1\_Read}}
+\index{UART1\_Read@{UART1\_Read}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_Read()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Read (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{p\+Rd\+Buffer,  }\item[{const size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_aa506d8220f20205e61e0c8ee903a28ea}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadBufferSizeGet@{UART1\_ReadBufferSizeGet}}
+\index{UART1\_ReadBufferSizeGet@{UART1\_ReadBufferSizeGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadBufferSizeGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Read\+Buffer\+Size\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_ac64bc874ecc41004ff9c6437f0c7477a}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadCallbackRegister@{UART1\_ReadCallbackRegister}}
+\index{UART1\_ReadCallbackRegister@{UART1\_ReadCallbackRegister}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadCallbackRegister()}
+{\footnotesize\ttfamily void UART1\+\_\+\+Read\+Callback\+Register (\begin{DoxyParamCaption}\item[{\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK}}]{callback,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_abc058d6bf61d59cd4354d6041d580d1e}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadCountGet@{UART1\_ReadCountGet}}
+\index{UART1\_ReadCountGet@{UART1\_ReadCountGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadCountGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Read\+Count\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a9ea65a9f61c86bd1e743e12e36cb8894}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadFreeBufferCountGet@{UART1\_ReadFreeBufferCountGet}}
+\index{UART1\_ReadFreeBufferCountGet@{UART1\_ReadFreeBufferCountGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadFreeBufferCountGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Read\+Free\+Buffer\+Count\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a85cfe41f63e7f0af0076f6dfa67aeeb3}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadNotificationEnable@{UART1\_ReadNotificationEnable}}
+\index{UART1\_ReadNotificationEnable@{UART1\_ReadNotificationEnable}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadNotificationEnable()}
+{\footnotesize\ttfamily bool UART1\+\_\+\+Read\+Notification\+Enable (\begin{DoxyParamCaption}\item[{bool}]{is\+Enabled,  }\item[{bool}]{is\+Persistent }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a69d283979b3ef92fc76c4decc9469227}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_ReadThresholdSet@{UART1\_ReadThresholdSet}}
+\index{UART1\_ReadThresholdSet@{UART1\_ReadThresholdSet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_ReadThresholdSet()}
+{\footnotesize\ttfamily void UART1\+\_\+\+Read\+Threshold\+Set (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{n\+Bytes\+Threshold }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_adb6423121017fcfbc15a3cc50a775102}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_SerialSetup@{UART1\_SerialSetup}}
+\index{UART1\_SerialSetup@{UART1\_SerialSetup}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_SerialSetup()}
+{\footnotesize\ttfamily bool UART1\+\_\+\+Serial\+Setup (\begin{DoxyParamCaption}\item[{\textbf{ UART\+\_\+\+SERIAL\+\_\+\+SETUP} $\ast$}]{setup,  }\item[{uint32\+\_\+t}]{src\+Clk\+Freq }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a95c248b5ca1d91e6e7d6d15f01c31d3e}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_TransmitComplete@{UART1\_TransmitComplete}}
+\index{UART1\_TransmitComplete@{UART1\_TransmitComplete}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_TransmitComplete()}
+{\footnotesize\ttfamily bool UART1\+\_\+\+Transmit\+Complete (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a9334af8b98a6509062772a72b5bd8eb3}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_Write@{UART1\_Write}}
+\index{UART1\_Write@{UART1\_Write}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_Write()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Write (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{p\+Wr\+Buffer,  }\item[{const size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a05a151542bce9d2330cf1c658fc74bed}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteBufferSizeGet@{UART1\_WriteBufferSizeGet}}
+\index{UART1\_WriteBufferSizeGet@{UART1\_WriteBufferSizeGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteBufferSizeGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Write\+Buffer\+Size\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_ae58c6f79679aab7ee93b5a3c845775c5}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteCallbackRegister@{UART1\_WriteCallbackRegister}}
+\index{UART1\_WriteCallbackRegister@{UART1\_WriteCallbackRegister}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteCallbackRegister()}
+{\footnotesize\ttfamily void UART1\+\_\+\+Write\+Callback\+Register (\begin{DoxyParamCaption}\item[{\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK}}]{callback,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a57a63bb6a0faf784c0e4941fa46e0919}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteCountGet@{UART1\_WriteCountGet}}
+\index{UART1\_WriteCountGet@{UART1\_WriteCountGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteCountGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Write\+Count\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_a2799bdbbde5f0647ad35cbc817df1163}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteFreeBufferCountGet@{UART1\_WriteFreeBufferCountGet}}
+\index{UART1\_WriteFreeBufferCountGet@{UART1\_WriteFreeBufferCountGet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteFreeBufferCountGet()}
+{\footnotesize\ttfamily size\+\_\+t UART1\+\_\+\+Write\+Free\+Buffer\+Count\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_addf25c246ac7d086b83fc03522899e26}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteNotificationEnable@{UART1\_WriteNotificationEnable}}
+\index{UART1\_WriteNotificationEnable@{UART1\_WriteNotificationEnable}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteNotificationEnable()}
+{\footnotesize\ttfamily bool UART1\+\_\+\+Write\+Notification\+Enable (\begin{DoxyParamCaption}\item[{bool}]{is\+Enabled,  }\item[{bool}]{is\+Persistent }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__uart1_8h_aec5452fe5b40fc70cd55045e0844543d}} 
+\index{plib\_uart1.h@{plib\_uart1.h}!UART1\_WriteThresholdSet@{UART1\_WriteThresholdSet}}
+\index{UART1\_WriteThresholdSet@{UART1\_WriteThresholdSet}!plib\_uart1.h@{plib\_uart1.h}}
+\doxysubsubsection{UART1\_WriteThresholdSet()}
+{\footnotesize\ttfamily void UART1\+\_\+\+Write\+Threshold\+Set (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{n\+Bytes\+Threshold }\end{DoxyParamCaption})}
+

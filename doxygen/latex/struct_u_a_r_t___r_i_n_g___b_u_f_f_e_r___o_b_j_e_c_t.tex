@@ -1,0 +1,153 @@
+\doxysection{UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+OBJECT Struct Reference}
+\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t}\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+
+
+{\ttfamily \#include $<$plib\+\_\+uart\+\_\+common.\+h$>$}
+
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} \textbf{ wr\+Callback}
+\item 
+uintptr\+\_\+t \textbf{ wr\+Context}
+\item 
+volatile uint32\+\_\+t \textbf{ wr\+In\+Index}
+\item 
+volatile uint32\+\_\+t \textbf{ wr\+Out\+Index}
+\item 
+bool \textbf{ is\+Wr\+Notification\+Enabled}
+\item 
+uint32\+\_\+t \textbf{ wr\+Threshold}
+\item 
+uint32\+\_\+t \textbf{ wr\+Buffer\+Size}
+\item 
+bool \textbf{ is\+Wr\+Notify\+Persistently}
+\item 
+\textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} \textbf{ rd\+Callback}
+\item 
+uintptr\+\_\+t \textbf{ rd\+Context}
+\item 
+volatile uint32\+\_\+t \textbf{ rd\+In\+Index}
+\item 
+volatile uint32\+\_\+t \textbf{ rd\+Out\+Index}
+\item 
+uint32\+\_\+t \textbf{ rd\+Buffer\+Size}
+\item 
+bool \textbf{ is\+Rd\+Notification\+Enabled}
+\item 
+uint32\+\_\+t \textbf{ rd\+Threshold}
+\item 
+bool \textbf{ is\+Rd\+Notify\+Persistently}
+\item 
+volatile \textbf{ UART\+\_\+\+ERROR} \textbf{ errors}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a7f267273c0e00894e3d2bad830f47b90}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!errors@{errors}}
+\index{errors@{errors}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{errors}
+{\footnotesize\ttfamily volatile \textbf{ UART\+\_\+\+ERROR} errors}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a181d5f40449bd7c889bebc8684369945}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!isRdNotificationEnabled@{isRdNotificationEnabled}}
+\index{isRdNotificationEnabled@{isRdNotificationEnabled}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{isRdNotificationEnabled}
+{\footnotesize\ttfamily bool is\+Rd\+Notification\+Enabled}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_abc43192168bf53f069e8a964f672ee9a}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!isRdNotifyPersistently@{isRdNotifyPersistently}}
+\index{isRdNotifyPersistently@{isRdNotifyPersistently}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{isRdNotifyPersistently}
+{\footnotesize\ttfamily bool is\+Rd\+Notify\+Persistently}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ae1e76927b6b50e0c76596b8561d3abf6}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!isWrNotificationEnabled@{isWrNotificationEnabled}}
+\index{isWrNotificationEnabled@{isWrNotificationEnabled}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{isWrNotificationEnabled}
+{\footnotesize\ttfamily bool is\+Wr\+Notification\+Enabled}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a2d8c7964fd60b8956fbd1b3c9a715054}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!isWrNotifyPersistently@{isWrNotifyPersistently}}
+\index{isWrNotifyPersistently@{isWrNotifyPersistently}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{isWrNotifyPersistently}
+{\footnotesize\ttfamily bool is\+Wr\+Notify\+Persistently}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a53b2ac02aef4e007b9474e28a99740e9}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdBufferSize@{rdBufferSize}}
+\index{rdBufferSize@{rdBufferSize}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdBufferSize}
+{\footnotesize\ttfamily uint32\+\_\+t rd\+Buffer\+Size}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ad9b9e173d174457b99588edd84437dfa}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdCallback@{rdCallback}}
+\index{rdCallback@{rdCallback}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdCallback}
+{\footnotesize\ttfamily \textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} rd\+Callback}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a3c21f49c9c445794d24a5efffcd560f3}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdContext@{rdContext}}
+\index{rdContext@{rdContext}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdContext}
+{\footnotesize\ttfamily uintptr\+\_\+t rd\+Context}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ab001837d365c33da2c0980524e2ac67b}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdInIndex@{rdInIndex}}
+\index{rdInIndex@{rdInIndex}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdInIndex}
+{\footnotesize\ttfamily volatile uint32\+\_\+t rd\+In\+Index}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ad7f1ddda274712cbd1b6c9b091f85b3d}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdOutIndex@{rdOutIndex}}
+\index{rdOutIndex@{rdOutIndex}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdOutIndex}
+{\footnotesize\ttfamily volatile uint32\+\_\+t rd\+Out\+Index}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ac063223c270eca6ab791eac918b897a5}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!rdThreshold@{rdThreshold}}
+\index{rdThreshold@{rdThreshold}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{rdThreshold}
+{\footnotesize\ttfamily uint32\+\_\+t rd\+Threshold}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a823a5393d561ccab546215ead1569114}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrBufferSize@{wrBufferSize}}
+\index{wrBufferSize@{wrBufferSize}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrBufferSize}
+{\footnotesize\ttfamily uint32\+\_\+t wr\+Buffer\+Size}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_abf8b3a8937d170859304c5daf31c9914}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrCallback@{wrCallback}}
+\index{wrCallback@{wrCallback}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrCallback}
+{\footnotesize\ttfamily \textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK} wr\+Callback}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a73be7c99d4b5ecb517729ca8a903ab52}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrContext@{wrContext}}
+\index{wrContext@{wrContext}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrContext}
+{\footnotesize\ttfamily uintptr\+\_\+t wr\+Context}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_ae19959f537399079e9fb8f87aecd736a}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrInIndex@{wrInIndex}}
+\index{wrInIndex@{wrInIndex}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrInIndex}
+{\footnotesize\ttfamily volatile uint32\+\_\+t wr\+In\+Index}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a9871a91682f32d80b0f16ec91d5e1474}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrOutIndex@{wrOutIndex}}
+\index{wrOutIndex@{wrOutIndex}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrOutIndex}
+{\footnotesize\ttfamily volatile uint32\+\_\+t wr\+Out\+Index}
+
+\mbox{\label{struct_u_a_r_t___r_i_n_g___b_u_f_f_e_r___o_b_j_e_c_t_a0ea4c218207c65891a4dc46f922b9f5f}} 
+\index{UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}!wrThreshold@{wrThreshold}}
+\index{wrThreshold@{wrThreshold}!UART\_RING\_BUFFER\_OBJECT@{UART\_RING\_BUFFER\_OBJECT}}
+\doxysubsubsection{wrThreshold}
+{\footnotesize\ttfamily uint32\+\_\+t wr\+Threshold}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+firmware/src/config/\+ULSWAPDAQ2/peripheral/uart/\textbf{ plib\+\_\+uart\+\_\+common.\+h}\end{DoxyCompactItemize}

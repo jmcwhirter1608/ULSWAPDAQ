@@ -1,0 +1,121 @@
+\doxysection{UART\+\_\+\+OBJECT Struct Reference}
+\label{struct_u_a_r_t___o_b_j_e_c_t}\index{UART\_OBJECT@{UART\_OBJECT}}
+
+
+{\ttfamily \#include $<$plib\+\_\+uart\+\_\+common.\+h$>$}
+
+\doxysubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t $\ast$ \textbf{ tx\+Buffer}
+\item 
+size\+\_\+t \textbf{ tx\+Size}
+\item 
+size\+\_\+t \textbf{ tx\+Processed\+Size}
+\item 
+\textbf{ UART\+\_\+\+CALLBACK} \textbf{ tx\+Callback}
+\item 
+uintptr\+\_\+t \textbf{ tx\+Context}
+\item 
+bool \textbf{ tx\+Busy\+Status}
+\item 
+uint8\+\_\+t $\ast$ \textbf{ rx\+Buffer}
+\item 
+size\+\_\+t \textbf{ rx\+Size}
+\item 
+size\+\_\+t \textbf{ rx\+Processed\+Size}
+\item 
+\textbf{ UART\+\_\+\+CALLBACK} \textbf{ rx\+Callback}
+\item 
+uintptr\+\_\+t \textbf{ rx\+Context}
+\item 
+bool \textbf{ rx\+Busy\+Status}
+\item 
+volatile \textbf{ UART\+\_\+\+ERROR} \textbf{ errors}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Field Documentation}
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a7f267273c0e00894e3d2bad830f47b90}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!errors@{errors}}
+\index{errors@{errors}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{errors}
+{\footnotesize\ttfamily volatile \textbf{ UART\+\_\+\+ERROR} errors}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a765da49a944f3916b674154f54e4edfa}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxBuffer@{rxBuffer}}
+\index{rxBuffer@{rxBuffer}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxBuffer}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ rx\+Buffer}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a05115e75d27b05e046c9658985d9b403}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxBusyStatus@{rxBusyStatus}}
+\index{rxBusyStatus@{rxBusyStatus}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxBusyStatus}
+{\footnotesize\ttfamily bool rx\+Busy\+Status}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_ab64ec03c935560a138eaa2773e67ad40}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxCallback@{rxCallback}}
+\index{rxCallback@{rxCallback}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxCallback}
+{\footnotesize\ttfamily \textbf{ UART\+\_\+\+CALLBACK} rx\+Callback}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_ad04d03996bb6ecae9da5b76ec24b9583}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxContext@{rxContext}}
+\index{rxContext@{rxContext}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxContext}
+{\footnotesize\ttfamily uintptr\+\_\+t rx\+Context}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a17249e1b437142c496b419f0227dd4cd}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxProcessedSize@{rxProcessedSize}}
+\index{rxProcessedSize@{rxProcessedSize}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxProcessedSize}
+{\footnotesize\ttfamily size\+\_\+t rx\+Processed\+Size}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a391007772689bec1d2ca7911cf7e7f11}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!rxSize@{rxSize}}
+\index{rxSize@{rxSize}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{rxSize}
+{\footnotesize\ttfamily size\+\_\+t rx\+Size}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a9e34d8d39e2adcd636dea42296da5aa7}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txBuffer@{txBuffer}}
+\index{txBuffer@{txBuffer}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txBuffer}
+{\footnotesize\ttfamily uint8\+\_\+t$\ast$ tx\+Buffer}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a6c37283e9606dc548967b6ee507e717f}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txBusyStatus@{txBusyStatus}}
+\index{txBusyStatus@{txBusyStatus}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txBusyStatus}
+{\footnotesize\ttfamily bool tx\+Busy\+Status}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a2258d040b0836a443e0fa3dd22d12756}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txCallback@{txCallback}}
+\index{txCallback@{txCallback}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txCallback}
+{\footnotesize\ttfamily \textbf{ UART\+\_\+\+CALLBACK} tx\+Callback}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a94b96085a3539f3117e4e8dc9b4279e5}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txContext@{txContext}}
+\index{txContext@{txContext}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txContext}
+{\footnotesize\ttfamily uintptr\+\_\+t tx\+Context}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a39e38d22968a270ddf45437a458b1ba6}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txProcessedSize@{txProcessedSize}}
+\index{txProcessedSize@{txProcessedSize}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txProcessedSize}
+{\footnotesize\ttfamily size\+\_\+t tx\+Processed\+Size}
+
+\mbox{\label{struct_u_a_r_t___o_b_j_e_c_t_a5a1941b6a9c9ad4604f75317b82787fc}} 
+\index{UART\_OBJECT@{UART\_OBJECT}!txSize@{txSize}}
+\index{txSize@{txSize}!UART\_OBJECT@{UART\_OBJECT}}
+\doxysubsubsection{txSize}
+{\footnotesize\ttfamily size\+\_\+t tx\+Size}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+firmware/src/config/\+ULSWAPDAQ2/peripheral/uart/\textbf{ plib\+\_\+uart\+\_\+common.\+h}\end{DoxyCompactItemize}

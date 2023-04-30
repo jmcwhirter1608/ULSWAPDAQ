@@ -1,0 +1,98 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/tmr1/plib\+\_\+tmr1.c File Reference}
+\label{plib__tmr1_8c}\index{firmware/src/config/ULSWAPDAQ2/peripheral/tmr1/plib\_tmr1.c@{firmware/src/config/ULSWAPDAQ2/peripheral/tmr1/plib\_tmr1.c}}
+{\ttfamily \#include \char`\"{}device.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}plib\+\_\+tmr1.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ TMR1\+\_\+\+Initialize} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Start} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Stop} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Period\+Set} (uint16\+\_\+t period)
+\item 
+uint16\+\_\+t \textbf{ TMR1\+\_\+\+Period\+Get} (void)
+\item 
+uint16\+\_\+t \textbf{ TMR1\+\_\+\+Counter\+Get} (void)
+\item 
+uint32\+\_\+t \textbf{ TMR1\+\_\+\+Frequency\+Get} (void)
+\item 
+void \textbf{ TIMER\+\_\+1\+\_\+\+Interrupt\+Handler} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Interrupt\+Enable} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Interrupt\+Disable} (void)
+\item 
+void \textbf{ TMR1\+\_\+\+Callback\+Register} (\textbf{ TMR1\+\_\+\+CALLBACK} callback\+\_\+fn, uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\label{plib__tmr1_8c_a47dd47b0c7e0fe5bde0339ec30070f45}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TIMER\_1\_InterruptHandler@{TIMER\_1\_InterruptHandler}}
+\index{TIMER\_1\_InterruptHandler@{TIMER\_1\_InterruptHandler}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TIMER\_1\_InterruptHandler()}
+{\footnotesize\ttfamily void TIMER\+\_\+1\+\_\+\+Interrupt\+Handler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a94a15aec94024221463a8db08c0ef2e8}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_CallbackRegister@{TMR1\_CallbackRegister}}
+\index{TMR1\_CallbackRegister@{TMR1\_CallbackRegister}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_CallbackRegister()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Callback\+Register (\begin{DoxyParamCaption}\item[{\textbf{ TMR1\+\_\+\+CALLBACK}}]{callback\+\_\+fn,  }\item[{uintptr\+\_\+t}]{context }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a5502f5dd3b157bad3af256d311cdc388}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_CounterGet@{TMR1\_CounterGet}}
+\index{TMR1\_CounterGet@{TMR1\_CounterGet}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_CounterGet()}
+{\footnotesize\ttfamily uint16\+\_\+t TMR1\+\_\+\+Counter\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a8acd5b11bff2d00d3dabda7e9e1cdc03}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_FrequencyGet@{TMR1\_FrequencyGet}}
+\index{TMR1\_FrequencyGet@{TMR1\_FrequencyGet}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_FrequencyGet()}
+{\footnotesize\ttfamily uint32\+\_\+t TMR1\+\_\+\+Frequency\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_aeca9435d024c8eeada966c9dffbb8427}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_Initialize@{TMR1\_Initialize}}
+\index{TMR1\_Initialize@{TMR1\_Initialize}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_Initialize()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a025f586b354b2602f2642369351c4c85}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_InterruptDisable@{TMR1\_InterruptDisable}}
+\index{TMR1\_InterruptDisable@{TMR1\_InterruptDisable}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_InterruptDisable()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Interrupt\+Disable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a59a67e99dfe8d52c9210683fc75c27d5}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_InterruptEnable@{TMR1\_InterruptEnable}}
+\index{TMR1\_InterruptEnable@{TMR1\_InterruptEnable}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_InterruptEnable()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Interrupt\+Enable (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a4cae3f7e87efebb3170c6f7d8ff4811d}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_PeriodGet@{TMR1\_PeriodGet}}
+\index{TMR1\_PeriodGet@{TMR1\_PeriodGet}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_PeriodGet()}
+{\footnotesize\ttfamily uint16\+\_\+t TMR1\+\_\+\+Period\+Get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a2c3839bce45587c2d523c6475e65fdc7}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_PeriodSet@{TMR1\_PeriodSet}}
+\index{TMR1\_PeriodSet@{TMR1\_PeriodSet}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_PeriodSet()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Period\+Set (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{period }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_afed3745413684e23104d29539be4f2e5}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_Start@{TMR1\_Start}}
+\index{TMR1\_Start@{TMR1\_Start}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_Start()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Start (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\label{plib__tmr1_8c_a27bf11425ad1e1d2e8e16a14aebb5a9c}} 
+\index{plib\_tmr1.c@{plib\_tmr1.c}!TMR1\_Stop@{TMR1\_Stop}}
+\index{TMR1\_Stop@{TMR1\_Stop}!plib\_tmr1.c@{plib\_tmr1.c}}
+\doxysubsubsection{TMR1\_Stop()}
+{\footnotesize\ttfamily void TMR1\+\_\+\+Stop (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+

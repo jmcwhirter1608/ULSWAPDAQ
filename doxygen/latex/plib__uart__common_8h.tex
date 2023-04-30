@@ -1,0 +1,196 @@
+\doxysection{firmware/src/config/\+ULSWAPDAQ2/peripheral/uart/plib\+\_\+uart\+\_\+common.h File Reference}
+\label{plib__uart__common_8h}\index{firmware/src/config/ULSWAPDAQ2/peripheral/uart/plib\_uart\_common.h@{firmware/src/config/ULSWAPDAQ2/peripheral/uart/plib\_uart\_common.h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stddef.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \textbf{ UART\+\_\+\+SERIAL\+\_\+\+SETUP}
+\item 
+struct \textbf{ UART\+\_\+\+OBJECT}
+\item 
+struct \textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+OBJECT}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ UART\+\_\+\+RXFIFO\+\_\+\+DEPTH}~9
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef void($\ast$ \textbf{ UART\+\_\+\+CALLBACK}) (uintptr\+\_\+t context)
+\item 
+typedef void($\ast$ \textbf{ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK}) (\textbf{ UART\+\_\+\+EVENT} event, uintptr\+\_\+t context)
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \textbf{ UART\+\_\+\+PARITY} \{ \textbf{ UART\+\_\+\+PARITY\+\_\+\+NONE} = 0x00
+, \textbf{ UART\+\_\+\+PARITY\+\_\+\+EVEN} = 0x02
+, \textbf{ UART\+\_\+\+PARITY\+\_\+\+ODD} = 0x04
+, \textbf{ UART\+\_\+\+PARITY\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\item 
+enum \textbf{ UART\+\_\+\+DATA} \{ \textbf{ UART\+\_\+\+DATA\+\_\+8\+\_\+\+BIT} = 0x00
+, \textbf{ UART\+\_\+\+DATA\+\_\+9\+\_\+\+BIT} = 0x06
+, \textbf{ UART\+\_\+\+DATA\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\item 
+enum \textbf{ UART\+\_\+\+STOP} \{ \textbf{ UART\+\_\+\+STOP\+\_\+1\+\_\+\+BIT} = 0x00
+, \textbf{ UART\+\_\+\+STOP\+\_\+2\+\_\+\+BIT} = 0x01
+, \textbf{ UART\+\_\+\+STOP\+\_\+\+INVALID} = 0x\+FFFFFFFF
+ \}
+\item 
+enum \textbf{ UART\+\_\+\+ERROR} \{ \textbf{ UART\+\_\+\+ERROR\+\_\+\+NONE} = 0
+, \textbf{ UART\+\_\+\+ERROR\+\_\+\+OVERRUN} = 0x00000002
+, \textbf{ UART\+\_\+\+ERROR\+\_\+\+FRAMING} = 0x00000004
+, \textbf{ UART\+\_\+\+ERROR\+\_\+\+PARITY} = 0x00000008
+ \}
+\item 
+enum \textbf{ UART\+\_\+\+EVENT} \{ \textbf{ UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+THRESHOLD\+\_\+\+REACHED} = 0
+, \textbf{ UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+BUFFER\+\_\+\+FULL}
+, \textbf{ UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+ERROR}
+, \textbf{ UART\+\_\+\+EVENT\+\_\+\+WRITE\+\_\+\+THRESHOLD\+\_\+\+REACHED}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\label{plib__uart__common_8h_a0a2ba392fa6938bd06e077c5efd91fc9}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_RXFIFO\_DEPTH@{UART\_RXFIFO\_DEPTH}}
+\index{UART\_RXFIFO\_DEPTH@{UART\_RXFIFO\_DEPTH}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_RXFIFO\_DEPTH}
+{\footnotesize\ttfamily \#define UART\+\_\+\+RXFIFO\+\_\+\+DEPTH~9}
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\label{plib__uart__common_8h_aea0ac6d8a847b35f9a9f3207af5c7bdd}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_CALLBACK@{UART\_CALLBACK}}
+\index{UART\_CALLBACK@{UART\_CALLBACK}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_CALLBACK}
+{\footnotesize\ttfamily typedef void($\ast$ UART\+\_\+\+CALLBACK) (uintptr\+\_\+t context)}
+
+\mbox{\label{plib__uart__common_8h_aae28c7cc68ccc6d314404f2e4add56c0}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_RING\_BUFFER\_CALLBACK@{UART\_RING\_BUFFER\_CALLBACK}}
+\index{UART\_RING\_BUFFER\_CALLBACK@{UART\_RING\_BUFFER\_CALLBACK}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_RING\_BUFFER\_CALLBACK}
+{\footnotesize\ttfamily typedef void($\ast$ UART\+\_\+\+RING\+\_\+\+BUFFER\+\_\+\+CALLBACK) (\textbf{ UART\+\_\+\+EVENT} event, uintptr\+\_\+t context)}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\label{plib__uart__common_8h_aac4a3d4545794cbdf0547e1c5e2460e3}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_DATA@{UART\_DATA}}
+\index{UART\_DATA@{UART\_DATA}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_DATA}
+{\footnotesize\ttfamily enum \textbf{ UART\+\_\+\+DATA}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_DATA\_8\_BIT@{UART\_DATA\_8\_BIT}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_DATA\_8\_BIT@{UART\_DATA\_8\_BIT}}}\mbox{\label{plib__uart__common_8h_aac4a3d4545794cbdf0547e1c5e2460e3a85e13be38c7b3af9bfe0e30b7311a260}} 
+UART\+\_\+\+DATA\+\_\+8\+\_\+\+BIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_DATA\_9\_BIT@{UART\_DATA\_9\_BIT}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_DATA\_9\_BIT@{UART\_DATA\_9\_BIT}}}\mbox{\label{plib__uart__common_8h_aac4a3d4545794cbdf0547e1c5e2460e3ae37ddc62a1f390f9a8e3400c13fa36ca}} 
+UART\+\_\+\+DATA\+\_\+9\+\_\+\+BIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_DATA\_INVALID@{UART\_DATA\_INVALID}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_DATA\_INVALID@{UART\_DATA\_INVALID}}}\mbox{\label{plib__uart__common_8h_aac4a3d4545794cbdf0547e1c5e2460e3a8e9daaa64b531425c6f153d94d394f3c}} 
+UART\+\_\+\+DATA\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__uart__common_8h_a07f8ef0410af663fab0dcf0c0f8f7fb8}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_ERROR@{UART\_ERROR}}
+\index{UART\_ERROR@{UART\_ERROR}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_ERROR}
+{\footnotesize\ttfamily enum \textbf{ UART\+\_\+\+ERROR}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_ERROR\_NONE@{UART\_ERROR\_NONE}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_ERROR\_NONE@{UART\_ERROR\_NONE}}}\mbox{\label{plib__uart__common_8h_a07f8ef0410af663fab0dcf0c0f8f7fb8a374afe5d00b7eeec8972596d646feb71}} 
+UART\+\_\+\+ERROR\+\_\+\+NONE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_ERROR\_OVERRUN@{UART\_ERROR\_OVERRUN}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_ERROR\_OVERRUN@{UART\_ERROR\_OVERRUN}}}\mbox{\label{plib__uart__common_8h_a07f8ef0410af663fab0dcf0c0f8f7fb8a442beffc51cdf265bbcb40810a9a6e54}} 
+UART\+\_\+\+ERROR\+\_\+\+OVERRUN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_ERROR\_FRAMING@{UART\_ERROR\_FRAMING}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_ERROR\_FRAMING@{UART\_ERROR\_FRAMING}}}\mbox{\label{plib__uart__common_8h_a07f8ef0410af663fab0dcf0c0f8f7fb8af13f72a8c615b4bc570b5a4df573407b}} 
+UART\+\_\+\+ERROR\+\_\+\+FRAMING&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_ERROR\_PARITY@{UART\_ERROR\_PARITY}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_ERROR\_PARITY@{UART\_ERROR\_PARITY}}}\mbox{\label{plib__uart__common_8h_a07f8ef0410af663fab0dcf0c0f8f7fb8a86d38eac5a46e6659aa765164b833eb5}} 
+UART\+\_\+\+ERROR\+\_\+\+PARITY&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__uart__common_8h_ad1baf1c5cbed5d0a5baab88515ae0f9b}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_EVENT@{UART\_EVENT}}
+\index{UART\_EVENT@{UART\_EVENT}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_EVENT}
+{\footnotesize\ttfamily enum \textbf{ UART\+\_\+\+EVENT}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_EVENT\_READ\_THRESHOLD\_REACHED@{UART\_EVENT\_READ\_THRESHOLD\_REACHED}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_EVENT\_READ\_THRESHOLD\_REACHED@{UART\_EVENT\_READ\_THRESHOLD\_REACHED}}}\mbox{\label{plib__uart__common_8h_ad1baf1c5cbed5d0a5baab88515ae0f9ba5ef697c25399a9bea1e22bc9ed5782e9}} 
+UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+THRESHOLD\+\_\+\+REACHED&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_EVENT\_READ\_BUFFER\_FULL@{UART\_EVENT\_READ\_BUFFER\_FULL}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_EVENT\_READ\_BUFFER\_FULL@{UART\_EVENT\_READ\_BUFFER\_FULL}}}\mbox{\label{plib__uart__common_8h_ad1baf1c5cbed5d0a5baab88515ae0f9ba0017a5e25c828aae9db2048ac5217733}} 
+UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+BUFFER\+\_\+\+FULL&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_EVENT\_READ\_ERROR@{UART\_EVENT\_READ\_ERROR}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_EVENT\_READ\_ERROR@{UART\_EVENT\_READ\_ERROR}}}\mbox{\label{plib__uart__common_8h_ad1baf1c5cbed5d0a5baab88515ae0f9bae9b75b596e30e078de0662aeced4a8f7}} 
+UART\+\_\+\+EVENT\+\_\+\+READ\+\_\+\+ERROR&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_EVENT\_WRITE\_THRESHOLD\_REACHED@{UART\_EVENT\_WRITE\_THRESHOLD\_REACHED}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_EVENT\_WRITE\_THRESHOLD\_REACHED@{UART\_EVENT\_WRITE\_THRESHOLD\_REACHED}}}\mbox{\label{plib__uart__common_8h_ad1baf1c5cbed5d0a5baab88515ae0f9ba87b727d1d42c5083962672049299c4c9}} 
+UART\+\_\+\+EVENT\+\_\+\+WRITE\+\_\+\+THRESHOLD\+\_\+\+REACHED&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__uart__common_8h_a24fd4dba815fc40fbd8e8c37dbf87c7a}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_PARITY@{UART\_PARITY}}
+\index{UART\_PARITY@{UART\_PARITY}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_PARITY}
+{\footnotesize\ttfamily enum \textbf{ UART\+\_\+\+PARITY}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_PARITY\_NONE@{UART\_PARITY\_NONE}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_PARITY\_NONE@{UART\_PARITY\_NONE}}}\mbox{\label{plib__uart__common_8h_a24fd4dba815fc40fbd8e8c37dbf87c7aaa80d2d8ea61454045ebe71d155e85b3d}} 
+UART\+\_\+\+PARITY\+\_\+\+NONE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_PARITY\_EVEN@{UART\_PARITY\_EVEN}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_PARITY\_EVEN@{UART\_PARITY\_EVEN}}}\mbox{\label{plib__uart__common_8h_a24fd4dba815fc40fbd8e8c37dbf87c7aad908a637b1dd23f93b149dd2d8bdfdb8}} 
+UART\+\_\+\+PARITY\+\_\+\+EVEN&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_PARITY\_ODD@{UART\_PARITY\_ODD}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_PARITY\_ODD@{UART\_PARITY\_ODD}}}\mbox{\label{plib__uart__common_8h_a24fd4dba815fc40fbd8e8c37dbf87c7aad90cc425f5ba447773a44a75be6593e2}} 
+UART\+\_\+\+PARITY\+\_\+\+ODD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_PARITY\_INVALID@{UART\_PARITY\_INVALID}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_PARITY\_INVALID@{UART\_PARITY\_INVALID}}}\mbox{\label{plib__uart__common_8h_a24fd4dba815fc40fbd8e8c37dbf87c7aaec3d85d9f808386fe395eb902488f502}} 
+UART\+\_\+\+PARITY\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\label{plib__uart__common_8h_a176b71ca19bc13d7534fa30fc18c2243}} 
+\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_STOP@{UART\_STOP}}
+\index{UART\_STOP@{UART\_STOP}!plib\_uart\_common.h@{plib\_uart\_common.h}}
+\doxysubsubsection{UART\_STOP}
+{\footnotesize\ttfamily enum \textbf{ UART\+\_\+\+STOP}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_STOP\_1\_BIT@{UART\_STOP\_1\_BIT}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_STOP\_1\_BIT@{UART\_STOP\_1\_BIT}}}\mbox{\label{plib__uart__common_8h_a176b71ca19bc13d7534fa30fc18c2243a74cd8176fb566ccebef6e3afbf7006f7}} 
+UART\+\_\+\+STOP\+\_\+1\+\_\+\+BIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_STOP\_2\_BIT@{UART\_STOP\_2\_BIT}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_STOP\_2\_BIT@{UART\_STOP\_2\_BIT}}}\mbox{\label{plib__uart__common_8h_a176b71ca19bc13d7534fa30fc18c2243a08cfc9439b78f22875159ce3f3f46328}} 
+UART\+\_\+\+STOP\+\_\+2\+\_\+\+BIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UART\_STOP\_INVALID@{UART\_STOP\_INVALID}!plib\_uart\_common.h@{plib\_uart\_common.h}}\index{plib\_uart\_common.h@{plib\_uart\_common.h}!UART\_STOP\_INVALID@{UART\_STOP\_INVALID}}}\mbox{\label{plib__uart__common_8h_a176b71ca19bc13d7534fa30fc18c2243a29e5dfaeb2eb50a26616087a5b981e30}} 
+UART\+\_\+\+STOP\+\_\+\+INVALID&\\
+\hline
+
+\end{DoxyEnumFields}
