@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RESET Pin=U1-46
+Removed Pin From Net: NetName=C_SHDN Pin=U1-59
+Added Pin To Net: NetName=C_SHDN Pin=U1-46
+Added Pin To Net: NetName=RESET Pin=U1-48
+Added Pin To Net: NetName=NetU1_51 Pin=U1-51
+Added Pin To Net: NetName=NetU1_51 Pin=U2-20
+Added Net: Name=NetU1_51
+Add Class: Class already exists: Designator

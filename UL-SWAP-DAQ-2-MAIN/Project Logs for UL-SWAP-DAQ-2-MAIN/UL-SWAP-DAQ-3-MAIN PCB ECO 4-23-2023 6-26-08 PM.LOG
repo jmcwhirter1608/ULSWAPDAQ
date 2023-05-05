@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=LED1 Pin=U1-29
+Removed Pin From Net: NetName=LED2 Pin=U1-30
+Removed Pin From Net: NetName=LED3 Pin=U1-31
+Added Pin To Net: NetName=+5V Pin=C22-2
+Added Pin To Net: NetName=+5V Pin=C23-2
+Added Pin To Net: NetName=+5V Pin=L2-2
+Added Pin To Net: NetName=+5V Pin=R9-2
+Added Pin To Net: NetName=LED1 Pin=U1-8
+Added Pin To Net: NetName=LED2 Pin=U1-11
+Added Pin To Net: NetName=LED3 Pin=U1-12
+Add Class: Class already exists: Designator
+Added Member To Class: ClassName=Designator Member=Component R5 330
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=MAIN-MODULE
+Added Room: Name=U_ADC_Subsystem
+Added Room: Name=U_LMR514203.3V
+Added Room: Name=U_LVDS_Driver_Subsystem

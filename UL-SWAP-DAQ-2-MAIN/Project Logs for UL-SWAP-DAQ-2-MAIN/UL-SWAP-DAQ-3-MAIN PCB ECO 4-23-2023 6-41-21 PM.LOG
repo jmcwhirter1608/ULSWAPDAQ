@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=BUSY Pin=U1-53
+Removed Pin From Net: NetName=RDL Pin=U1-54
+Removed Pin From Net: NetName=CNV Pin=U1-55
+Removed Pin From Net: NetName=C_GP2 Pin=U1-60
+Removed Pin From Net: NetName=C_GP1 Pin=U1-61
+Removed Pin From Net: NetName=C_GP0 Pin=U1-62
+Added Pin To Net: NetName=C_GP2 Pin=U1-53
+Added Pin To Net: NetName=C_GP1 Pin=U1-54
+Added Pin To Net: NetName=C_GP0 Pin=U1-55
+Added Pin To Net: NetName=CNV Pin=U1-60
+Added Pin To Net: NetName=RDL Pin=U1-61
+Added Pin To Net: NetName=BUSY Pin=U1-62
+Add Class: Class already exists: Designator

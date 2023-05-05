@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=+5V Pin=J1-5
+Removed Pin From Net: NetName=+5V Pin=J1-6
+Removed Pin From Net: NetName=GND Pin=J1-14
+Removed Pin From Net: NetName=+5V Pin=J1-17
+Removed Pin From Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Pin To Net: NetName=+10.5V Pin=J1-14
+Added Pin To Net: NetName=GND Pin=J1-17
+Added Pin To Net: NetName=-10V Pin=J1-18
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Class: Class already exists: Designator

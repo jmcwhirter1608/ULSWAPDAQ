@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=A_GP0 Pin=J1-11
+Removed Pin From Net: NetName=A_SHDN Pin=J1-19
+Removed Pin From Net: NetName=A_GP2 Pin=J1-20
+Removed Pin From Net: NetName=A_GP1 Pin=J1-21
+Removed Pin From Net: NetName=C_GP0 Pin=J2-11
+Removed Pin From Net: NetName=C_SHDN Pin=J2-19
+Removed Pin From Net: NetName=C_GP2 Pin=J2-20
+Removed Pin From Net: NetName=C_GP1 Pin=J2-21
+Added Pin To Net: NetName=A_SHDN Pin=J1-11
+Added Pin To Net: NetName=A_GP2 Pin=J1-19
+Added Pin To Net: NetName=A_GP1 Pin=J1-20
+Added Pin To Net: NetName=A_GP0 Pin=J1-21
+Added Pin To Net: NetName=C_SHDN Pin=J2-11
+Added Pin To Net: NetName=C_GP2 Pin=J2-19
+Added Pin To Net: NetName=C_GP1 Pin=J2-20
+Added Pin To Net: NetName=C_GP0 Pin=J2-21
+Add Class: Class already exists: Designator

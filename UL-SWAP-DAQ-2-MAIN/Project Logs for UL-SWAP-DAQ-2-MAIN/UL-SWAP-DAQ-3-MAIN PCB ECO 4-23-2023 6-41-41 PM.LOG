@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CNV Pin=U1-60
+Removed Pin From Net: NetName=BUSY Pin=U1-62
+Added Pin To Net: NetName=BUSY Pin=U1-60
+Added Pin To Net: NetName=CNV Pin=U1-62
+Add Class: Class already exists: Designator

@@ -107,146 +107,146 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/172095811/plib_clk.o: ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c  .generated_files/flags/ULSWAPDAQ2/41b8d0ee48b1cb3b78f54b5e779b64e3e9942e3a .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/172095811/plib_clk.o: ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c  .generated_files/flags/ULSWAPDAQ2/c8c2d64314122349606756fe53ad58a427782572 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/172095811" 
 	@${RM} ${OBJECTDIR}/_ext/172095811/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/172095811/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/172095811/plib_clk.o.d" -o ${OBJECTDIR}/_ext/172095811/plib_clk.o ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040072074/plib_evic.o: ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c  .generated_files/flags/ULSWAPDAQ2/8f144977ed91890655836c228cbc450962f19887 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040072074/plib_evic.o: ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c  .generated_files/flags/ULSWAPDAQ2/60bfcd898e99d4ae1419b1458e9bb2aba8cb9675 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040072074" 
 	@${RM} ${OBJECTDIR}/_ext/1040072074/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040072074/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040072074/plib_evic.o.d" -o ${OBJECTDIR}/_ext/1040072074/plib_evic.o ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040125902/plib_gpio.o: ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c  .generated_files/flags/ULSWAPDAQ2/e38f75188654fa200a14643f2e276a560be0aa29 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040125902/plib_gpio.o: ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c  .generated_files/flags/ULSWAPDAQ2/25bddd0448738a0ca13feda2534814139c1d9d7b .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040125902" 
 	@${RM} ${OBJECTDIR}/_ext/1040125902/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040125902/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040125902/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/1040125902/plib_gpio.o ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/910154199/plib_spi1_master.o: ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c  .generated_files/flags/ULSWAPDAQ2/760f395290a50027c185a52ff52d51e05be298ec .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/910154199/plib_spi1_master.o: ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c  .generated_files/flags/ULSWAPDAQ2/3403972230dafb3137bee4f662acadbad0158216 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/910154199" 
 	@${RM} ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o.d 
 	@${RM} ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/910154199/plib_spi1_master.o.d" -o ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/172112186/plib_tmr2.o: ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c  .generated_files/flags/ULSWAPDAQ2/94d42bb01b87fb7989976404513f999f7ada17c0 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/172112186/plib_tmr2.o: ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c  .generated_files/flags/ULSWAPDAQ2/918520f921c317f1b45548609d86420a224f6b3f .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/172112186" 
 	@${RM} ${OBJECTDIR}/_ext/172112186/plib_tmr2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/172112186/plib_tmr2.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/172112186/plib_tmr2.o.d" -o ${OBJECTDIR}/_ext/172112186/plib_tmr2.o ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040528845/plib_uart1.o: ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c  .generated_files/flags/ULSWAPDAQ2/b9ca5df09db560a8427cc325357c6c4cfa572a59 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040528845/plib_uart1.o: ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c  .generated_files/flags/ULSWAPDAQ2/95df1964601ae92dbcb1803512f90e81752a1f7b .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040528845" 
 	@${RM} ${OBJECTDIR}/_ext/1040528845/plib_uart1.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040528845/plib_uart1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040528845/plib_uart1.o.d" -o ${OBJECTDIR}/_ext/1040528845/plib_uart1.o ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/460976341/xc32_monitor.o: ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c  .generated_files/flags/ULSWAPDAQ2/e0ae6fe422eee3c0c0a8267de7ec58bf36a5d226 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/460976341/xc32_monitor.o: ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c  .generated_files/flags/ULSWAPDAQ2/584efdf82cd2b36be22f135bd422b7f3eee9f84b .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/460976341" 
 	@${RM} ${OBJECTDIR}/_ext/460976341/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/460976341/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/460976341/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/460976341/xc32_monitor.o ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/initialization.o: ../src/config/ULSWAPDAQ2/initialization.c  .generated_files/flags/ULSWAPDAQ2/ab75902570f1b7b3d823380952844d02253d0b1c .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/initialization.o: ../src/config/ULSWAPDAQ2/initialization.c  .generated_files/flags/ULSWAPDAQ2/5af838209c9ecde8b690dbd6bb0c777edfa7aa11 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/initialization.o.d" -o ${OBJECTDIR}/_ext/681439909/initialization.o ../src/config/ULSWAPDAQ2/initialization.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/interrupts.o: ../src/config/ULSWAPDAQ2/interrupts.c  .generated_files/flags/ULSWAPDAQ2/308db05304d07eb916ecccb7cfc75c5935215b24 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/interrupts.o: ../src/config/ULSWAPDAQ2/interrupts.c  .generated_files/flags/ULSWAPDAQ2/ebcf254e92381d915f2b9350279b70752eaf25e2 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/interrupts.o.d" -o ${OBJECTDIR}/_ext/681439909/interrupts.o ../src/config/ULSWAPDAQ2/interrupts.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/exceptions.o: ../src/config/ULSWAPDAQ2/exceptions.c  .generated_files/flags/ULSWAPDAQ2/abb39e2dd2bbc70c4892bffb442582989e8d8a6d .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/exceptions.o: ../src/config/ULSWAPDAQ2/exceptions.c  .generated_files/flags/ULSWAPDAQ2/17ec68fdbffc5b032a3c667ea38d4bfcb5d380df .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/exceptions.o.d" -o ${OBJECTDIR}/_ext/681439909/exceptions.o ../src/config/ULSWAPDAQ2/exceptions.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/ULSWAPDAQ2/87bad5dc811bc12e26a6ef3ec3a37e5953bbf5e3 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/ULSWAPDAQ2/3bf97b7331fcb8069d85191ca2b177a219a90a0f .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/pgaConfigure.o: ../src/pgaConfigure.c  .generated_files/flags/ULSWAPDAQ2/e0466eb3274e727d2c157c820c45a87300fe673b .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1360937237/pgaConfigure.o: ../src/pgaConfigure.c  .generated_files/flags/ULSWAPDAQ2/964762cdfefb8fdfdc1fc5dacf016a6ad349d997 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/pgaConfigure.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/pgaConfigure.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_ICD4=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/pgaConfigure.o.d" -o ${OBJECTDIR}/_ext/1360937237/pgaConfigure.o ../src/pgaConfigure.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/_ext/172095811/plib_clk.o: ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c  .generated_files/flags/ULSWAPDAQ2/8ff02c33e88bd42a93108b147825aa9f591b1a1f .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/172095811/plib_clk.o: ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c  .generated_files/flags/ULSWAPDAQ2/eeba24fbbff93383fdb847e188f4a5f112dd7bc4 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/172095811" 
 	@${RM} ${OBJECTDIR}/_ext/172095811/plib_clk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/172095811/plib_clk.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/172095811/plib_clk.o.d" -o ${OBJECTDIR}/_ext/172095811/plib_clk.o ../src/config/ULSWAPDAQ2/peripheral/clk/plib_clk.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040072074/plib_evic.o: ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c  .generated_files/flags/ULSWAPDAQ2/739d08b841dc39045ebd513ded3b5a42f901a1b .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040072074/plib_evic.o: ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c  .generated_files/flags/ULSWAPDAQ2/270eb3cc52f074ea59da0bfa31a61d80d382e06f .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040072074" 
 	@${RM} ${OBJECTDIR}/_ext/1040072074/plib_evic.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040072074/plib_evic.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040072074/plib_evic.o.d" -o ${OBJECTDIR}/_ext/1040072074/plib_evic.o ../src/config/ULSWAPDAQ2/peripheral/evic/plib_evic.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040125902/plib_gpio.o: ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c  .generated_files/flags/ULSWAPDAQ2/fb1a0f0e30e145edb786ac8f296d880df348b95c .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040125902/plib_gpio.o: ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c  .generated_files/flags/ULSWAPDAQ2/2eb5020c4a0a62eb4481f3a88d81343ed0aee52a .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040125902" 
 	@${RM} ${OBJECTDIR}/_ext/1040125902/plib_gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040125902/plib_gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040125902/plib_gpio.o.d" -o ${OBJECTDIR}/_ext/1040125902/plib_gpio.o ../src/config/ULSWAPDAQ2/peripheral/gpio/plib_gpio.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/910154199/plib_spi1_master.o: ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c  .generated_files/flags/ULSWAPDAQ2/563cf2382ac5b2ac39d543bae04a89589796b9f2 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/910154199/plib_spi1_master.o: ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c  .generated_files/flags/ULSWAPDAQ2/711a14b5459fdd2a5d3b92b20dfe11d88a7e6fa6 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/910154199" 
 	@${RM} ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o.d 
 	@${RM} ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/910154199/plib_spi1_master.o.d" -o ${OBJECTDIR}/_ext/910154199/plib_spi1_master.o ../src/config/ULSWAPDAQ2/peripheral/spi/spi_master/plib_spi1_master.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/172112186/plib_tmr2.o: ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c  .generated_files/flags/ULSWAPDAQ2/fc7f7b46c052fc904877ab752bc4f694bbecf845 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/172112186/plib_tmr2.o: ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c  .generated_files/flags/ULSWAPDAQ2/89eb7e7976eb2f065dca0679193cd243ba2a8434 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/172112186" 
 	@${RM} ${OBJECTDIR}/_ext/172112186/plib_tmr2.o.d 
 	@${RM} ${OBJECTDIR}/_ext/172112186/plib_tmr2.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/172112186/plib_tmr2.o.d" -o ${OBJECTDIR}/_ext/172112186/plib_tmr2.o ../src/config/ULSWAPDAQ2/peripheral/tmr/plib_tmr2.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1040528845/plib_uart1.o: ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c  .generated_files/flags/ULSWAPDAQ2/a0e9c057f6a431b7df0bb8a875db108087083cac .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1040528845/plib_uart1.o: ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c  .generated_files/flags/ULSWAPDAQ2/5741685c1c86da91fed9f05cd2c0ba3b9b06aa22 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1040528845" 
 	@${RM} ${OBJECTDIR}/_ext/1040528845/plib_uart1.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1040528845/plib_uart1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1040528845/plib_uart1.o.d" -o ${OBJECTDIR}/_ext/1040528845/plib_uart1.o ../src/config/ULSWAPDAQ2/peripheral/uart/plib_uart1.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/460976341/xc32_monitor.o: ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c  .generated_files/flags/ULSWAPDAQ2/268c8efab0dd56dce4e6def5ae16011465a3141a .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/460976341/xc32_monitor.o: ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c  .generated_files/flags/ULSWAPDAQ2/8e873fdbb60d40f2dd3c7a69312a8ef0e5df5f93 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/460976341" 
 	@${RM} ${OBJECTDIR}/_ext/460976341/xc32_monitor.o.d 
 	@${RM} ${OBJECTDIR}/_ext/460976341/xc32_monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/460976341/xc32_monitor.o.d" -o ${OBJECTDIR}/_ext/460976341/xc32_monitor.o ../src/config/ULSWAPDAQ2/stdio/xc32_monitor.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/initialization.o: ../src/config/ULSWAPDAQ2/initialization.c  .generated_files/flags/ULSWAPDAQ2/3f64ba7b9792e5cf9f94e85ff1310572670e7eea .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/initialization.o: ../src/config/ULSWAPDAQ2/initialization.c  .generated_files/flags/ULSWAPDAQ2/1d2b4933bb725672116fa066ae219c7f4db2e5b0 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/initialization.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/initialization.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/initialization.o.d" -o ${OBJECTDIR}/_ext/681439909/initialization.o ../src/config/ULSWAPDAQ2/initialization.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/interrupts.o: ../src/config/ULSWAPDAQ2/interrupts.c  .generated_files/flags/ULSWAPDAQ2/8af5bed2abcbd730cb06626eb7632b78425463ff .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/interrupts.o: ../src/config/ULSWAPDAQ2/interrupts.c  .generated_files/flags/ULSWAPDAQ2/88ddfe9edccf96ba4ad479a08608db47df629d01 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/interrupts.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/interrupts.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/interrupts.o.d" -o ${OBJECTDIR}/_ext/681439909/interrupts.o ../src/config/ULSWAPDAQ2/interrupts.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/681439909/exceptions.o: ../src/config/ULSWAPDAQ2/exceptions.c  .generated_files/flags/ULSWAPDAQ2/904007223f83efbccd578b346787c09ea910b755 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/681439909/exceptions.o: ../src/config/ULSWAPDAQ2/exceptions.c  .generated_files/flags/ULSWAPDAQ2/af71a2076d5f9fce149182c144c1d8ea8ba1825 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/681439909" 
 	@${RM} ${OBJECTDIR}/_ext/681439909/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/_ext/681439909/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/681439909/exceptions.o.d" -o ${OBJECTDIR}/_ext/681439909/exceptions.o ../src/config/ULSWAPDAQ2/exceptions.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/ULSWAPDAQ2/d5d80c002b47a59fbd03d8f0d7f96df47ce6a053 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/ULSWAPDAQ2/1f6049b9609998e92022f3095480d692eb4684e2 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -ffunction-sections -O1 -fno-common -I"../src" -I"../src/config/ULSWAPDAQ2" -Werror -Wall -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_ULSWAPDAQ2=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/pgaConfigure.o: ../src/pgaConfigure.c  .generated_files/flags/ULSWAPDAQ2/8a84b6bab3d11830e66012f08b87f5d388d15772 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
+${OBJECTDIR}/_ext/1360937237/pgaConfigure.o: ../src/pgaConfigure.c  .generated_files/flags/ULSWAPDAQ2/6914ce7cc49d3cd48c80344814c66b23d07644e2 .generated_files/flags/ULSWAPDAQ2/5c6b98b8923ce30ee24d180da03fe6585119c89b
 	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/pgaConfigure.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1360937237/pgaConfigure.o 
